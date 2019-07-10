@@ -1,0 +1,22 @@
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+
+export default ({ data }) => (
+  <Layout>
+    <h1>Tuoba {data.site.siteMetadata.title}</h1>
+    <p>
+      We're a magazine from the south asking readers to think twice.
+    </p>
+  </Layout>
+)
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
