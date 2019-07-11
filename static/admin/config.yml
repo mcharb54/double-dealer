@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: mcharb54/the-double-dealer
+  repo: mcharb54/double-dealer
 
 media_folder: static/assets
 
