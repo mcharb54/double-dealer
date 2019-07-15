@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
+import logo from "../images/icon.png";
 
 export default ({ data }) => (
   <Layout>
@@ -21,6 +22,18 @@ export default ({ data }) => (
             border-bottom: 1px solid;
           `}
         >
+        <img
+            src={logo}
+            alt="logo"
+            css={css`
+            height: 100px;
+            width: 100px;
+            padding-right: 10px;
+            margin-bottom: 0px;
+          `}
+            
+          />
+
           The Double Dealer.
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Stories</h4>

@@ -4,10 +4,10 @@
       "plugins": [],
       "presets": [
         {
-          "name": "/Users/mcharbonneau/mcharb54.github.io/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -21,10 +21,10 @@
       "plugins": [],
       "presets": [
         {
-          "name": "/Users/mcharbonneau/mcharb54.github.io/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -38,10 +38,10 @@
       "plugins": [],
       "presets": [
         {
-          "name": "/Users/mcharbonneau/mcharb54.github.io/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -55,10 +55,10 @@
       "plugins": [],
       "presets": [
         {
-          "name": "/Users/mcharbonneau/mcharb54.github.io/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }

@@ -1,14 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/mcharbonneau/mcharb54.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"The Double Dealer","short_name":"Double","start_url":"/","display":"standalone","icon":"src/images/icon.png"},
-    },{
-      plugin: require('/Users/mcharbonneau/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/mcharbonneau/mcharb54.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/mcharbonneau/mcharb54.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
