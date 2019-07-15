@@ -26,6 +26,16 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Double Dealer`,
+        short_name: `Double`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `src/images/icon.png` // This path is relative to the root of the site.
+      }
     }
   ]
 };
