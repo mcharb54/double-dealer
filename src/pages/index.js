@@ -11,29 +11,22 @@ export default ({ data }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>The Double Dealer</title>
-      <link rel="canonical" href="http://thedoubledealer.com" />
+      <link rel="canonical" href="https://thedoubledealer.com" />
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </Helmet>
     <div>
       <div>
+        <img
+          src={logo}
+          alt="logo"
+        />
         <h1
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
+            text-align: center;
           `}
         >
-        <img
-            src={logo}
-            alt="logo"
-            css={css`
-            height: 100px;
-            width: 100px;
-            padding-right: 10px;
-            margin-bottom: 0px;
-          `}
-            
-          />
-
           The Double Dealer.
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Stories</h4>

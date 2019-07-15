@@ -29,7 +29,7 @@ export default ({ children }) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>
-        <link rel="canonical" href="http://thedoubledealer.com" />
+        <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
       <Link to={`/`}>
         <h3
