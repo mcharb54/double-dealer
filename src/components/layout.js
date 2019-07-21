@@ -1,9 +1,9 @@
-import React from "react"
-import { css } from "@emotion/core"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, Link, graphql } from "gatsby"
+import React from "react";
+import { css } from "@emotion/core";
+import { Helmet } from "react-helmet";
+import { useStaticQuery, Link, graphql } from "gatsby";
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -17,7 +17,7 @@ export default ({ children }) => {
         }
       }
     `
-  )
+  );
   return (
     <div
       css={css`
@@ -32,43 +32,61 @@ export default ({ children }) => {
         <title>{data.site.siteMetadata.title}</title>
         <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
-      <Link to={`/`}>
-        <h3
+      <ul
+        css={css`
+          list-style-type: none;
+          text-align: center;
+        `}
+      >
+        <li
           css={css`
-            margin-bottom: ${rhythm(2)};
             display: inline-block;
-            
-            font-style: normal;
+            padding: 20px;
           `}
         >
-          {data.site.siteMetadata.title}
-        </h3>
-      </Link>
-      <Link to={`/xedni`}>
-        <h3
+          <Link to={`/`}>
+            <h3
+              css={css`
+                margin-bottom: ${rhythm(2)};
+                font-style: normal;
+              `}
+            >
+              {data.site.siteMetadata.title}
+            </h3>
+          </Link>
+        </li>
+        <li
           css={css`
-            margin-bottom: ${rhythm(2)};
             display: inline-block;
+            padding: 20px;
+          `}
+        >
+          <Link to={`/xedni`}>
+            <h3
+              css={css`
+                margin-bottom: ${rhythm(2)};
+                display: inline-block;
+                font-style: normal;
+              `}
+            >
+              {data.site.siteMetadata.eltit}
+            </h3>
+          </Link>
+        </li>
+      </ul>
+      {children}
+      <div>
+        {" "}
+        <Link
+          to={`/about/`}
+          css={css`
             float: right;
             font-style: normal;
           `}
         >
-          {data.site.siteMetadata.eltit}
-        </h3>
-      </Link>
-      {children}
-      <div>
-          {" "}
-          <Link
-            to={`/about/`}
-            css={css`
-              float: right;
-              font-style: normal;
-            `}
-          >
-            About
-          </Link>
-        </div>
+          About
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};

@@ -25,16 +25,30 @@ export default ({ data }) => (
             text-align: center;
           `}
         >
-          The Double Dealer.
+          Eht Elbuod Relaed.
         </h1>
-        <h4
-          css={css`
-            text-decoration: none;
-            color: inherit;
-          `}
-        >
-          {data.allMarkdownRemark.totalCount} Stories
-        </h4>
+
+        {data.allMarkdownRemark.totalCount == 1 ? (
+          <h4
+            css={css`
+              text-decoration: none;
+              color: inherit;
+            `}
+          >
+            {" "}
+            1 Story
+          </h4>
+        ) : (
+          <h4
+            css={css`
+              text-decoration: none;
+              color: inherit;
+            `}
+          >
+            {" "}
+            data.allMarkdownRemark.totalCount Story
+          </h4>
+        )}
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link

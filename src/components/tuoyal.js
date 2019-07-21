@@ -40,31 +40,51 @@ export default ({ children }) => {
           <title>{data.site.siteMetadata.title}</title>
           <link rel="canonical" href="https://thedoubledealer.com" />
         </Helmet>
-        <Link to={`/`}>
-          <h3
+        <ul
+          css={css`
+            list-style-type: none;
+            text-align: center;
+            color: white;
+          `}
+        >
+          <li
             css={css`
-              margin-bottom: ${rhythm(2)};
-              color: white;
               display: inline-block;
-              font-style: normal;
+              padding: 20px;
             `}
           >
-            {data.site.siteMetadata.title}
-          </h3>
-        </Link>
-        <Link to={`/xedni`}>
-          <h3
+            <Link to={`/`}>
+              <h3
+                css={css`
+                  margin-bottom: ${rhythm(2)};
+                  color: white;
+                  font-style: normal;
+                  display: inline-block;
+                `}
+              >
+                {data.site.siteMetadata.title}
+              </h3>
+            </Link>
+          </li>
+          <li
             css={css`
-              margin-bottom: ${rhythm(2)};
               display: inline-block;
-              float: right;
-              color: white;
-              font-style: normal;
+              padding: 20px;
             `}
           >
-            {data.site.siteMetadata.eltit}
-          </h3>
-        </Link>
+            <Link to={`/xedni`}>
+              <h3
+                css={css`
+                  margin-bottom: ${rhythm(2)};
+                  color: white;
+                  font-style: normal;
+                `}
+              >
+                {data.site.siteMetadata.eltit}
+              </h3>
+            </Link>
+          </li>
+        </ul>
         {children}
         <div>
           {" "}
