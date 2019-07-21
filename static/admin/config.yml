@@ -11,6 +11,7 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
+      - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: writer, label: Writer }

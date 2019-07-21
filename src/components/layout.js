@@ -12,6 +12,7 @@ export default ({ children }) => {
         site {
           siteMetadata {
             title
+            eltit
           }
         }
       }
@@ -36,21 +37,38 @@ export default ({ children }) => {
           css={css`
             margin-bottom: ${rhythm(2)};
             display: inline-block;
+            
             font-style: normal;
           `}
         >
           {data.site.siteMetadata.title}
         </h3>
       </Link>
-      <Link
-        to={`/about/`}
-        css={css`
-          float: right;
-        `}
-      >
-        About
+      <Link to={`/xedni`}>
+        <h3
+          css={css`
+            margin-bottom: ${rhythm(2)};
+            display: inline-block;
+            float: right;
+            font-style: normal;
+          `}
+        >
+          {data.site.siteMetadata.eltit}
+        </h3>
       </Link>
       {children}
+      <div>
+          {" "}
+          <Link
+            to={`/about/`}
+            css={css`
+              float: right;
+              font-style: normal;
+            `}
+          >
+            About
+          </Link>
+        </div>
     </div>
   )
 }
