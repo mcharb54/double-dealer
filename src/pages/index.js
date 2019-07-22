@@ -8,13 +8,13 @@ import logo from "../images/icon.png";
 
 export default ({ data }) => (
   <Layout>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>The Double Dealer</title>
-      <link rel="canonical" href="https://thedoubledealer.com" />
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </Helmet>
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>The Double Dealer</title>
+        <link rel="canonical" href="https://thedoubledealer.com" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
       <div>
         <img src={logo} alt="logo" />
         <h1

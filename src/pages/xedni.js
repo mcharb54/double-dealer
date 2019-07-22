@@ -8,13 +8,14 @@ import ogol from "../images/twotree.png";
 
 export default ({ data }) => (
   <Tuoyal>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>The Double Dealer</title>
-      <link rel="canonical" href="https://thedoubledealer.com" />
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </Helmet>
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>The Double Dealer</title>
+        <link rel="canonical" href="https://thedoubledealer.com" />
+        <style>{"body { background-color: black; }"}</style>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
       <div>
         <img src={ogol} alt="logo" />
         <h1

@@ -25,6 +25,12 @@ export default ({ children }) => {
         color: white;
       `}
     >
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{data.site.siteMetadata.title}</title>
+      <link rel="canonical" href="https://thedoubledealer.com" />
+      <style>{"body { background-color: black; }"}</style>
+     </Helmet>
       <div
         css={css`
           margin: 0 auto;
@@ -35,11 +41,6 @@ export default ({ children }) => {
           padding-top: ${rhythm(1.5)};
         `}
       >
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>{data.site.siteMetadata.title}</title>
-          <link rel="canonical" href="https://thedoubledealer.com" />
-        </Helmet>
         <ul
           css={css`
             list-style-type: none;
