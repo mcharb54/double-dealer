@@ -38,7 +38,7 @@ export default function Template2({ data }) {
             font-style: normal;
           `}
         >
-          Change View
+          Dealer's choice
         </Link>
         </h5>
         <div dangerouslySetInnerHTML={{ __html: html }} />

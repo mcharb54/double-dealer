@@ -19,7 +19,7 @@ export default function Template({ data }) {
             font-style: normal;
           `}
         >
-          Change view
+          Dealer's choice
         </Link>
         </h5>
         <div dangerouslySetInnerHTML={{ __html: html }} />

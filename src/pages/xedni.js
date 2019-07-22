@@ -22,8 +22,8 @@ export default ({ data }) => (
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
-            color: inherit;
             text-align: center;
+            color: inherit;
           `}
         >
           Eht Elbuod Relaed.
@@ -59,24 +59,23 @@ export default ({ data }) => (
                 color: inherit;
               `}
             >
-              <h3
+              <h2
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                   color: inherit;
                 `}
               >
-                {node.frontmatter.title}{" "}
-                <span
-                  css={css`
-                    color: inherit;
-                  `}
-                >
-                  — {node.frontmatter.date}
-                </span>
-              </h3>
-              <p>By {node.frontmatter.writer}</p>
+                {node.frontmatter.title}
+              </h2>
+              <p
+                css={css`
+                  color: grey;
+                `}
+              >
+                By {node.frontmatter.writer} — {node.frontmatter.date}
+              </p>
+              <p>{node.excerpt}</p>
             </Link>
-            <p>{node.excerpt}</p>
           </div>
         ))}
       </div>
@@ -86,19 +85,21 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
       totalCount
       edges {
         node {
-          id
+          excerpt(pruneLength: 250)
           frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-            writer
+            date(formatString: "MMMM DD, YYYY")
             path
+            title
             backroad
+            writer
           }
-          excerpt
         }
       }
     }
