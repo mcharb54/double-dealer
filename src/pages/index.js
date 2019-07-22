@@ -26,7 +26,7 @@ export default ({ data }) => (
         >
           The Double Dealer.
         </h1>
-        {data.allMarkdownRemark.totalCount == 1 ? (
+        {data.allMarkdownRemark.totalCount === 1 ? (
           <h4
             css={css`
               text-decoration: none;
@@ -44,7 +44,7 @@ export default ({ data }) => (
             `}
           >
             {" "}
-            data.allMarkdownRemark.totalCount Story
+            {data.allMarkdownRemark.totalCount} Stories
           </h4>
         )}
         {data.allMarkdownRemark.edges.map(({ node }) => (
