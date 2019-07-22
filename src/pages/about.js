@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 export default ({ data }) => (
   <Layout>
-    <h1>Tuoba {data.site.siteMetadata.title}</h1>
+    <h1>About {data.site.siteMetadata.title}</h1>
     <p>
       We're a magazine from the south asking readers to think twice.
     </p>
