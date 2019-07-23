@@ -1,9 +1,15 @@
 import React from "react";
 import { css } from "@emotion/core";
+import styled from "@emotion/styled";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, Link, graphql } from "gatsby";
 
 import { rhythm } from "../utils/typography";
+
+const Header = styled.header`
+  margin: 0;
+  background-color: white;
+`;
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -19,86 +25,82 @@ export default ({ children }) => {
     `
   );
   return (
-    <div
-      css={css`
-        background-color: black;
-        color: white;
-      `}
-    >
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>{data.site.siteMetadata.title}</title>
-      <link rel="canonical" href="https://thedoubledealer.com" />
-      <style>{"body { background-color: black; }"}</style>
-     </Helmet>
       <div
         css={css`
-          margin: 0 auto;
-          background-color: black;
+          margin: 0;
           color: white;
-          max-width: 700px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
+          background-color: black;
         `}
       >
-        <ul
-          css={css`
-            list-style-type: none;
-            text-align: center;
-            color: white;
-          `}
-        >
-          <li
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{data.site.siteMetadata.title}</title>
+          <link rel="canonical" href="https://thedoubledealer.com" />
+        </Helmet>
+        <Header>
+          <div
             css={css`
-              display: inline-block;
-              padding: 20px;
+              margin: 0 auto;
+              max-width: 1200px;
             `}
           >
             <Link to={`/`}>
-              <h3
+              <h4
                 css={css`
-                  margin-bottom: ${rhythm(2)};
-                  color: white;
-                  font-style: normal;
                   display: inline-block;
+                  margin-top: 15px;
+                  margin-left: 20px;
+                  font-style: normal;
                 `}
               >
                 {data.site.siteMetadata.title}
-              </h3>
+              </h4>
             </Link>
-          </li>
-          <li
-            css={css`
-              display: inline-block;
-              padding: 20px;
-            `}
-          >
-            <Link to={`/xedni`}>
-              <h3
+            <Link
+              to={`/xedni`}
+              css={css`
+                float: right;
+              `}
+            >
+              <h4
                 css={css`
-                  margin-bottom: ${rhythm(2)};
-                  color: white;
+                  display: inline-block;
+                  margin-top: 15px;
+                  margin-right: 20px;
                   font-style: normal;
+                  text-decoration: underline;
+                  text-decoration-color: red;
                 `}
               >
                 {data.site.siteMetadata.eltit}
-              </h3>
+              </h4>
             </Link>
-          </li>
-        </ul>
-        {children}
-        <div>
+          </div>
+        </Header>
+        <div
+          css={css`
+            margin: 0 auto;
+            background-color: black;
+            color: white;
+            max-width: 700px;
+            padding: ${rhythm(2)};
+            padding-top: ${rhythm(1.5)};
+          `}
+        >
+          {children}
+          <footer>
           {" "}
           <Link
             to={`/about/`}
             css={css`
               float: right;
+              font-style: normal;
             `}
           >
             About
           </Link>
+        </footer>
         </div>
       </div>
-    </div>
   );
 };
