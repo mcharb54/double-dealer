@@ -47,15 +47,15 @@ export default ({ data }) => (
             >
               {node.frontmatter.title}
             </h2>
-            <p
-              css={css`
-                color: grey;
-              `}
-            >
-              By {node.frontmatter.writer} — {node.frontmatter.date}
-            </p>
-            <p>{node.excerpt}</p>
           </Link>
+          <p
+            css={css`
+              color: grey;
+            `}
+          >
+            By {node.frontmatter.writer} — {node.frontmatter.date}
+          </p>
+          <p>{node.excerpt}</p>
         </div>
       ))}
     </div>

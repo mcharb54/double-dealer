@@ -16,45 +16,6 @@ export default ({ data }) => (
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <div>
-        <div
-          css={css`
-            text-align: center;
-          `}
-        >
-          {" "}
-          <h1
-            css={css`
-              display: inline-block;
-              border-bottom: 1px solid;
-              text-align: center;
-              color: inherit;
-            `}
-          >
-            relaeD elbuoD ehT.
-          </h1>
-        </div>
-
-        {data.allMarkdownRemark.totalCount === 1 ? (
-          <h4
-            css={css`
-              text-decoration: none;
-              color: inherit;
-            `}
-          >
-            {" "}
-            1 Story
-          </h4>
-        ) : (
-          <h4
-            css={css`
-              text-decoration: none;
-              color: inherit;
-            `}
-          >
-            {" "}
-            {data.allMarkdownRemark.totalCount} Stories
-          </h4>
-        )}
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -72,15 +33,15 @@ export default ({ data }) => (
               >
                 {node.frontmatter.title}
               </h2>
-              <p
-                css={css`
-                  color: grey;
-                `}
-              >
-                By {node.frontmatter.writer} — {node.frontmatter.date}
-              </p>
-              <p>{node.excerpt}</p>
             </Link>
+            <p
+              css={css`
+                color: grey;
+              `}
+            >
+              By {node.frontmatter.writer} — {node.frontmatter.date}
+            </p>
+            <p>{node.excerpt}</p>
           </div>
         ))}
       </div>

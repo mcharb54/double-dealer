@@ -2,13 +2,16 @@ import React from "react";
 import { css } from "@emotion/core";
 import styled from "@emotion/styled";
 import { Helmet } from "react-helmet";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import { rhythm } from "../utils/typography";
 import logo from "../images/icon.png";
 
-const Header = styled.header`
+const HeaderDiv = styled.div`
   margin: 0;
   background-color: white;
+  color: white;
 `;
 
 export default ({ children }) => {
@@ -28,179 +31,61 @@ export default ({ children }) => {
     <div
       css={css`
         margin: 0;
-        color: white;
+        color: black;
         background-color: black;
       `}
     >
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>
-        <style>{"body { background-color: black; }"}</style>
+        <style type="text/css">
+          {`
+          body { background-color: black; }
+          .bg-custom-nav {
+            background-color: white;
+            color: black;
+            font-family: 'Playfair Display', serif;
+            max-width: 1200px;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+    `}
+        </style>
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
         <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
-      <Header>
+      <HeaderDiv>
         <div
           css={css`
             margin: 0 auto;
             max-width: 1200px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
           `}
         >
-          <Link
-            to={`/xedni`}
-            css={css`
-              display: inline-block;
-              grid-column: 1 / span 3;
-              margin-top: 15px;
-              margin-font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h3
-              css={css`
-                font-style: normal;
-
-                text-align: left;
-              `}
-            >
+          <Navbar bg="custom-nav" variant="light" expand="lg">
+            <Navbar.Brand href="/">
+              <img alt="Logo" src={logo} width="40" height="40" />
+              {"  "}
               {data.site.siteMetadata.eltit}
-            </h3>
-          </Link>
-          <Link
-            to={`/features2`}
-            css={css`
-              display: inline-block;
-              grid-column: 4 / span 1;
-              margin-top: 25px;
-              margin-left: 10px;
-              margin-right: 10px;
-              font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h6
-              css={css`
-                font-style: normal;
-
-                text-align: center;
-              `}
-            >
-              Features
-            </h6>
-          </Link>
-          <Link
-            to={`/fiction2`}
-            css={css`
-              display: inline-block;
-              grid-column: 5 / span 1;
-              margin-top: 25px;
-              margin-left: 10px;
-              margin-right: 10px;
-              font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h6
-              css={css`
-                font-style: normal;
-
-                text-align: center;
-              `}
-            >
-              Fiction
-            </h6>
-          </Link>
-          <Link
-            to={`/sections2`}
-            css={css`
-              display: inline-block;
-              grid-column: 6 / span 1;
-              margin-top: 25px;
-              margin-left: 10px;
-              margin-right: 10px;
-              font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h6
-              css={css`
-                font-style: normal;
-
-                text-align: center;
-              `}
-            >
-              Sections
-            </h6>
-          </Link>
-          <Link
-            to={`/`}
-            css={css`
-              display: inline-block;
-              grid-column: 7 / span 3;
-              margin-left: 38%;
-              margin-right: 38%;
-              margin-top: 0;
-              margin-bottom: 0;
-            `}
-          >
-            <img
-              css={css`
-                height: 60px;
-                width: 60px;
-                margin-top: 0;
-                margin-bottom: 0;
-              `}
-              src={logo}
-              alt="logo"
-            />
-          </Link>
-          <Link
-            to={`/latest2`}
-            css={css`
-              display: inline-block;
-              grid-column: 14 / span 1;
-              margin-top: 25px;
-              margin-left: 10px;
-              margin-right: 10px;
-              font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h6
-              css={css`
-                font-style: normal;
-
-                text-align: center;
-              `}
-            >
-              Latest
-            </h6>
-          </Link>
-          <Link
-            to={`/search2`}
-            css={css`
-              display: inline-block;
-              grid-column: 15 / span 1;
-              margin-top: 25px;
-              margin-left: 10px;
-              margin-right: 10px;
-              font-style: normal;
-              text-decoration: none;
-            `}
-          >
-            <h6
-              css={css`
-                font-style: normal;
-
-                text-align: center;
-              `}
-            >
-              Search
-            </h6>
-          </Link>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto d-flex justify-content-center">
+                <Nav.Link href="/features">Features</Nav.Link>
+                <Nav.Link href="/fiction">Fiction</Nav.Link>
+                <Nav.Link href="/sections">Sections</Nav.Link>
+                <Nav.Link href="/latest">Latest</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </div>
-      </Header>
+      </HeaderDiv>
       <div
         css={css`
           margin: 0 auto;

@@ -47,6 +47,7 @@ export default ({ data }) => (
             >
               {node.frontmatter.title}
             </h2>
+            </Link>
             <p
               css={css`
                 color: grey;
@@ -55,7 +56,6 @@ export default ({ data }) => (
               By {node.frontmatter.writer} — {node.frontmatter.date}
             </p>
             <p>{node.excerpt}</p>
-          </Link>
         </div>
       ))}
     </div>

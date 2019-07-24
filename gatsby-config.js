@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Double Dealer`,
-    eltit: `relaeD elbuoD ehT`,
+    eltit: `Eht Elbuod Relaed`,
     pathPrefix: "/public"
   },
   plugins: [

@@ -6,7 +6,7 @@ export default ({ data }) => (
   <Layout>
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
-      We're a magazine from the south asking readers to think twice.
+      We're a magazine from the South asking readers to think twice.
     </p>
   </Layout>
 )
