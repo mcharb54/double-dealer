@@ -9,7 +9,6 @@ media_folder: "/../assets"
 
 collections:
   - name: Articles
-    label: Articles
     folder: articles
     create: true
     fields:
@@ -22,9 +21,8 @@ collections:
       - { name: body, label: Body, widget: markdown }
 
   - name: Fiction
-      label: Fiction
-      folder: fiction
-      create: true
+    folder: fiction
+    create: true
       fields:
         - { name: path, label: Path }
         - { name: backroad, label: Backroad }
