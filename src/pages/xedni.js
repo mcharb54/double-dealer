@@ -29,6 +29,7 @@ export default ({ data }) => (
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                   color: inherit;
+                  text-align: center;
                 `}
               >
                 {node.frontmatter.title}

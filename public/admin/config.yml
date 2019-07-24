@@ -2,17 +2,34 @@ backend:
   name: github
   repo: mcharb54/double-dealer
 
-media_folder: static/assets
+publish_mode: editorial_workflow
+display_url: https://www.thedoubledealer.com
+
+media_folder: "/../assets"
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: Articles
+    label: Articles
+    folder: articles
     create: true
     fields:
       - { name: path, label: Path }
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - { name: title, label: Title }
       - { name: writer, label: Writer }
       - { name: body, label: Body, widget: markdown }
+
+  - name: Fiction
+      label: Fiction
+      folder: fiction
+      create: true
+      fields:
+        - { name: path, label: Path }
+        - { name: backroad, label: Backroad }
+        - { name: date, label: Date, widget: date }
+        - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+        - { name: title, label: Title }
+        - { name: writer, label: Writer }
+        - { name: body, label: Body, widget: markdown }

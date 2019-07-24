@@ -27,6 +27,7 @@ export default ({ data }) => (
               <h2
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
+                  text-align: center;
                 `}
               >
                 {node.frontmatter.title}
