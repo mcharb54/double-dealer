@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
-import logo from "../images/icon.png";
 
 export default ({ data }) => (
   <Layout>
@@ -16,16 +15,21 @@ export default ({ data }) => (
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <div>
-        <img src={logo} alt="logo" />
-        <h1
+        <div
           css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
             text-align: center;
           `}
         >
-          The Double Dealer.
-        </h1>
+          <h1
+            css={css`
+              display: inline-block;
+              border-bottom: 1px solid;
+              text-align: center;
+            `}
+          >
+            The Double Dealer.
+          </h1>
+        </div>
         {data.allMarkdownRemark.totalCount === 1 ? (
           <h4
             css={css`

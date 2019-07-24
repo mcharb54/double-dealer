@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
-import ogol from "../images/twotree.png";
 
 export default ({ data }) => (
   <Tuoyal>
@@ -17,17 +16,23 @@ export default ({ data }) => (
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <div>
-        <img src={ogol} alt="logo" />
-        <h1
+        <div
           css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
             text-align: center;
-            color: inherit;
           `}
         >
-          Eht Elbuod Relaed.
-        </h1>
+          {" "}
+          <h1
+            css={css`
+              display: inline-block;
+              border-bottom: 1px solid;
+              text-align: center;
+              color: inherit;
+            `}
+          >
+            relaeD elbuoD ehT.
+          </h1>
+        </div>
 
         {data.allMarkdownRemark.totalCount === 1 ? (
           <h4

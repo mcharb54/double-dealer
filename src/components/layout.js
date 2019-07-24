@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import { rhythm } from "../utils/typography";
+import ogol from "../images/twotree.png";
 
 const Header = styled.header`
   margin: 0;
@@ -40,40 +41,161 @@ export default ({ children }) => {
           css={css`
             margin: 0 auto;
             max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
           `}
         >
-          <Link to={`/`}>
-            <h4
+          <Link
+            to={`/`}
+            css={css`
+              display: inline-block;
+              grid-column: 1 / span 3;
+              margin-top: 15px;
+              margin-font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h3
               css={css`
-                display: inline-block;
-                margin-top: 15px;
-                margin-left: 20px;
                 font-style: normal;
                 color: white;
-                text-decoration: underline;
-                text-decoration-color: red;
+                text-align: left;
               `}
             >
               {data.site.siteMetadata.title}
-            </h4>
+            </h3>
+          </Link>
+          <Link
+            to={`/features`}
+            css={css`
+              display: inline-block;
+              grid-column: 4 / span 1;
+              margin-top: 25px;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h6
+              css={css`
+                font-style: normal;
+                color: white;
+                text-align: center;
+              `}
+            >
+              Features
+            </h6>
+          </Link>
+          <Link
+            to={`/fiction`}
+            css={css`
+              display: inline-block;
+              grid-column: 5 / span 1;
+              margin-top: 25px;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h6
+              css={css`
+                font-style: normal;
+                color: white;
+                text-align: center;
+              `}
+            >
+              Fiction
+            </h6>
+          </Link>
+          <Link
+            to={`/sections`}
+            css={css`
+              display: inline-block;
+              grid-column: 6 / span 1;
+              margin-top: 25px;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h6
+              css={css`
+                font-style: normal;
+                color: white;
+                text-align: center;
+              `}
+            >
+              Sections
+            </h6>
           </Link>
           <Link
             to={`/xedni`}
             css={css`
-              float: right;
+              display: inline-block;
+              grid-column: 7 / span 3;
+              margin-left: 38%;
+              margin-right: 38%;
+              margin-top: 0;
+              margin-bottom: 0;
             `}
           >
-            <h4
+            <img
               css={css`
-                display: inline-block;
-                margin-top: 15px;
-                margin-right: 20px;
+                height: 60px;
+                width: 60px;
+                margin-top: 0;
+                margin-bottom: 0;
+              `}
+              src={ogol}
+              alt="logo"
+            />
+          </Link>
+          <Link
+            to={`/latest`}
+            css={css`
+              display: inline-block;
+              grid-column: 14 / span 1;
+              margin-top: 25px;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h6
+              css={css`
                 font-style: normal;
+                text-align: center;
                 color: white;
               `}
             >
-              {data.site.siteMetadata.eltit}
-            </h4>
+              Latest
+            </h6>
+          </Link>
+          <Link
+            to={`/search`}
+            css={css`
+              display: inline-block;
+              grid-column: 15 / span 1;
+              margin-top: 25px;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-style: normal;
+              text-decoration: none;
+            `}
+          >
+            <h6
+              css={css`
+                font-style: normal;
+                text-align: center;
+                color: white;
+              `}
+            >
+              Search
+            </h6>
           </Link>
         </div>
       </Header>
