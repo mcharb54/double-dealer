@@ -16,7 +16,12 @@ collections:
       - { name: path, label: Path }
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - { name: title, label: Title }
       - { name: writer, label: Writer }
       - { name: body, label: Body, widget: markdown }
@@ -26,10 +31,15 @@ collections:
     folder: fiction
     create: true
     fields:
-        - { name: path, label: Path }
-        - { name: backroad, label: Backroad }
-        - { name: date, label: Date, widget: date }
-        - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-        - { name: title, label: Title }
-        - { name: writer, label: Writer }
-        - { name: body, label: Body, widget: markdown }
+      - { name: path, label: Path }
+      - { name: backroad, label: Backroad }
+      - { name: date, label: Date, widget: date }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - { name: title, label: Title }
+      - { name: writer, label: Writer }
+      - { name: body, label: Body, widget: markdown }

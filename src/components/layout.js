@@ -77,13 +77,18 @@ export default ({ children }) => {
                 <Nav.Link href="/fiction">Fiction</Nav.Link>
                 <Nav.Link href="/sections">Sections</Nav.Link>
                 <Nav.Link href="/latest">Latest</Nav.Link>
+                <Nav.Link href="/submissions">Submit</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
       </HeaderDiv>
+      Î
       <div
+        className="site"
         css={css`
+          display: flex;
+          flex-direction: column;
           margin: 0 auto;
           max-width: 700px;
           padding: ${rhythm(2)};
@@ -91,8 +96,23 @@ export default ({ children }) => {
           background-color: white;
         `}
       >
-        {children}
-        <footer>
+        <div
+          css={css`
+             {
+              flex-grow: 1;
+              padding-bottom: 50px;
+            }
+          `}
+          className="site-content"
+        >
+          {children}
+        </div>
+        <footer
+          css={css`
+            position: relative;
+            padding-top: 40px;
+          `}
+        >
           {" "}
           <Link
             to={`/about/`}

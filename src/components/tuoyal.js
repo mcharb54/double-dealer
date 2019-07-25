@@ -77,17 +77,21 @@ export default ({ children }) => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto d-flex justify-content-center">
-                <Nav.Link href="/features">Features</Nav.Link>
-                <Nav.Link href="/fiction">Fiction</Nav.Link>
-                <Nav.Link href="/sections">Sections</Nav.Link>
-                <Nav.Link href="/latest">Latest</Nav.Link>
+                <Nav.Link href="/features2">Features</Nav.Link>
+                <Nav.Link href="/fiction2">Fiction</Nav.Link>
+                <Nav.Link href="/sections2">Sections</Nav.Link>
+                <Nav.Link href="/latest2">Latest</Nav.Link>
+                <Nav.Link href="/submissions">Submit</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
       </HeaderDiv>
       <div
+        className="site"
         css={css`
+          display: flex;
+          flex-direction: column;
           margin: 0 auto;
           background-color: black;
           color: white;
@@ -96,8 +100,23 @@ export default ({ children }) => {
           padding-top: ${rhythm(1.5)};
         `}
       >
-        {children}
-        <footer>
+        <div
+          className="site-content"
+          css={css`
+             {
+              flex-grow: 1;
+              padding-bottom: 50px;
+            }
+          `}
+        >
+          {children}
+        </div>
+        <footer
+          css={css`
+            position: relative;
+            padding-top: 40px;
+          `}
+        >
           {" "}
           <Link
             to={`/about/`}

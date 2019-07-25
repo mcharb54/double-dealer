@@ -1,20 +1,20 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { css } from "@emotion/core";
 import Layout from "../components/layout";
 
-export default ({ data }) => (
+export default () => (
   <Layout>
-    <h1>About {data.site.siteMetadata.title}</h1>
-    <p>We're a magazine from the South asking readers to think twice.</p>
+    <h1
+      css={css`
+        display: inline-block;
+        border-bottom: 1px solid;
+        text-align: center;
+        background-color: inherit;
+        color: inherit;
+      `}
+    >
+      Features
+    </h1>
+    <p>The Double Dealer is a magazine from the South.</p>
   </Layout>
 );
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
