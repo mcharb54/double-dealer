@@ -83,7 +83,6 @@ export default ({ children }) => {
           </Navbar>
         </div>
       </HeaderDiv>
-      Î
       <div
         className="site"
         css={css`
