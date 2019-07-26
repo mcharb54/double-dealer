@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
-import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
 
 export default ({ data }) => (
