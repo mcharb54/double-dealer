@@ -23,6 +23,7 @@ exports.components = {
   "component---src-pages-sections-2-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/sections2.js"))),
   "component---src-pages-submissions-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/submissions.js"))),
   "component---src-pages-thanks-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/thanks.js"))),
-  "component---src-pages-xedni-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/xedni.js")))
+  "component---src-pages-xedni-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/xedni.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/404.js")))
 }
 

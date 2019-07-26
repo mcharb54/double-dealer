@@ -2,9 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
-import Tuoyal from "../components/tuoyal";
-
 import { rhythm } from "../utils/typography";
+import Tuoyal from "../components/tuoyal";
+import Img from "gatsby-image";
 
 export default ({ data }) => (
   <Tuoyal>
@@ -16,6 +16,10 @@ export default ({ data }) => (
         <style>{"body { background-color: black; }"}</style>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
+      <div>
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </div>
+      <br />
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
@@ -53,6 +57,15 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
+    file(relativePath: { eq: "twotree.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000

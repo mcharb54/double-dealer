@@ -20,6 +20,7 @@ exports.components = {
   "component---src-pages-sections-2-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/sections2.js" /* webpackChunkName: "component---src-pages-sections-2-js" */),
   "component---src-pages-submissions-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/submissions.js" /* webpackChunkName: "component---src-pages-submissions-js" */),
   "component---src-pages-thanks-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/thanks.js" /* webpackChunkName: "component---src-pages-thanks-js" */),
-  "component---src-pages-xedni-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/xedni.js" /* webpackChunkName: "component---src-pages-xedni-js" */)
+  "component---src-pages-xedni-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/xedni.js" /* webpackChunkName: "component---src-pages-xedni-js" */),
+  "component---src-pages-404-js": () => import("/Users/mcharbonneau/Documents/GitHub/double-dealer/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */)
 }
 

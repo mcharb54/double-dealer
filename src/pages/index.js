@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
+import Img from "gatsby-image"; 
 
 export default ({ data }) => (
   <Layout>
@@ -14,6 +15,10 @@ export default ({ data }) => (
         <link rel="canonical" href="https://thedoubledealer.com" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
+      <div>
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </div>
+      <br />
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
@@ -48,8 +53,18 @@ export default ({ data }) => (
   </Layout>
 );
 
+
 export const query = graphql`
   query {
+    file(relativePath: { eq: "icon.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
