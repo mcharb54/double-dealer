@@ -21,12 +21,11 @@ export default () => (
           color: inherit;
         `}
       >
-        File Uploaded!
+      Thank you for signing up!
       </h1>
       <br />
       <br />
-      <h3>Thank you for submitting.</h3>
-      <p>Check your inbox for a confirmation email. We'll be in touch.</p>
+      <p>We'll be in touch.</p>
     </div>
   </Layout>
 );

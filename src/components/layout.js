@@ -77,7 +77,7 @@ export default ({ children }) => {
                 <Nav.Link href="/fiction">Fiction</Nav.Link>
                 <Nav.Link href="/sections">Sections</Nav.Link>
                 <Nav.Link href="/latest">Latest</Nav.Link>
-                <Nav.Link href="/submissions">Submit</Nav.Link>
+                {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
