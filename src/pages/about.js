@@ -69,7 +69,7 @@ export default class Contact extends React.Component {
         </p>
         <p>
           While we are focused on the South, we are happy to consider ideas
-          about any topic, in any form from any individuals.
+          about any topic, in any form and from any individuals.
         </p>
         <p>Consider it dealer's choice.</p>
         <p>
