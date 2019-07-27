@@ -81,6 +81,7 @@ export default ({ children }) => {
                 <Nav.Link href="/fiction2">Fiction</Nav.Link>
                 <Nav.Link href="/sections2">Sections</Nav.Link>
                 <Nav.Link href="/latest2">Latest</Nav.Link>
+                <Nav.Link href='/about'>About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
             </Navbar.Collapse>

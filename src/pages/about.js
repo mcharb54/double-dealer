@@ -95,7 +95,7 @@ export default class Contact extends React.Component {
             color: inherit;
           `}
         >
-          Sign up here to recieve updates!
+          Sign up here to receive updates!
         </h3>
         <form
           name="email-signup"
