@@ -4,7 +4,7 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
-import Img from "gatsby-image"; 
+import Img from "gatsby-image";
 
 export default ({ data }) => (
   <Layout>
@@ -52,7 +52,6 @@ export default ({ data }) => (
     </div>
   </Layout>
 );
-
 
 export const query = graphql`
   query {
