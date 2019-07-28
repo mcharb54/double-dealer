@@ -4,7 +4,7 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://www.thedoubledealer.com
-media_folder: "static/images"
+media_folder: "images"
 
 collections:
   - name: Articles

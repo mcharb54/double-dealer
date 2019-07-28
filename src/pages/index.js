@@ -78,6 +78,7 @@ export const query = graphql`
             title
             backroad
             writer
+            thumbnail
           }
         }
       }
