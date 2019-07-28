@@ -22,6 +22,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               path
               backroad
               title
+              thumbnail
             }
           }
         }
