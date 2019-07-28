@@ -10,16 +10,17 @@ collections:
   - name: Articles
     label: Articles
     folder: articles
+    slug: "{{year}}-{{slug}}"
     create: true
     fields:
       - { name: path, label: Path }
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
       - {
-          label: "Featured Image",
-          name: "thumbnail",
+          name: "image",
+          label: "image",
           widget: "image",
-          required: false,
+          required: true,
         }
       - { name: title, label: Title }
       - { name: writer, label: Writer }
@@ -28,16 +29,17 @@ collections:
   - name: Fiction
     label: Fiction
     folder: fiction
+    slug: "{{year}}-{{slug}}"
     create: true
     fields:
       - { name: path, label: Path }
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
       - {
-          label: "Featured Image",
-          name: "thumbnail",
+          name: "image",
+          label: "image",
           widget: "image",
-          required: false,
+          required: true,
         }
       - { name: title, label: Title }
       - { name: writer, label: Writer }

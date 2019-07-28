@@ -6,7 +6,9 @@ import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
 
-export default ({ data }) => (
+export default ({ data }) => {
+
+  return (
   <Layout>
     <div>
       <Helmet>
@@ -51,7 +53,7 @@ export default ({ data }) => (
       </div>
     </div>
   </Layout>
-);
+)};
 
 export const query = graphql`
   query {

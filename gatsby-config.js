@@ -28,8 +28,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/images`,
+        name: `cms-images`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/images`,
-        name: `images`
+        name: `src-images`
       }
     },
     `gatsby-transformer-remark`,
@@ -38,6 +45,7 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
