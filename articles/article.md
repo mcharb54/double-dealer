@@ -2,7 +2,7 @@
 path: /articles/articletest
 backroad: /articles/articletest2
 date: '2019-07-11'
-image: /images/uploads/cash.jpg
+image: /images/cash.jpg
 title: Title
 writer: Author
 ---
