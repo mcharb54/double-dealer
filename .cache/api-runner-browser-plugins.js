@@ -1,4 +1,7 @@
 module.exports = [{
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-remark-images/gatsby-browser.js'),
+      options: {"plugins":[],"maxWidth":960,"backgroundColor":"transparent"},
+    },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js'),
       options: {"plugins":[]},
     },{

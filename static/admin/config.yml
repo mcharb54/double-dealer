@@ -4,44 +4,43 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://www.thedoubledealer.com
-media_folder: "/images"
-public_folder: "/images/uploads"
+media_folder: "static/images" # Media files will be stored in the repo under static/images/
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+
 
 collections:
-  - name: Articles
-    label: Articles
-    folder: articles
-    slug: "{{year}}-{{slug}}"
+  - name: "articles"
+    label: "Articles"
+    folder: "/articles"
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: backroad, label: Backroad }
-      - { name: date, label: Date, widget: date }
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "backroad", label: "Backroad", widget: "string" }
+      - { name: "date", label: "Date", widget: "date" }
       - {
-          name: image,
-          label: Image,
-          widget: image,
+          name: "image",
+          label: "Image",
+          widget: "image",
           required: true,
         }
-      - { name: title, label: Title }
-      - { name: writer, label: Writer }
-      - { name: body, label: Body, widget: markdown }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "writer", label: "Writer", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
 
-  - name: Fiction
-    label: Fiction
-    folder: fiction
-    slug: "{{year}}-{{slug}}"
+  - name: "fiction"
+    label: "Fiction"
+    folder: "/fiction"
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: backroad, label: Backroad }
-      - { name: date, label: Date, widget: date }
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "backroad", label: "Backroad", widget: "string" }
+      - { name: "date", label: "Date", widget: "date" }
       - {
-          name: image,
-          label: Image,
-          widget: image,
+          name: "image",
+          label: "Image",
+          widget: "image",
           required: true,
         }
-      - { name: title, label: Title }
-      - { name: writer, label: Writer }
-      - { name: body, label: Body, widget: markdown }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "writer", label: "Writer", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
