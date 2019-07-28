@@ -3,7 +3,7 @@ path: /fiction/elephants
 backroad: /fiction/elephantsreverse
 date: '2019-07-11'
 thumbnail: /images/cash.jpg
-title: No Drunk Elephants Allowed On Main Street
+title: No Drunk Elephants Allowed On Main Street (Still)
 writer: Martin C.
 ---
 
