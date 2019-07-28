@@ -4,7 +4,7 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://www.thedoubledealer.com
-media_folder: "images"
+media_folder: images
 
 collections:
   - name: Articles
@@ -17,9 +17,9 @@ collections:
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
       - {
-          name: "image",
-          label: "image",
-          widget: "image",
+          name: image,
+          label: Image,
+          widget: image,
           required: true,
         }
       - { name: title, label: Title }
@@ -36,9 +36,9 @@ collections:
       - { name: backroad, label: Backroad }
       - { name: date, label: Date, widget: date }
       - {
-          name: "image",
-          label: "image",
-          widget: "image",
+          name: image,
+          label: Image,
+          widget: image,
           required: true,
         }
       - { name: title, label: Title }
