@@ -28,6 +28,7 @@ export default ({ data }) => {
                 `}
               >
                 <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
+                <br />
                 <h2
                   css={css`
                     margin-bottom: ${rhythm(1 / 4)};
