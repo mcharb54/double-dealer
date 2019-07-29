@@ -11,38 +11,7 @@ module.exports = {
     pathPrefix: "/public"
   },
   plugins: [
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Plugins configs
-        plugins: [
-          `gatsby-plugin-netlify-cms-paths`,
-          {
-            resolve: `gatsby-remark-relative-images`,
-            options: {
-              name: "images"
-            }
-          },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 960,
-              backgroundColor: "transparent"
-            }
-          }
-        ]
-      }
-    },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -71,10 +40,6 @@ module.exports = {
         name: `images`
       }
     },
-    `gatsby-plugin-emotion`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: `gatsby-plugin-netlify-cms-paths`,
       options: {
@@ -82,6 +47,31 @@ module.exports = {
         cmsConfig: `/static/admin/config.yml`
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-plugin-netlify-cms-paths`,
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              name: "images"
+            }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 600,
+              backgroundColor: "transparent"
+            }
+          }
+        ]
+      }
+    },
+    `gatsby-plugin-emotion`,
+
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -97,6 +87,7 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png` // This path is relative to the root of the site.
       }
-    }
+    },
+    `gatsby-plugin-netlify-cms`
   ]
 };
