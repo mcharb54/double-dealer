@@ -3,9 +3,9 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import Tuoyal from "../components/tuoyal";
 
-export default function Template2({ data }) {
+export default ({ data }) => {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, fields, html } = markdownRemark;
   return (
     <Tuoyal>
       <div
@@ -31,21 +31,21 @@ export default function Template2({ data }) {
           By {frontmatter.writer}
         </h5>
         <h5>
-        <Link
-          to={frontmatter.path}
-          css={css`
-            display: inline-block;
-            font-style: normal;
-          `}
-        >
-          Dealer's choice
-        </Link>
+          <Link
+            to={fields.slug}
+            css={css`
+              display: inline-block;
+              font-style: normal;
+            `}
+          >
+            Dealer's choice
+          </Link>
         </h5>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Tuoyal>
   );
-}
+};
 
 export const pageQuery2 = graphql`
   query BlogPostByPath2($path: String!) {
@@ -53,10 +53,11 @@ export const pageQuery2 = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
-        backroad
         title
         writer
+      }
+      fields {
+        slug
       }
     }
   }

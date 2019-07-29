@@ -7,7 +7,6 @@ import Layout from "../components/layout";
 import Img from "gatsby-image";
 
 export default ({ data }) => {
-
   return (
   <Layout>
     <div>
@@ -25,7 +24,7 @@ export default ({ data }) => {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
-              to={node.frontmatter.path}
+              to={node.fields.slug}
               css={css`
                 text-decoration: none;
                 color: inherit;
@@ -76,10 +75,11 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            path
             title
-            backroad
             writer
+          }
+          fields {
+            slug
           }
         }
       }

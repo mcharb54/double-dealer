@@ -4,43 +4,33 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://www.thedoubledealer.com
-media_folder: "/static/images" # Media files will be stored in the repo under static/images/
-public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "/static/img"
+public_folder: "/img"
 
 
 collections:
-  - name: "articles"
-    label: "Articles"
-    folder: "/articles"
+  - name: "fiction"
+    label: "Fiction"
+    folder: "src/pages/fiction"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
-      - { name: "path", label: "Path", widget: "string" }
       - { name: "backroad", label: "Backroad", widget: "string" }
       - { name: "date", label: "Date", widget: "date" }
-      - {
-          name: "image",
-          label: "Image",
-          widget: "image",
-          required: true,
-        }
+      - { name: "cover_image", label: "Cover Image", widget: "image", required: true }
       - { name: "title", label: "Title", widget: "string" }
       - { name: "writer", label: "Writer", widget: "string" }
       - { name: "body", label: "Body", widget: "markdown" }
 
-  - name: "fiction"
-    label: "Fiction"
-    folder: "/fiction"
+  - name: "articles"
+    label: "Articles"
+    folder: "src/pages/articles"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
-      - { name: "path", label: "Path", widget: "string" }
       - { name: "backroad", label: "Backroad", widget: "string" }
       - { name: "date", label: "Date", widget: "date" }
-      - {
-          name: "image",
-          label: "Image",
-          widget: "image",
-          required: true,
-        }
+      - { name: "cover_image", label: "Cover Image", widget: "image", required: true }
       - { name: "title", label: "Title", widget: "string" }
       - { name: "writer", label: "Writer", widget: "string" }
       - { name: "body", label: "Body", widget: "markdown" }

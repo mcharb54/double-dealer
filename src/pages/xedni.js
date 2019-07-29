@@ -6,54 +6,58 @@ import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
 import Img from "gatsby-image";
 
-export default ({ data }) => (
-  <Tuoyal>
-    <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>The Double Dealer</title>
-        <link rel="canonical" href="https://thedoubledealer.com" />
-        <style>{"body { background-color: black; }"}</style>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      </Helmet>
+export default ({ data }) => {
+  return (
+    <Tuoyal>
       <div>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>The Double Dealer</title>
+          <link rel="canonical" href="https://thedoubledealer.com" />
+          <style>{"body { background-color: black; }"}</style>
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        </Helmet>
+        <div>
+          <Img fluid={data.file.childImageSharp.fluid} />
+        </div>
+        <br />
+        <div>
+          {data.allMarkdownRemark.edges.map(({ node }) => {
+            return (
+              <div key={node.id}>
+                <Link
+                  to={node.frontmatter.backroad}
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                >
+                  <h2
+                    css={css`
+                      margin-bottom: ${rhythm(1 / 4)};
+                      color: inherit;
+                      text-align: center;
+                    `}
+                  >
+                    {node.frontmatter.title}
+                  </h2>
+                </Link>
+                <p
+                  css={css`
+                    color: grey;
+                  `}
+                >
+                  By {node.frontmatter.writer} — {node.frontmatter.date}
+                </p>
+                <p>{node.excerpt}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <br />
-      <div>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.frontmatter.backroad}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
-            >
-              <h2
-                css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
-                  color: inherit;
-                  text-align: center;
-                `}
-              >
-                {node.frontmatter.title}
-              </h2>
-            </Link>
-            <p
-              css={css`
-                color: grey;
-              `}
-            >
-              By {node.frontmatter.writer} — {node.frontmatter.date}
-            </p>
-            <p>{node.excerpt}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </Tuoyal>
-);
+    </Tuoyal>
+  );
+};
 
 export const query = graphql`
   query {
@@ -76,10 +80,12 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            path
             title
-            backroad
             writer
+            backroad
+          }
+          fields {
+            slug
           }
         }
       }

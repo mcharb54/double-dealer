@@ -43,9 +43,7 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            path
             title
-            backroad
             writer
           }
         }

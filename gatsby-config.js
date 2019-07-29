@@ -15,28 +15,28 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/articles`,
+        path: `${__dirname}/src/pages/articles`,
         name: `markdown-pages1`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/fiction`,
+        path: `${__dirname}/src/pages/fiction`,
         name: `markdown-pages2`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/images`,
+        path: `${__dirname}/img`,
         name: `cms-images`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static/images`,
+        path: `${__dirname}/static/img`,
         name: `images`
       }
     },

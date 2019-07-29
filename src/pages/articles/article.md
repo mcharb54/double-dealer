@@ -1,8 +1,7 @@
 ---
-path: /articles/articletest
-backroad: /articles/articletest2
 date: '2019-07-11'
-image: /images/cash.jpg
+image: /img/cash.jpg
+backroad: /article2/
 title: Title
 writer: Author
 ---

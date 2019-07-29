@@ -1,8 +1,7 @@
 ---
-path: /fiction/elephants
-backroad: /fiction/elephantsreverse
 date: '2019-07-11'
-image: /images/logo.png
+image: /img/logo.png
+backroad: /elephants2/
 title: No Drunk Elephants Allowed On Main Street
 writer: Martin C.
 ---
