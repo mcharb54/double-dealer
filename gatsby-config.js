@@ -8,43 +8,29 @@ module.exports = {
   siteMetadata: {
     title: `The Double Dealer`,
     eltit: `Eht Elbuod Relaed`,
-    pathPrefix: "/public"
+    pathPrefix: `/public`,
+    siteUrl: `https://thedoubledealer.com/`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages/articles`,
-        name: `markdown-pages1`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages/fiction`,
-        name: `markdown-pages2`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/img`,
-        name: `cms-images`
-      }
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/img`,
-        name: `images`
+        name: "media"
       }
     },
     {
-      resolve: `gatsby-plugin-netlify-cms-paths`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        // Path to your Netlify CMS config file
-        cmsConfig: `/static/admin/config.yml`
+        name: `articles`,
+        path: `${__dirname}/src/pages/articles`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `fiction`,
+        path: `${__dirname}/src/pages/fiction`
       }
     },
     `gatsby-transformer-sharp`,
@@ -53,25 +39,21 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              name: "images"
+              name: "media"
             }
           },
           {
             resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 600,
-              backgroundColor: "transparent"
-            }
+            options: {}
           }
         ]
       }
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-emotion`,
-
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -87,7 +69,6 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png` // This path is relative to the root of the site.
       }
-    },
-    `gatsby-plugin-netlify-cms`
+    }
   ]
 };

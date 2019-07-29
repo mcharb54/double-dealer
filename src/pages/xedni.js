@@ -17,9 +17,6 @@ export default ({ data }) => {
           <style>{"body { background-color: black; }"}</style>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
-        <div>
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
         <br />
         <div>
           {data.allMarkdownRemark.edges.map(({ node }) => {
@@ -32,6 +29,7 @@ export default ({ data }) => {
                     color: inherit;
                   `}
                 >
+                <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
                   <h2
                     css={css`
                       margin-bottom: ${rhythm(1 / 4)};
@@ -83,6 +81,15 @@ export const query = graphql`
             title
             writer
             backroad
+            cover_image {
+              childImageSharp {
+                # Specify the image processing specifications right in the query.
+                # Makes it trivial to update as your page's design changes.
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug

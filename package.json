@@ -10,7 +10,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",

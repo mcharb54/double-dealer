@@ -1,6 +1,6 @@
 ---
 date: '2019-07-11'
-image: /img/cash.jpg
+cover_image: /img/cash.jpg
 backroad: /article2/
 title: Title
 writer: Author

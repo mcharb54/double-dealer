@@ -1,6 +1,6 @@
 ---
 date: '2019-07-11'
-image: /img/logo.png
+cover_image: /img/logo.png
 backroad: /elephants2/
 title: No Drunk Elephants Allowed On Main Street
 writer: Martin C.

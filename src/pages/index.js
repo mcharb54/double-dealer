@@ -8,51 +8,50 @@ import Img from "gatsby-image";
 
 export default ({ data }) => {
   return (
-  <Layout>
-    <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>The Double Dealer</title>
-        <link rel="canonical" href="https://thedoubledealer.com" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      </Helmet>
+    <Layout>
       <div>
-        <Img fluid={data.file.childImageSharp.fluid} />
-      </div>
-      <br />
-      <div>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
-            >
-              <h2
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>The Double Dealer</title>
+          <link rel="canonical" href="https://thedoubledealer.com" />
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        </Helmet>
+        <br />
+        <div>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div key={node.id}>
+              <Link
+                to={node.fields.slug}
                 css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
-                  text-align: center;
+                  text-decoration: none;
+                  color: inherit;
                 `}
               >
-                {node.frontmatter.title}
-              </h2>
-            </Link>
-            <p
-              css={css`
-                color: grey;
-              `}
-            >
-              By {node.frontmatter.writer} — {node.frontmatter.date}
-            </p>
-            <p>{node.excerpt}</p>
-          </div>
-        ))}
+                <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
+                <h2
+                  css={css`
+                    margin-bottom: ${rhythm(1 / 4)};
+                    text-align: center;
+                  `}
+                >
+                  {node.frontmatter.title}
+                </h2>
+              </Link>
+              <p
+                css={css`
+                  color: grey;
+                `}
+              >
+                By {node.frontmatter.writer} — {node.frontmatter.date}
+              </p>
+              <p>{node.excerpt}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  </Layout>
-)};
+    </Layout>
+  );
+};
 
 export const query = graphql`
   query {
@@ -77,6 +76,15 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             writer
+            cover_image {
+              childImageSharp {
+                # Specify the image processing specifications right in the query.
+                # Makes it trivial to update as your page's design changes.
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           fields {
             slug
