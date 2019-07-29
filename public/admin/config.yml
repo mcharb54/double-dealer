@@ -7,7 +7,6 @@ display_url: https://www.thedoubledealer.com
 media_folder: "/static/img"
 public_folder: "/img"
 
-
 collections:
   - name: "fiction"
     label: "Fiction"
@@ -15,12 +14,23 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
-      - { name: "backroad", label: "Backroad", widget: "string" }
-      - { name: "date", label: "Date", widget: "date" }
-      - { name: "cover_image", label: "Cover Image", widget: "image", required: true }
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "writer", label: "Writer", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - {
+          name: "backroad",
+          label: "Backroad",
+          widget: "string",
+          pattern: ['\/\w+\/', "Must be between slashes /example/"],
+          required: true,
+        }
+      - { name: "date", label: "Date", widget: "date", required: true }
+      - {
+          name: "cover_image",
+          label: "Cover Image",
+          widget: "image",
+          required: true,
+        }
+      - { name: "title", label: "Title", widget: "string", required: true }
+      - { name: "writer", label: "Writer", widget: "string", required: true }
+      - { name: "body", label: "Body", widget: "markdown", required: true }
 
   - name: "articles"
     label: "Articles"
@@ -28,9 +38,20 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
-      - { name: "backroad", label: "Backroad", widget: "string" }
-      - { name: "date", label: "Date", widget: "date" }
-      - { name: "cover_image", label: "Cover Image", widget: "image", required: true }
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "writer", label: "Writer", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - {
+          name: "backroad",
+          label: "Backroad",
+          widget: "string",
+          pattern: ['\/\w+\/', "Must be between slashes /example/"],
+          required: true,
+        }
+      - { name: "date", label: "Date", widget: "date", required: true }
+      - {
+          name: "cover_image",
+          label: "Cover Image",
+          widget: "image",
+          required: true,
+        }
+      - { name: "title", label: "Title", widget: "string", required: true }
+      - { name: "writer", label: "Writer", widget: "string", required: true }
+      - { name: "body", label: "Body", widget: "markdown", required: true }

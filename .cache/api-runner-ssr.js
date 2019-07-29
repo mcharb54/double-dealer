@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"The Double Dealer","short_name":"Double","start_url":"/","display":"standalone","icon":"src/images/icon.png"},
+    },{
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
