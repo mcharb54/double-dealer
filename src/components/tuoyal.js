@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
-import { rhythm } from "../utils/typography";
 import logo from "../images/icon.png";
 
 const HeaderDiv = styled.div`
