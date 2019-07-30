@@ -47,7 +47,7 @@ export default ({ children }) => {
         <style type="text/css">
           {`
           body { background-color: black; }
-          a {color: black}
+          a {color: black; }
           .bg-custom-nav {
             background-color: white;
             color: black;
@@ -69,7 +69,7 @@ export default ({ children }) => {
             max-width: 1200px;
           `}
         >
-          <Navbar bg="custom-nav" variant="light" expand="lg">
+          <Navbar bg="custom-nav" bsPrefix="navbar" variant="light" expand="lg">
             <Navbar.Brand href="/">
               <img alt="Logo" src={logo} width="40" height="40" />
               {"  "}
@@ -108,7 +108,7 @@ export default ({ children }) => {
               flex-grow: 1;
               padding-top: 50px;
               padding-left: 20px;
-              padding-right:20px;
+              padding-right: 20px;
             }
           `}
         >
