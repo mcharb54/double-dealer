@@ -1,7 +1,9 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
+import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
+import Img from "gatsby-image";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
@@ -14,9 +16,12 @@ export default ({ data }) => {
           color: inherit;
         `}
       >
+        <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
         <h1
           css={css`
-            text-decoration: none;
+            margin-top: ${rhythm(1 / 2)};
+            margin-bottom: ${rhythm(1 / 4)};
+            text-align: center;
             color: inherit;
           `}
         >
@@ -40,7 +45,7 @@ export default ({ data }) => {
           >
             <h5
               css={css`
-                color: white;
+                color: gray;
               `}
             >
               Dealer's choice
@@ -61,6 +66,15 @@ export const pageQuery2 = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         writer
+        cover_image {
+          childImageSharp {
+            # Specify the image processing specifications right in the query.
+            # Makes it trivial to update as your page's design changes.
+            fluid(maxHeight: 560) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       fields {
         slug

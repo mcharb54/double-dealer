@@ -29,8 +29,6 @@ export default ({ data }) => {
           <link rel="canonical" href="https://thedoubledealer.com" />
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
-        <br />
-        <div>
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
               <Card bsPrefix="card">
@@ -68,7 +66,6 @@ export default ({ data }) => {
               </Card>
             </div>
           ))}
-        </div>
       </div>
     </Layout>
   );

@@ -1,7 +1,9 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
+import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
+import Img from "gatsby-image";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
@@ -9,7 +11,17 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>{frontmatter.title}</h1>
+        <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
+        <h1
+          css={css`
+            margin-top: ${rhythm(1 / 2)};
+            margin-bottom: ${rhythm(1 / 4)};
+            text-align: center;
+            color: inherit;
+          `}
+        >
+          {frontmatter.title}
+        </h1>
         <h5>By {frontmatter.writer}</h5>
         <h5>
           <Link
@@ -21,7 +33,7 @@ export default ({ data }) => {
           >
             <h5
               css={css`
-                color: black;
+                color: gray;
               `}
             >
               Dealer's choice
@@ -43,6 +55,15 @@ export const pageQuery = graphql`
         title
         writer
         backroad
+        cover_image {
+          childImageSharp {
+            # Specify the image processing specifications right in the query.
+            # Makes it trivial to update as your page's design changes.
+            fluid(maxHeight: 560) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

@@ -106,7 +106,9 @@ export default ({ children }) => {
           css={css`
              {
               flex-grow: 1;
-              padding-bottom: 50px;
+              padding-top: 50px;
+              padding-left: 20px;
+              padding-right:20px;
             }
           `}
         >

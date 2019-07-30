@@ -27,7 +27,7 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: white;
+            color: gray;
           `}
         >
           Dealer's choice

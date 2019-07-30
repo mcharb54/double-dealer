@@ -28,7 +28,7 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: black;
+            color: gray;
           `}
         >Dealer's choice</h5>
       </Link>

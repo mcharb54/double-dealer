@@ -33,7 +33,7 @@ export default ({ data }) => {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
         <br />
-        <div>
+
           {data.allMarkdownRemark.edges.map(({ node }) => {
             return (
               <div key={node.id}>
@@ -75,7 +75,6 @@ export default ({ data }) => {
               </div>
             );
           })}
-        </div>
       </div>
     </Tuoyal>
   );
