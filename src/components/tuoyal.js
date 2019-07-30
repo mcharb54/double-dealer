@@ -81,7 +81,7 @@ export default ({ children }) => {
                 <Nav.Link href="/fiction2">Fiction</Nav.Link>
                 <Nav.Link href="/sections2">Sections</Nav.Link>
                 <Nav.Link href="/latest2">Latest</Nav.Link>
-                <Nav.Link href='/about'>About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
@@ -97,8 +97,7 @@ export default ({ children }) => {
           background-color: black;
           color: white;
           max-width: 700px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
+          padding: 0;
         `}
       >
         <div
@@ -124,6 +123,8 @@ export default ({ children }) => {
             css={css`
               float: right;
               font-style: normal;
+              padding-right: 20px;
+              padding-bottom: 20px;
             `}
           >
             About

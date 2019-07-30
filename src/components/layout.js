@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
-import { rhythm } from "../utils/typography";
 import ogol from "../images/twotree.png";
 
 const HeaderDiv = styled.div`
@@ -91,8 +90,7 @@ export default ({ children }) => {
           flex-direction: column;
           margin: 0 auto;
           max-width: 700px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
+          padding: 0;
           background-color: white;
         `}
       >
@@ -119,6 +117,8 @@ export default ({ children }) => {
             css={css`
               float: right;
               font-style: normal;
+              padding-right: 20px;
+              padding-bottom: 20px;
             `}
           >
             About

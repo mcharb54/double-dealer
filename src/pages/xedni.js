@@ -84,15 +84,6 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "ogol.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
@@ -100,7 +91,7 @@ export const query = graphql`
       totalCount
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 150)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
