@@ -5,6 +5,7 @@ import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
 import Img from "gatsby-image";
+import Card from "react-bootstrap/Card";
 
 export default ({ data }) => {
   return (
@@ -15,6 +16,20 @@ export default ({ data }) => {
           <title>The Double Dealer</title>
           <link rel="canonical" href="https://thedoubledealer.com" />
           <style>{"body { background-color: black; }"}</style>
+          <style type="text/css">
+            {`
+          .card {
+            font-family: 'Playfair Display', serif;
+            background-color: inherit;
+            color: inherit;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255,.875);
+          }
+    `}
+          </style>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
         <br />
@@ -22,33 +37,42 @@ export default ({ data }) => {
           {data.allMarkdownRemark.edges.map(({ node }) => {
             return (
               <div key={node.id}>
-                <Link
-                  to={node.frontmatter.backroad}
-                  css={css`
-                    text-decoration: none;
-                    color: inherit;
-                  `}
-                >
-                <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
-                <br />
-                  <h2
-                    css={css`
-                      margin-bottom: ${rhythm(1 / 4)};
-                      color: inherit;
-                      text-align: center;
-                    `}
-                  >
-                    {node.frontmatter.title}
-                  </h2>
-                </Link>
-                <p
-                  css={css`
-                    color: grey;
-                  `}
-                >
-                  By {node.frontmatter.writer} — {node.frontmatter.date}
-                </p>
-                <p>{node.excerpt}</p>
+                <Card bsPrefix="card">
+                  <Card.Body>
+                    <Link
+                      to={node.fields.slug}
+                      css={css`
+                        text-decoration: none;
+                        color: inherit;
+                      `}
+                    >
+                      <Img
+                        fluid={
+                          node.frontmatter.cover_image.childImageSharp.fluid
+                        }
+                      />
+                      <Card.Title>
+                        <h2
+                          css={css`
+                            margin-top: ${rhythm(1 / 4)};
+                            margin-bottom: ${rhythm(1 / 4)};
+                            text-align: center;
+                            color: inherit;
+                          `}
+                        >
+                          {node.frontmatter.title}
+                        </h2>
+                      </Card.Title>
+                    </Link>
+                    <Card.Subtitle className="mb-2 text-muted text-center">
+                      {node.frontmatter.writer}
+                    </Card.Subtitle>
+                    <Card.Text>{node.excerpt}</Card.Text>
+                    <Card.Subtitle className="mb-2 text-muted text-center">
+                      {node.frontmatter.date}
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
               </div>
             );
           })}
@@ -86,7 +110,7 @@ export const query = graphql`
               childImageSharp {
                 # Specify the image processing specifications right in the query.
                 # Makes it trivial to update as your page's design changes.
-                fluid {
+                fluid(maxHeight: 560) {
                   ...GatsbyImageSharpFluid
                 }
               }
