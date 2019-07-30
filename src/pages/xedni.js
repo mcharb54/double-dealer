@@ -42,8 +42,7 @@ export default ({ data }) => {
                     <Link
                       to={node.fields.slug}
                       css={css`
-                        text-decoration: none;
-                        color: inherit;
+                        font-style: normal;
                       `}
                     >
                       <Img
@@ -51,18 +50,18 @@ export default ({ data }) => {
                           node.frontmatter.cover_image.childImageSharp.fluid
                         }
                       />
-                      <Card.Title>
-                        <h2
-                          css={css`
-                            margin-top: ${rhythm(1 / 4)};
-                            margin-bottom: ${rhythm(1 / 4)};
-                            text-align: center;
-                            color: inherit;
-                          `}
-                        >
-                          {node.frontmatter.title}
-                        </h2>
-                      </Card.Title>
+
+                      <h2
+                        css={css`
+                          margin-top: ${rhythm(1 / 4)};
+                          margin-bottom: ${rhythm(1 / 4)};
+                          text-align: center;
+                          font-style: normal;
+                          color: white;
+                        `}
+                      >
+                        {node.frontmatter.title}
+                      </h2>
                     </Link>
                     <Card.Subtitle className="mb-2 text-muted text-center">
                       {node.frontmatter.writer}

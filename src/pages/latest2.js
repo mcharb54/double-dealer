@@ -17,17 +17,25 @@ export default ({ data }) => (
       >
         Latest
       </h1>
-      <h5>
-        <Link
-          to={`/latest`}
+      <br />
+      <br />
+      <Link
+        to={`/latest`}
+        css={css`
+          display: inline-block;
+          font-style: normal;
+        `}
+      >
+        <h5
           css={css`
-            display: inline-block;
-            font-style: normal;
+            color: white;
           `}
         >
           Dealer's choice
-        </Link>
-      </h5>
+        </h5>
+      </Link>
+      <br />
+      <br />
     </div>
     <div>
       {data.allMarkdownRemark.edges.map(({ node }) => (

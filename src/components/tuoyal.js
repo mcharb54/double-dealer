@@ -38,9 +38,16 @@ export default ({ children }) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
         <style type="text/css">
           {`
           body { background-color: black; }
+          a {color: black}
           .bg-custom-nav {
             background-color: white;
             color: black;
@@ -53,12 +60,6 @@ export default ({ children }) => {
           }
     `}
         </style>
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
         <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
       <HeaderDiv>
@@ -122,6 +123,8 @@ export default ({ children }) => {
             to={`/about/`}
             css={css`
               float: right;
+              color: white;
+              text-decoration: underline;
               font-style: normal;
               padding-right: 20px;
               padding-bottom: 20px;

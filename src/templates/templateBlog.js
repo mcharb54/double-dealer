@@ -38,7 +38,13 @@ export default ({ data }) => {
               font-style: normal;
             `}
           >
-            Dealer's choice
+            <h5
+              css={css`
+                color: white;
+              `}
+            >
+              Dealer's choice
+            </h5>
           </Link>
         </h5>
         <div dangerouslySetInnerHTML={{ __html: html }} />

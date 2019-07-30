@@ -44,6 +44,7 @@ export default ({ children }) => {
         />
         <style type="text/css">
           {`
+          a {color: white;}
           .bg-custom-nav {
             background-color: black;
             color: white;
@@ -63,7 +64,7 @@ export default ({ children }) => {
             max-width: 1200px;
           `}
         >
-          <Navbar bg="custom-nav" variant="dark" expand="lg">
+          <Navbar bg="custom-nav" bsPrefix="navbar" variant="dark" expand="lg">
             <Navbar.Brand href="/xedni">
               <img alt="Logo" src={ogol} width="40" height="40" />
               {"  "}
@@ -116,6 +117,8 @@ export default ({ children }) => {
             to={`/about/`}
             css={css`
               float: right;
+              color: black;
+              text-decoration: underline;
               font-style: normal;
               padding-right: 20px;
               padding-bottom: 20px;

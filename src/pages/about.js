@@ -88,7 +88,6 @@ export default class Contact extends React.Component {
         <br />
         <h3
           css={css`
-            display: inline-block;
             border-bottom: 1px solid;
             text-align: center;
             background-color: inherit;
@@ -104,6 +103,9 @@ export default class Contact extends React.Component {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
+          css={css`
+            text-align: center;
+          `}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="email-signup" />

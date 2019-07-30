@@ -16,17 +16,25 @@ export default ({ data }) => (
       >
         Sections
       </h1>
-      <h5>
-        <Link
-          to={`/sections`}
+      <br />
+      <br />
+      <Link
+        to={`/sections`}
+        css={css`
+          display: inline-block;
+          font-style: normal;
+        `}
+      >
+        <h5
           css={css`
-            display: inline-block;
-            font-style: normal;
+            color: white;
           `}
         >
           Dealer's choice
-        </Link>
         </h5>
+      </Link>
+      <br />
+      <br />
     </div>
   </Tuoyal>
 );
