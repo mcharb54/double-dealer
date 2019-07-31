@@ -15,7 +15,7 @@ This item, for some reason, has escaped the eyes of the several editors who have
 
 **\***Lafcadio Hearn is worth looking up. 
 
-\*Text reprinted below as it appeared in 1921.
+\*Text reprinted below as it was reprinted originally in 1921.
 
 ## I.
 
