@@ -4,15 +4,21 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const website = require("./config/website");
+
 module.exports = {
+  /* General Information */
   siteMetadata: {
-    title: `The Double Dealer`,
-    eltit: `Eht Elbuod Relaed`,
-    pathPrefix: `/public`,
-    url: `https://thedoubledealer.com`,
-    image: `/static/images/icon.png`,
-    description: `I can deceive them both by speaking the truth.`,
-    twitterUsername: `@doubledealermag`
+    siteUrl: website.url, // For gatsby-plugin-sitemap
+    title: website.title,
+    eltit: "Eht Elbuod Relaed",
+    titleAlt: website.titleAlt,
+    description: website.description,
+    banner: website.logo,
+    headline: website.headline,
+    siteLanguage: website.siteLanguage,
+    author: website.author,
+    twitter: website.twitter
   },
   plugins: [
     {

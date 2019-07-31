@@ -34,7 +34,7 @@ export default ({ children }) => {
         margin: 0;
       `}
     >
-      <SEO image={linkPhoto} />
+      <SEO banner={linkPhoto} />
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>

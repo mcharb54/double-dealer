@@ -13,9 +13,9 @@ export default ({ data }) => {
     <Layout>
       <SEO
         title={frontmatter.title}
-        image={frontmatter.cover_image.childImageSharp.fluid.src}
+        banner={frontmatter.cover_image.childImageSharp.fluid.src}
         pathname={fields.slug}
-        description={excerpt}
+        desc={excerpt}
       />
       <div>
         <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
