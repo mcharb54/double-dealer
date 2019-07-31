@@ -9,16 +9,21 @@ import Img from "gatsby-image";
 export default ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, fields, html, excerpt } = markdownRemark;
-  const articleURL = `https://thedoubledealer.com`;
   return (
     <Layout>
       <Helmet>
         <meta
           property="og:image"
-          content={frontmatter.cover_image.childImageSharp.fluid.src}
+          content={
+            "https://www.thedoubledealer.com" +
+            frontmatter.cover_image.childImageSharp.fluid.src
+          }
         />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={"https://www.thedoubledealer.com" + articleURL + fields.slug} />
+        <meta
+          property="og:url"
+          content={"https://www.thedoubledealer.com" + fields.slug}
+        />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={excerpt} />
         <meta charSet="utf-8" />

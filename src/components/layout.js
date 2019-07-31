@@ -6,8 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import ogol from "../images/twotree.png";
-import linkPhoto from "../images/twinoaks.png"
-
+import linkPhoto from "../images/twinoaks.png";
 
 const HeaderDiv = styled.div`
   margin: 0;
@@ -39,8 +38,14 @@ export default ({ children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={"https://www.thedoubledealer.com/"} />
         <meta property="og:title" content={data.site.siteMetadata.title} />
-        <meta property="og:image" content={linkPhoto} />
-        <meta property="og:description" content="I can deceive them both by speaking the truth." />
+        <meta
+          property="og:image"
+          content={"https://www.thedoubledealer.com" + linkPhoto}
+        />
+        <meta
+          property="og:description"
+          content="I can deceive them both by speaking the truth."
+        />
         <title>{data.site.siteMetadata.title}</title>
         <link
           rel="stylesheet"
@@ -83,7 +88,7 @@ export default ({ children }) => {
                 <Nav.Link href="/fiction">Fiction</Nav.Link>
                 <Nav.Link href="/sections">Sections</Nav.Link>
                 <Nav.Link href="/latest">Latest</Nav.Link>
-                <Nav.Link href='/about'>About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
@@ -107,7 +112,7 @@ export default ({ children }) => {
               flex-grow: 1;
               padding-top: 50px;
               padding-left: 20px;
-              padding-right:20px;
+              padding-right: 20px;
             }
           `}
           className="site-content"
