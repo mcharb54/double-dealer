@@ -4,12 +4,19 @@ import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
 import Img from "gatsby-image";
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
-  const { frontmatter, fields, html } = markdownRemark;
+  const { frontmatter, fields, html, excerpt } = markdownRemark;
   return (
     <Tuoyal>
+      <SEO
+        title={frontmatter.title}
+        image={frontmatter.cover_image.childImageSharp.fluid.src}
+        pathname={fields.slug}
+        description={excerpt}
+      />
       <div
         css={css`
           text-decoration: none;
@@ -58,20 +65,24 @@ export default ({ data }) => {
   );
 };
 
-export const pageQuery2 = graphql`
-  query BlogPostByPath2($path: String!) {
+export const templateBlogQuery = graphql`
+  query templateBlogQuery($path: String!) {
     markdownRemark(frontmatter: { backroad: { eq: $path } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
         writer
+        backroad
         cover_image {
+          publicURL
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
+
             fluid(maxHeight: 560) {
               ...GatsbyImageSharpFluid
+              src
             }
           }
         }
@@ -79,6 +90,7 @@ export const pageQuery2 = graphql`
       fields {
         slug
       }
+      excerpt
     }
   }
 `;

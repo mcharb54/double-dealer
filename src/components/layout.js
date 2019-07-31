@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import ogol from "../images/twotree.png";
+import SEO from "../components/SEO";
 import linkPhoto from "../images/twinoaks.png";
 
 const HeaderDiv = styled.div`
@@ -33,19 +34,9 @@ export default ({ children }) => {
         margin: 0;
       `}
     >
+      <SEO image={linkPhoto} />
       <Helmet>
         <meta charSet="utf-8" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={"https://www.thedoubledealer.com/"} />
-        <meta property="og:title" content={data.site.siteMetadata.title} />
-        <meta
-          property="og:image"
-          content={"https://www.thedoubledealer.com" + linkPhoto}
-        />
-        <meta
-          property="og:description"
-          content="I can deceive them both by speaking the truth."
-        />
         <title>{data.site.siteMetadata.title}</title>
         <link
           rel="stylesheet"

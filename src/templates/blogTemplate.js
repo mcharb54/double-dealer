@@ -1,33 +1,22 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
-import { Helmet } from "react-helmet";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, fields, html, excerpt } = markdownRemark;
   return (
     <Layout>
-      <Helmet>
-        <meta
-          property="og:image"
-          content={
-            "https://www.thedoubledealer.com" +
-            frontmatter.cover_image.childImageSharp.fluid.src
-          }
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content={"https://www.thedoubledealer.com" + fields.slug}
-        />
-        <meta property="og:title" content={frontmatter.title} />
-        <meta property="og:description" content={excerpt} />
-        <meta charSet="utf-8" />
-      </Helmet>
+      <SEO
+        title={frontmatter.title}
+        image={frontmatter.cover_image.childImageSharp.fluid.src}
+        pathname={fields.slug}
+        description={excerpt}
+      />
       <div>
         <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
         <h1

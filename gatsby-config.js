@@ -9,7 +9,10 @@ module.exports = {
     title: `The Double Dealer`,
     eltit: `Eht Elbuod Relaed`,
     pathPrefix: `/public`,
-    siteUrl: `https://thedoubledealer.com/`
+    url: `https://thedoubledealer.com`,
+    image: `/static/images/icon.png`,
+    description: `I can deceive them both by speaking the truth.`,
+    twitterUsername: `@doubledealermag`
   },
   plugins: [
     {
