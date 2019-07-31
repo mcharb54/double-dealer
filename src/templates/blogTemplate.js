@@ -13,8 +13,6 @@ export default ({ data }) => {
   return (
     <Layout>
       <Helmet>
-        <meta charSet="utf-8" />
-        <link rel="canonical" href="https://thedoubledealer.com" />
         <meta
           property="og:image"
           content={frontmatter.cover_image.childImageSharp.fluid.src}
@@ -23,6 +21,8 @@ export default ({ data }) => {
         <meta property="og:url" content={articleURL + fields.slug} />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={excerpt} />
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
       <div>
         <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
@@ -74,7 +74,7 @@ export const pageQuery = graphql`
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
-            
+
             fluid(maxHeight: 560) {
               ...GatsbyImageSharpFluid
               src
