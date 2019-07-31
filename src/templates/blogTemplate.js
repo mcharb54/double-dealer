@@ -17,7 +17,7 @@ export default ({ data }) => {
         <link rel="canonical" href="https://thedoubledealer.com" />
         <meta
           property="og:image"
-          content={frontmatter.cover_image.childImageSharp.fluid}
+          content={frontmatter.cover_image.childImageSharp.publicURL}
         />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={articleURL + fields.slug} />
@@ -73,6 +73,7 @@ export const pageQuery = graphql`
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
+            publicURL
             fluid(maxHeight: 560) {
               ...GatsbyImageSharpFluid
             }

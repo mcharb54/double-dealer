@@ -28,7 +28,6 @@ export default ({ data }) => {
           </style>
           <link rel="canonical" href="https://thedoubledealer.com" />
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-          <meta name="google-site-verification" content="NV9JcNeL9zvi0HX5rwvM-WqJep_dCaTxQWTblSxc8vs" />
         </Helmet>
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
