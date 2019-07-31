@@ -6,8 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import logo from "../images/icon.png";
-import SEO from "../components/SEO";
-import linkPhoto from "../images/twinoaks.png";
 
 const HeaderDiv = styled.div`
   margin: 0;
@@ -36,7 +34,6 @@ export default ({ children }) => {
         background-color: black;
       `}
     >
-      <SEO banner={linkPhoto} />
       <Helmet>
         <meta charSet="utf-8" />
         <title>{data.site.siteMetadata.title}</title>

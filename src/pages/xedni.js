@@ -4,13 +4,16 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
+import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import Card from "react-bootstrap/Card";
+import linkPhoto from "../images/twinoaks.png";
 
 export default ({ data }) => {
   return (
     <Tuoyal>
       <div>
+        <SEO banner={linkPhoto} />
         <Helmet>
           <meta charSet="utf-8" />
           <title>The Double Dealer</title>
@@ -34,47 +37,45 @@ export default ({ data }) => {
         </Helmet>
         <br />
 
-          {data.allMarkdownRemark.edges.map(({ node }) => {
-            return (
-              <div key={node.id}>
-                <Card bsPrefix="card">
-                  <Card.Body>
-                    <Link
-                      to={node.frontmatter.backroad}
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          return (
+            <div key={node.id}>
+              <Card bsPrefix="card">
+                <Card.Body>
+                  <Link
+                    to={node.frontmatter.backroad}
+                    css={css`
+                      font-style: normal;
+                    `}
+                  >
+                    <Img
+                      fluid={node.frontmatter.cover_image.childImageSharp.fluid}
+                    />
+
+                    <h2
                       css={css`
+                        margin-top: ${rhythm(1 / 4)};
+                        margin-bottom: ${rhythm(1 / 4)};
+                        text-align: center;
                         font-style: normal;
+                        color: white;
                       `}
                     >
-                      <Img
-                        fluid={
-                          node.frontmatter.cover_image.childImageSharp.fluid
-                        }
-                      />
-
-                      <h2
-                        css={css`
-                          margin-top: ${rhythm(1 / 4)};
-                          margin-bottom: ${rhythm(1 / 4)};
-                          text-align: center;
-                          font-style: normal;
-                          color: white;
-                        `}
-                      >
-                        {node.frontmatter.title}
-                      </h2>
-                    </Link>
-                    <Card.Subtitle className="mb-2 text-muted text-center">
-                      {node.frontmatter.writer}
-                    </Card.Subtitle>
-                    <Card.Text>{node.excerpt}</Card.Text>
-                    <Card.Subtitle className="mb-2 text-muted text-center">
-                      {node.frontmatter.date}
-                    </Card.Subtitle>
-                  </Card.Body>
-                </Card>
-              </div>
-            );
-          })}
+                      {node.frontmatter.title}
+                    </h2>
+                  </Link>
+                  <Card.Subtitle className="mb-2 text-muted text-center">
+                    {node.frontmatter.writer}
+                  </Card.Subtitle>
+                  <Card.Text>{node.excerpt}</Card.Text>
+                  <Card.Subtitle className="mb-2 text-muted text-center">
+                    {node.frontmatter.date}
+                  </Card.Subtitle>
+                </Card.Body>
+              </Card>
+            </div>
+          );
+        })}
       </div>
     </Tuoyal>
   );

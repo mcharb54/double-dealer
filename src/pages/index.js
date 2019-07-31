@@ -4,13 +4,16 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
+import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import Card from "react-bootstrap/Card";
+import linkPhoto from "../images/twinoaks.png";
 
 export default ({ data }) => {
   return (
     <Layout>
       <div>
+        <SEO banner={linkPhoto} />
         <Helmet>
           <style type="text/css">
             {`
@@ -26,43 +29,43 @@ export default ({ data }) => {
           </style>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div key={node.id}>
-              <Card bsPrefix="card">
-                <Card.Body>
-                  <Link
-                    to={node.fields.slug}
-                    css={css`
-                      text-decoration: none;
-                      color: inherit;
-                    `}
-                  >
-                    <Img
-                      fluid={node.frontmatter.cover_image.childImageSharp.fluid}
-                    />
-                    <Card.Title>
-                      <h2
-                        css={css`
-                          margin-top: ${rhythm(1 / 4)};
-                          margin-bottom: ${rhythm(1 / 4)};
-                          text-align: center;
-                        `}
-                      >
-                        {node.frontmatter.title}
-                      </h2>
-                    </Card.Title>
-                  </Link>
-                  <Card.Subtitle className="mb-2 text-muted text-center">
-                    {node.frontmatter.writer}
-                  </Card.Subtitle>
-                  <Card.Text>{node.excerpt}</Card.Text>
-                  <Card.Subtitle className="mb-2 text-muted text-center">
-                    {node.frontmatter.date}
-                  </Card.Subtitle>
-                </Card.Body>
-              </Card>
-            </div>
-          ))}
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.id}>
+            <Card bsPrefix="card">
+              <Card.Body>
+                <Link
+                  to={node.fields.slug}
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                >
+                  <Img
+                    fluid={node.frontmatter.cover_image.childImageSharp.fluid}
+                  />
+                  <Card.Title>
+                    <h2
+                      css={css`
+                        margin-top: ${rhythm(1 / 4)};
+                        margin-bottom: ${rhythm(1 / 4)};
+                        text-align: center;
+                      `}
+                    >
+                      {node.frontmatter.title}
+                    </h2>
+                  </Card.Title>
+                </Link>
+                <Card.Subtitle className="mb-2 text-muted text-center">
+                  {node.frontmatter.writer}
+                </Card.Subtitle>
+                <Card.Text>{node.excerpt}</Card.Text>
+                <Card.Subtitle className="mb-2 text-muted text-center">
+                  {node.frontmatter.date}
+                </Card.Subtitle>
+              </Card.Body>
+            </Card>
+          </div>
+        ))}
       </div>
     </Layout>
   );
