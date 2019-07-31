@@ -12,7 +12,7 @@ writer: Lafcadio Hearn
 
 **\***The note below was provided as introduction to the story's printing in 1921:
 
-A unique chapter in the romantic history of New Orleans was contributed by [Lafcadio Hearn](https://en.wikipedia.org/wiki/Lafcadio_Hearn) some thirty-five years ago (\*133 years) to the _Southern Bivouac_ of Louisville, soon after defunct, which we here reprint. (\*for a second time, as the Double Dealer was not so lucky herself)
+A unique chapter in the romantic history of New Orleans was contributed by Lafcadio Hearn some thirty-five years ago (**\*133** years) to the _Southern Bivouac_ of Louisville, soon after defunct, which we here reprint. (**\***for a second time, as the Double Dealer was not so lucky herself)
 
 This item, for some reason, has escaped the eyes of the several editors who have industrially dug out from various periodicals and journals, vagrant matter of this now highly appreciated litterateur. No collected volume, so far as we know, of the many posthumous publications contains this very interesting example of Lafcadio Hearn done in his best style. The character of Llulla, fifty years ago, was a well-known celebrity of the Vieux Carre and in his old age ran a cemetery on Louisa Street, where he held court in the matters of the _code duello_ dispensing service before or after as required.
 
