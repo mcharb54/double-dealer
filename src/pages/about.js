@@ -82,7 +82,7 @@ export default class Contact extends React.Component {
               padding-right: 20px;
             `}
           />
-          ––DDM
+          ––Double Dealer Magazine
         </p>
         <br />
         <br />

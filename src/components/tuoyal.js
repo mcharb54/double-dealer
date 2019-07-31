@@ -30,7 +30,7 @@ export default ({ children }) => {
     <div
       css={css`
         margin: 0;
-        color: black;
+        color: white;
         background-color: black;
       `}
     >
@@ -45,7 +45,7 @@ export default ({ children }) => {
         />
         <style type="text/css">
           {`
-          body { background-color: black; }
+          body { background-color: black; color: white; }
           a {color: black; }
           .bg-custom-nav {
             background-color: white;
