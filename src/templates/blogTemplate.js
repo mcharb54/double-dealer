@@ -18,11 +18,10 @@ export default ({ data }) => {
           content={frontmatter.cover_image.childImageSharp.fluid.src}
         />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={articleURL + fields.slug} />
+        <meta property="og:url" content={"https://www.thedoubledealer.com" + articleURL + fields.slug} />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={excerpt} />
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://thedoubledealer.com" />
       </Helmet>
       <div>
         <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />

@@ -12,8 +12,6 @@ export default ({ data }) => {
     <Layout>
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
-          <title>The Double Dealer</title>
           <style type="text/css">
             {`
           .card {
@@ -26,7 +24,6 @@ export default ({ data }) => {
           }
     `}
           </style>
-          <link rel="canonical" href="https://thedoubledealer.com" />
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
           {data.allMarkdownRemark.edges.map(({ node }) => (
