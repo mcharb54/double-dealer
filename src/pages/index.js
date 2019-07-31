@@ -14,7 +14,7 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          image={data.imageSharp.fixed}
+          image={data.imageSharp.resize}
           keywords={[`magazine`, `south`, `double`, `dealer`]}
         />
         <Helmet>
@@ -77,8 +77,10 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     imageSharp(id: { eq: "67378b5d-9754-57b7-a668-5f4744fe262b" }) {
-      fixed {
-        ...GatsbyImageSharpFixed
+      resize(width: 1200) {
+        width
+        height
+        src
       }
     }
     allMarkdownRemark(

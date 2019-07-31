@@ -13,7 +13,7 @@ export default ({ data }) => {
     <Tuoyal>
       <SEO
         title={frontmatter.title}
-        image={frontmatter.cover_image.childImageSharp.fluid}
+        image={frontmatter.cover_image.childImageSharp.resize}
         pathname={fields.slug}
         description={excerpt}
       />
@@ -82,6 +82,11 @@ export const templateBlogQuery = graphql`
 
             fluid(maxHeight: 560) {
               ...GatsbyImageSharpFluid
+              src
+            }
+            resize(width: 1200) {
+              width
+              height
               src
             }
           }

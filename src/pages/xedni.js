@@ -12,7 +12,11 @@ export default ({ data }) => {
   return (
     <Tuoyal>
       <div>
-        <SEO keywords={[`magazine`, `south`, `double`, `dealer`]} />
+        <SEO
+          title="The Double Dealer"
+          image={data.imageSharp.resize}
+          keywords={[`magazine`, `south`, `double`, `dealer`]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>The Double Dealer</title>
@@ -82,6 +86,13 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
+    imageSharp(id: { eq: "67378b5d-9754-57b7-a668-5f4744fe262b" }) {
+      resize(width: 1200) {
+        width
+        height
+        src
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
