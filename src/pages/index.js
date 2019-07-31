@@ -7,13 +7,16 @@ import Layout from "../components/layout";
 import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import Card from "react-bootstrap/Card";
-import linkPhoto from "../images/twinoaks.png";
 
 export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <SEO banner={linkPhoto} />
+        <SEO
+          title="The Double Dealer"
+          image={data.imageSharp.fixed}
+          keywords={[`magazine`, `south`, `double`, `dealer`]}
+        />
         <Helmet>
           <style type="text/css">
             {`
@@ -73,6 +76,11 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
+    imageSharp(id: { eq: "67378b5d-9754-57b7-a668-5f4744fe262b" }) {
+      fixed {
+        ...GatsbyImageSharpFixed
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000

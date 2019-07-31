@@ -7,13 +7,12 @@ import Tuoyal from "../components/tuoyal";
 import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import Card from "react-bootstrap/Card";
-import linkPhoto from "../images/twinoaks.png";
 
 export default ({ data }) => {
   return (
     <Tuoyal>
       <div>
-        <SEO banner={linkPhoto} />
+        <SEO keywords={[`magazine`, `south`, `double`, `dealer`]} />
         <Helmet>
           <meta charSet="utf-8" />
           <title>The Double Dealer</title>
