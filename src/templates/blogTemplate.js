@@ -14,7 +14,6 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{data.site.siteMetadata.title}</title>
         <link rel="canonical" href="https://thedoubledealer.com" />
         <meta
           property="og:image"
