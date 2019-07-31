@@ -40,7 +40,7 @@ export default ({ data }) => {
                 <Card bsPrefix="card">
                   <Card.Body>
                     <Link
-                      to={node.fields.slug}
+                      to={node.frontmatter.backroad}
                       css={css`
                         font-style: normal;
                       `}

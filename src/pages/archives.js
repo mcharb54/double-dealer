@@ -1,10 +1,10 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
-import Tuoyal from "../components/tuoyal";
+import Layout from "../components/layout";
 
 export default ({ data }) => (
-  <Tuoyal>
+  <Layout>
     <div>
       <h1
         css={css`
@@ -14,12 +14,12 @@ export default ({ data }) => (
           color: inherit;
         `}
       >
-        Sections
+        Archives
       </h1>
       <br />
       <br />
       <Link
-        to={`/sections`}
+        to={`/archives2`}
         css={css`
           display: inline-block;
           font-style: normal;
@@ -29,14 +29,12 @@ export default ({ data }) => (
           css={css`
             color: gray;
           `}
-        >
-          Dealer's choice
-        </h5>
+        >Dealer's choice</h5>
       </Link>
       <br />
       <br />
     </div>
-  </Tuoyal>
+  </Layout>
 );
 
 export const query = graphql`
