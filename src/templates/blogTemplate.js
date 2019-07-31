@@ -1,15 +1,30 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
+import { Helmet } from "react-helmet";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, fields, html, excerpt } = markdownRemark;
+  const articleURL = `https://thedoubledealer.com`;
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{data.site.siteMetadata.title}</title>
+        <link rel="canonical" href="https://thedoubledealer.com" />
+        <meta
+          property="og:image"
+          content={frontmatter.cover_image.childImageSharp.fluid}
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={articleURL + fields.slug} />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={excerpt} />
+      </Helmet>
       <div>
         <Img fluid={frontmatter.cover_image.childImageSharp.fluid} />
         <h1
@@ -65,6 +80,10 @@ export const pageQuery = graphql`
           }
         }
       }
+      fields {
+        slug
+      }
+      excerpt
     }
   }
 `;
