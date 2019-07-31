@@ -14,7 +14,7 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          image={data.imageSharp.resize}
+          image={data.markdownRemark.frontmatter.cover_image.childImageSharp.fixed}
           keywords={[`magazine`, `south`, `double`, `dealer`]}
         />
         <Helmet>
@@ -76,13 +76,20 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    imageSharp(id: { eq: "67378b5d-9754-57b7-a668-5f4744fe262b" }) {
-      resize(width: 1200) {
-        width
-        height
-        src
+      markdownRemark(id: {eq: "fd6b9b17-e097-5993-b7ce-c97cabdb2249"}) {
+        id
+        frontmatter {
+          cover_image {
+            childImageSharp {
+              fixed{
+                width
+                height
+                src
+              }
+            }
+          }
+        }
       }
-    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000

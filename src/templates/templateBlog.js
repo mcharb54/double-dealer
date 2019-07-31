@@ -13,7 +13,7 @@ export default ({ data }) => {
     <Tuoyal>
       <SEO
         title={frontmatter.title}
-        image={frontmatter.cover_image.childImageSharp.resize}
+        image={frontmatter.cover_image.childImageSharp.resize} 
         pathname={fields.slug}
         description={excerpt}
       />
