@@ -6,7 +6,7 @@ title: THE LAST OF THE NEW ORLEANS FENCING MASTERS
 writer: Lafcadio Hearn
 ---
 
-<h2 style="text-align: center; font-weight:bold">Editors Note</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h2>
 
 \*Denotes 2019 editors.
 
