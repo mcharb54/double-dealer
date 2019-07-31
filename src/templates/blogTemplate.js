@@ -17,7 +17,7 @@ export default ({ data }) => {
         <link rel="canonical" href="https://thedoubledealer.com" />
         <meta
           property="og:image"
-          content={frontmatter.cover_image.publicURL}
+          content={frontmatter.cover_image.childImageSharp.fluid.src}
         />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={articleURL + fields.slug} />
@@ -77,6 +77,7 @@ export const pageQuery = graphql`
             
             fluid(maxHeight: 560) {
               ...GatsbyImageSharpFluid
+              src
             }
           }
         }
