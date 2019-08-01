@@ -34,6 +34,8 @@ export default ({ data }) => (
       >
         Archives
       </h1>
+      <br />
+      <br />
       <h6
         css={css`
           color: inherit;
