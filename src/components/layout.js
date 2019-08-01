@@ -64,7 +64,7 @@ export default ({ children }) => {
           `}
         >
           <Navbar bg="custom-nav" bsPrefix="navbar" variant="dark" expand="lg">
-            <Navbar.Brand href="/xedni">
+            <Navbar.Brand href="/">
               <img alt="Logo" src={ogol} width="40" height="40" />
               {"  "}
               {data.site.siteMetadata.title}

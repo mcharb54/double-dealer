@@ -37,6 +37,45 @@ export default ({ data }) => {
           </style>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
+        <div>
+          <h6
+            css={css`
+              text-align: center;
+              color: inherit;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            Eht
+          </h6>
+          <h1
+            css={css`
+              border-bottom: 1px solid;
+              text-align: center;
+              color: inherit;
+            `}
+          >
+            Elbuod Relaed
+          </h1>
+        </div>
+        <br />
+        <br />
+        <Link
+          to={`/`}
+          css={css`
+            display: inline-block;
+            font-style: normal;
+          `}
+        >
+          <h5
+            css={css`
+              color: gray;
+            `}
+          >
+            Dealer's choice
+          </h5>
+        </Link>
+        <br />
         <br />
 
         {data.allMarkdownRemark.edges.map(({ node }) => {

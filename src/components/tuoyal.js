@@ -69,7 +69,7 @@ export default ({ children }) => {
           `}
         >
           <Navbar bg="custom-nav" bsPrefix="navbar" variant="light" expand="lg">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/xedni">
               <img alt="Logo" src={logo} width="40" height="40" />
               {"  "}
               {data.site.siteMetadata.eltit}

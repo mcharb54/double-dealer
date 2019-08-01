@@ -119,14 +119,36 @@ export default class Contact extends React.Component {
             <label>
               Your name:
               <br />
-              <input type="text" name="name" onChange={this.handleChange} />
+              <input
+                css={css`
+                  display: inline-block;
+                  border-bottom: 1px solid;
+                  text-align: center;
+                  background-color: inherit;
+                  color: inherit;
+                `}
+                type="text"
+                name="name"
+                onChange={this.handleChange}
+              />
             </label>
           </p>
           <p>
             <label>
               Your email address:
               <br />
-              <input type="text" name="email" onChange={this.handleChange} />
+              <input
+                css={css`
+                  display: inline-block;
+                  border-bottom: 1px solid;
+                  text-align: center;
+                  background-color: inherit;
+                  color: inherit;
+                `}
+                type="text"
+                name="email"
+                onChange={this.handleChange}
+              />
             </label>
           </p>
           <p>
