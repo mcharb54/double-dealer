@@ -59,7 +59,6 @@ export default ({ data }) => {
           </h1>
         </div>
         <br />
-        <br />
         <Link
           to={`/`}
           css={css`
@@ -75,7 +74,6 @@ export default ({ data }) => {
             Dealer's choice
           </h5>
         </Link>
-        <br />
         <br />
 
         {data.allMarkdownRemark.edges.map(({ node }) => {
