@@ -34,6 +34,18 @@ export default ({ data }) => (
       >
         Archives
       </h1>
+      <h6
+        css={css`
+          color: inherit;
+        `}
+      >
+        From 1921-26, The Double Dealer was operated from New Orleans as, "A
+        National Magazine for the South." The magazine featured works from
+        literary giants like William Faulkner, Djuna Barnes, Ernest Hemingway,
+        Robert Penn Warren, Thornton Wilder and Hart Crane as well as many more
+        writers more lost to time. Here in our archives, we will be reviving a
+        selection of those works over time.
+      </h6>
       <br />
       <br />
       <Link
