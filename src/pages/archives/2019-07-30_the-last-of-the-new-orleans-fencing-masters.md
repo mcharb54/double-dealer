@@ -5,7 +5,6 @@ cover_image: /img/sword-fight-painting-26.jpg
 title: THE LAST OF THE NEW ORLEANS FENCING MASTERS
 writer: Lafcadio Hearn
 ---
-
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h2>
 
 \*Denotes 2019 editors.
@@ -17,7 +16,7 @@ A unique chapter in the romantic history of New Orleans was contributed by Lafca
 This item, for some reason, has escaped the eyes of the several editors who have industrially dug out from various periodicals and journals, vagrant matter of this now highly appreciated litterateur. No collected volume, so far as we know, of the many posthumous publications contains this very interesting example of Lafcadio Hearn done in his best style. The character of Llulla, fifty years ago, was a well-known celebrity of the Vieux Carre and in his old age ran a cemetery on Louisa Street, where he held court in the matters of the _code duello_ dispensing service before or after as required.
 
 \*Text (re)printed below as it was (re)printed originally in 1921.
-\*This work was published before January 1, 1924, and is in the public domain worldwide because the author died at least 100 years ago.
+This work was published before January 1, 1924, and is in the public domain worldwide because the author died at least 100 years ago.
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">I.</h2>
 
