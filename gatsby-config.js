@@ -76,9 +76,11 @@ module.exports = {
       options: {
         name: `The Double Dealer`,
         short_name: `Double`,
-        start_url: `/`,
+        start_url: `/`, // This path is relative to the root of the site.
         display: `standalone`,
-        icon: `src/images/icon.png` // This path is relative to the root of the site.
+        icon: `src/images/icon.png`,
+        background_color: `#FFF`,
+        theme_color: `#FFF`
       }
     },
     `gatsby-plugin-offline`
