@@ -40,7 +40,7 @@ export default ({ data }) => (
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link
-            to={node.frontmatter.path}
+            to={node.fields.slug}
             css={css`
               text-decoration: none;
               color: inherit;
@@ -82,6 +82,9 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             writer
+          }
+          fields {
+            slug
           }
         }
       }
