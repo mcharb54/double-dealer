@@ -14,7 +14,7 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          keywords={[`magazine`, `south`,`the`, `double`, `dealer`, `new` `orleans`]}
+          keywords={[`magazine`, `south`,`the`, `double`, `dealer`, `new`, `orleans`]}
         />
         <Helmet>
           <style type="text/css">
