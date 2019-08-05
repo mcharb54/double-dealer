@@ -57,7 +57,7 @@ function SEO({ description, lang, image, meta, keywords, title, pathname }) {
               },
               {
                 name: `twitter:image`,
-                content: `${data.site.siteMetadata.siteUrl}${image.src}`
+                content: metaImage
               },
               {
                 name: `twitter:image:alt`,
