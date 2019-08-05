@@ -14,7 +14,7 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          image={data.imageSharp.resize}
+          image={data.imageSharp}
           keywords={[
             `southern magazine`,
             `the south`,
@@ -123,13 +123,13 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    imageSharp(id: {eq: "67378b5d-9754-57b7-a668-5f4744fe262b"}) {
-      resize(width: 1200) {
-        width
-        height
-        src
+      imageSharp {
+        resize(width: 1200) {
+          width
+          height
+          src
+        }
       }
-    }
     allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
       totalCount
       edges {
