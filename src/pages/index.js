@@ -14,7 +14,7 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          image={data.imageSharp}
+          image={data.allMarkdownRemark.edges[2].node.frontmatter.cover_image.childImageSharp.resize}
           keywords={[
             `southern magazine`,
             `the south`,
@@ -123,13 +123,6 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-      imageSharp {
-        resize(width: 1200) {
-          width
-          height
-          src
-        }
-      }
     allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
       totalCount
       edges {
@@ -143,6 +136,11 @@ export const query = graphql`
               childImageSharp {
                 fluid(maxHeight: 560) {
                   ...GatsbyImageSharpFluid
+                }
+                resize(width: 1200) {
+                  width
+                  height
+                  src
                 }
               }
             }
