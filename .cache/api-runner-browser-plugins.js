@@ -8,6 +8,9 @@ module.exports = [{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
+      options: {"plugins":[],"trackingId":"UA-145067224-1","head":true,"anonymize":true,"respectDNT":true,"exclude":["/admin/**"]},
+    },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

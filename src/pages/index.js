@@ -14,7 +14,17 @@ export default ({ data }) => {
       <div>
         <SEO
           title="The Double Dealer"
-          keywords={[`magazine`, `south`,`the`, `double`, `dealer`, `new`, `orleans`]}
+          image={data.imageSharp.resize}
+          keywords={[
+            `southern magazine`,
+            `the south`,
+            `the double dealer`,
+            `double`,
+            `dealer`,
+            `double dealer`,
+            `double dealer magazine`,
+            `the double dealer magazine`
+          ]}
         />
         <Helmet>
           <style type="text/css">
@@ -113,10 +123,14 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
+    imageSharp(id: {eq: "67378b5d-9754-57b7-a668-5f4744fe262b"}) {
+      resize(width: 1200) {
+        width
+        height
+        src
+      }
+    }
+    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
       totalCount
       edges {
         node {
@@ -127,8 +141,6 @@ export const query = graphql`
             writer
             cover_image {
               childImageSharp {
-                # Specify the image processing specifications right in the query.
-                # Makes it trivial to update as your page's design changes.
                 fluid(maxHeight: 560) {
                   ...GatsbyImageSharpFluid
                 }
