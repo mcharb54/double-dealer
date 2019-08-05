@@ -62,34 +62,9 @@ function SEO({ description, lang, image, meta, keywords, title, pathname }) {
                       {
                         property: "og:image:height",
                         content: image.height
-                      },
-                      {
-                        name: `twitter:card`,
-                        content: `summary_large_image`
-                      },
-                      {
-                        name: `twitter:title`,
-                        content: title
-                      },
-                      {
-                        name: `twitter:description`,
-                        content: metaDescription
-                      },
-                      {
-                        name: `twitter:image`,
-                        content: metaImage
-                      },
-                      {
-                        name: `twitter:image:alt`,
-                        content: metaDescription
                       }
                     ]
-                  : [
-                      {
-                        name: `twitter:card`,
-                        content: `summary`
-                      }
-                    ]
+                  : []
               )
               .concat(
                 keywords.length > 0
