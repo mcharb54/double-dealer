@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
