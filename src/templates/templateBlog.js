@@ -1,10 +1,10 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Tuoyal from "../components/tuoyal";
 import Img from "gatsby-image";
-import SEO from "../components/SEO";
 
 export default ({ data }) => {
   const { markdownRemark } = data;
