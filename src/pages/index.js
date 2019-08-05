@@ -1,10 +1,10 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
-import SEO from "../components/SEO";
 import Img from "gatsby-image";
 import Card from "react-bootstrap/Card";
 
@@ -12,20 +12,6 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <SEO
-          title="The Double Dealer"
-          image={data.allMarkdownRemark.edges[2].node.frontmatter.cover_image.childImageSharp.resize}
-          keywords={[
-            `southern magazine`,
-            `the south`,
-            `the double dealer`,
-            `double`,
-            `dealer`,
-            `double dealer`,
-            `double dealer magazine`,
-            `the double dealer magazine`
-          ]}
-        />
         <Helmet>
           <style type="text/css">
             {`
@@ -41,6 +27,23 @@ export default ({ data }) => {
           </style>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
+        <SEO
+          title="The Double Dealer"
+          image={
+            data.allMarkdownRemark.edges[2].node.frontmatter.cover_image
+              .childImageSharp.resize
+          }
+          keywords={[
+            `southern magazine`,
+            `the south`,
+            `the double dealer`,
+            `double`,
+            `dealer`,
+            `double dealer`,
+            `double dealer magazine`,
+            `the double dealer magazine`
+          ]}
+        />
         <div>
           <h6
             css={css`
@@ -123,7 +126,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
       totalCount
       edges {
         node {
