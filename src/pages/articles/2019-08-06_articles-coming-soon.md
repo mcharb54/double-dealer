@@ -1,5 +1,5 @@
 ---
-backroad: /test/
+backroad: /comingsoon/
 date: 2019-08-06T12:50:16.266Z
 cover_image: /img/cash.jpg
 title: Articles Coming Soon!
