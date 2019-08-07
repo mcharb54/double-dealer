@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
@@ -9,6 +10,7 @@ import Card from "react-bootstrap/Card";
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Features" />
     <div>
       <Helmet>
         <style type="text/css">
@@ -46,7 +48,8 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: gray;
+            color: #0080c0;
+            text-decoration: underline;
           `}
         >
           Dealer's choice
@@ -63,6 +66,11 @@ export default ({ data }) => (
                 css={css`
                   text-decoration: none;
                   color: inherit;
+                  &:hover {
+                    text-decoration: underline;
+                    color: inherit;
+                    text-decoration-color: #0080c0;
+                  }
                 `}
               >
                 <Img

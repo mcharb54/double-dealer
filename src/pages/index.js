@@ -28,7 +28,7 @@ export default ({ data }) => {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
         <SEO
-          title="The Double Dealer"
+          title="Home"
           image={
             data.allMarkdownRemark.edges[2].node.frontmatter.cover_image
               .childImageSharp.resize
@@ -40,6 +40,8 @@ export default ({ data }) => {
             `double`,
             `dealer`,
             `double dealer`,
+            `new orleans`,
+            `double dealer new orleans`,
             `double dealer magazine`,
             `the double dealer magazine`
           ]}
@@ -75,7 +77,8 @@ export default ({ data }) => {
         >
           <h5
             css={css`
-              color: gray;
+              color: #0080c0;
+              text-decoration: underline;
             `}
           >
             Dealer's choice
@@ -91,6 +94,10 @@ export default ({ data }) => {
                   css={css`
                     text-decoration: none;
                     color: inherit;
+                    &:hover {
+                      text-decoration: underline;
+                      color: #0080c0;
+                    }
                   `}
                 >
                   <Img

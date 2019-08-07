@@ -6,7 +6,6 @@ import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
 
-
 export default ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, fields, html, excerpt } = markdownRemark;
@@ -41,7 +40,8 @@ export default ({ data }) => {
           >
             <h5
               css={css`
-                color: gray;
+                color: #0080C0;
+                text-decoration: underline;
               `}
             >
               Dealer's choice

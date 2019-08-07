@@ -13,8 +13,19 @@ export default ({ data }) => {
     <Tuoyal>
       <div>
         <SEO
-          title="The Double Dealer"
-          keywords={[`magazine`, `south`, `double`, `dealer`]}
+          title="Home"
+          keywords={[
+            `southern magazine`,
+            `the south`,
+            `the double dealer`,
+            `double`,
+            `dealer`,
+            `double dealer`,
+            `new orleans`,
+            `double dealer new orleans`,
+            `double dealer magazine`,
+            `the double dealer magazine`
+          ]}
         />
         <Helmet>
           <meta charSet="utf-8" />
@@ -68,7 +79,8 @@ export default ({ data }) => {
         >
           <h5
             css={css`
-              color: gray;
+              color: #0080c0;
+              text-decoration: underline;
             `}
           >
             Dealer's choice
@@ -84,7 +96,12 @@ export default ({ data }) => {
                   <Link
                     to={node.frontmatter.backroad}
                     css={css`
-                      font-style: normal;
+                      text-decoration: none;
+                      color: inherit;
+                      &:hover {
+                        text-decoration: underline;
+                        color: #0080c0;
+                      }
                     `}
                   >
                     <Img

@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[],"trackingId":"UA-145067224-1","head":true,"anonymize":true,"respectDNT":true,"exclude":["/admin/**"]},
     },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"The Double Dealer","short_name":"Double","start_url":"/","display":"standalone","icon":"src/images/icon.png","background_color":"#FFF","theme_color":"#FFF"},
+      options: {"plugins":[],"name":"The Double Dealer","short_name":"Double Dealer","start_url":"/","display":"standalone","icon":"src/images/blackicon.png","background_color":"#000","theme_color":"#000"},
     },{
       plugin: require('/Users/mcharbonneau/Documents/GitHub/double-dealer/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

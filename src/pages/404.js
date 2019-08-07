@@ -1,9 +1,11 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { css } from "@emotion/core";
 import Layout from "../components/layout";
 
 export default () => (
   <Layout>
+    <SEO title="404" />
     <h1
       css={css`
         display: inline-block;

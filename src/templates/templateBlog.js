@@ -13,7 +13,7 @@ export default ({ data }) => {
     <Tuoyal>
       <SEO
         title={frontmatter.title}
-        image={frontmatter.cover_image.childImageSharp.resize} 
+        image={frontmatter.cover_image.childImageSharp.resize}
         pathname={fields.slug}
         description={excerpt}
       />
@@ -52,7 +52,8 @@ export default ({ data }) => {
           >
             <h5
               css={css`
-                color: gray;
+                color: #0080C0;
+                text-decoration: underline;
               `}
             >
               Dealer's choice

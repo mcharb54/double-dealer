@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
@@ -6,6 +7,7 @@ import Layout from "../components/layout";
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Latest" />
     <div>
       <h1
         css={css`
@@ -28,9 +30,12 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: gray;
+            color: #0080c0;
+            text-decoration: underline;
           `}
-        >Dealer's choice</h5>
+        >
+          Dealer's choice
+        </h5>
       </Link>
       <br />
       <br />
@@ -44,6 +49,11 @@ export default ({ data }) => (
             css={css`
               text-decoration: none;
               color: inherit;
+              &:hover {
+                text-decoration: underline;
+                color: inherit;
+                text-decoration-color: #0080c0;
+              }
             `}
           >
             <h2

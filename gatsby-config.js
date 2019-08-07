@@ -9,7 +9,7 @@ module.exports = {
     title: `The Double Dealer`,
     eltit: `Eht Elbuod Relaed`,
     author: `Martin Charboneau`,
-    description: `I can deceive them both by speaking the truth.`,
+    description: `...I can deceive them both by speaking the truth.`,
     siteUrl: `https://www.thedoubledealer.com`,
     social: {
       twitter: `doubledealermag`
@@ -90,10 +90,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `The Double Dealer`,
-        short_name: `Double`,
+        short_name: `Double Dealer`,
         start_url: `/`, // This path is relative to the root of the site.
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/blackicon.png`,
         background_color: `#000`,
         theme_color: `#000`
       }

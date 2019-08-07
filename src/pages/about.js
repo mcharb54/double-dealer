@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { css } from "@emotion/core";
 import { navigate } from "gatsby-link";
 import Layout from "../components/layout";
@@ -46,6 +47,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title="About" />
         <h1
           css={css`
             display: inline-block;

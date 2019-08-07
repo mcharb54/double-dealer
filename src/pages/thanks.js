@@ -1,10 +1,12 @@
 import React from "react";
+import SEO from "../components/SEO";
 import Helmet from "react-helmet";
 import { css } from "@emotion/core";
 import Layout from "../components/layout";
 
 export default () => (
   <Layout>
+  <SEO title="Thanks" />
     <div>
       <Helmet>
         <meta charSet="utf-8" />

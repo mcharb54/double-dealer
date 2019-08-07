@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../components/SEO";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/core";
 import { rhythm } from "../utils/typography";
@@ -6,6 +7,7 @@ import Tuoyal from "../components/tuoyal";
 
 export default ({ data }) => (
   <Tuoyal>
+    <SEO title="Latest" />
     <div>
       <h1
         css={css`
@@ -28,7 +30,8 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: gray;
+            color: #0080c0;
+            text-decoration: underline;
           `}
         >
           Dealer's choice
@@ -45,6 +48,11 @@ export default ({ data }) => (
             css={css`
               text-decoration: none;
               color: inherit;
+              &:hover {
+                text-decoration: underline;
+                color: inherit;
+                text-decoration-color: #0080c0;
+              }
             `}
           >
             <h2

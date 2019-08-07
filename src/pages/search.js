@@ -21,15 +21,22 @@ export default ({ data }) => (
       <Link
         to={`/search2`}
         css={css`
-          display: inline-block;
-          font-style: normal;
+          text-decoration: none;
+          color: inherit;
+          &:hover {
+            text-decoration: underline;
+            color: #0080c0;
+          }
         `}
       >
         <h5
           css={css`
-            color: gray;
+            color: #0080c0;
+            text-decoration: underline;
           `}
-        >Dealer's choice</h5>
+        >
+          Dealer's choice
+        </h5>
       </Link>
       <br />
       <br />
