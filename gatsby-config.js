@@ -94,8 +94,8 @@ module.exports = {
         start_url: `/`, // This path is relative to the root of the site.
         display: `standalone`,
         icon: `src/images/icon.png`,
-        background_color: `#FFF`,
-        theme_color: `#FFF`
+        background_color: `#000`,
+        theme_color: `#000`
       }
     },
     `gatsby-plugin-offline`
