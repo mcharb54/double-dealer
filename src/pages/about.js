@@ -84,7 +84,7 @@ export default class Contact extends React.Component {
               padding-right: 20px;
             `}
           />
-          ––Double Dealer Magazine
+          ––The Double Dealer
         </p>
         <br />
         <br />
@@ -159,6 +159,26 @@ export default class Contact extends React.Component {
             </Button>
           </p>
         </form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <p>
+          The Double Dealer™ is not affiliated with the journal of the same name
+          previously published by Pirate's Alley Faulkner Society.{" "}
+          <a
+            href="https://faulknersociety.org"
+            css={css`
+              color: #0080c0;
+              text-decoration: underline;
+            `}
+          >
+            Click here
+          </a>{" "}
+          to learn more about their bookshop and programming.
+        </p>
       </Layout>
     );
   }

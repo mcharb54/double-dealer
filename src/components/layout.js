@@ -112,7 +112,17 @@ export default ({ children }) => {
             padding-top: 40px;
           `}
         >
-          {" "}
+          <p
+            css={css`
+              float: left;
+              color: black;
+              font-style: normal;
+              padding-right: 20px;
+              padding-bottom: 20px;
+            `}
+          >
+            Copyright © 2019 The Double Dealer™
+          </p>{" "}
           <Link
             to={`/about/`}
             css={css`
