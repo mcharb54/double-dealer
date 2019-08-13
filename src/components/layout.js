@@ -79,6 +79,7 @@ export default ({ children }) => {
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
               <Navbar.Brand
+                className="mr-0"
                 css={css`
                   transform: scale(-1, 1);
                 `}

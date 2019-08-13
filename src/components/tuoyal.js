@@ -73,6 +73,7 @@ export default ({ children }) => {
               css={css`
                 transform: scale(-1, 1);
               `}
+              className="mr-0"
               href="/xedni"
             >
               {data.site.siteMetadata.title}
@@ -89,7 +90,7 @@ export default ({ children }) => {
                 <Nav.Link href="/about">About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
-              <Navbar.Brand href="/">
+              <Navbar.Brand href="/" className="mr-0">
                 {data.site.siteMetadata.title}
                 {"  "}
                 <img alt="Logo" src={logo} width="40" height="40" />
