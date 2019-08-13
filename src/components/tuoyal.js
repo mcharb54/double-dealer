@@ -69,14 +69,19 @@ export default ({ children }) => {
           `}
         >
           <Navbar bg="custom-nav" bsPrefix="navbar" variant="light" expand="lg">
-            <Navbar.Brand href="/xedni">
-              <img alt="Logo" src={logo} width="40" height="40" />
+            <Navbar.Brand
+              css={css`
+                transform: scale(-1, 1);
+              `}
+              href="/xedni"
+            >
+              {data.site.siteMetadata.title}
               {"  "}
-              {data.site.siteMetadata.eltit}
+              <img alt="Logo" src={logo} width="40" height="40" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto d-flex justify-content-center">
+              <Nav className="mx-auto">
                 <Nav.Link href="/features2">Features</Nav.Link>
                 <Nav.Link href="/fiction2">Fiction</Nav.Link>
                 <Nav.Link href="/archives2">Archives</Nav.Link>
@@ -84,6 +89,11 @@ export default ({ children }) => {
                 <Nav.Link href="/about">About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
+              <Navbar.Brand href="/">
+                {data.site.siteMetadata.title}
+                {"  "}
+                <img alt="Logo" src={logo} width="40" height="40" />
+              </Navbar.Brand>
             </Navbar.Collapse>
           </Navbar>
         </div>

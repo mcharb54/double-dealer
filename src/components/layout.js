@@ -63,14 +63,14 @@ export default ({ children }) => {
           `}
         >
           <Navbar bg="custom-nav" bsPrefix="navbar" variant="dark" expand="lg">
-            <Navbar.Brand href="/">
+            <Navbar.Brand className="mr-0" href="/">
               <img alt="Logo" src={ogol} width="40" height="40" />
               {"  "}
               {data.site.siteMetadata.title}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
+              <Nav className="mx-auto">
                 <Nav.Link href="/features">Features</Nav.Link>
                 <Nav.Link href="/fiction">Fiction</Nav.Link>
                 <Nav.Link href="/archives">Archives</Nav.Link>
@@ -78,6 +78,16 @@ export default ({ children }) => {
                 <Nav.Link href="/about">About</Nav.Link>
                 {/* <Nav.Link href="/submissions">Submit</Nav.Link> */}
               </Nav>
+              <Navbar.Brand
+                css={css`
+                  transform: scale(-1, 1);
+                `}
+                href="/xedni"
+              >
+                <img alt="Logo" src={ogol} width="40" height="40" />
+                {"  "}
+                {data.site.siteMetadata.title}
+              </Navbar.Brand>
             </Navbar.Collapse>
           </Navbar>
         </div>

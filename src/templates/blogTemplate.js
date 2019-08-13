@@ -29,25 +29,39 @@ export default ({ data }) => {
         >
           {frontmatter.title}
         </h1>
-        <h5>By {frontmatter.writer}</h5>
-        <h5>
-          <Link
-            to={frontmatter.backroad}
+        <hr />
+        <div>
+          <h5
             css={css`
               display: inline-block;
               font-style: normal;
+              float: left;
             `}
           >
-            <h5
+            By {frontmatter.writer}
+          </h5>
+          <h5>
+            <Link
+              to={frontmatter.backroad}
               css={css`
-                color: #0080C0;
-                text-decoration: underline;
+                display: inline-block;
+                font-style: normal;
+                float: right;
               `}
             >
-              Dealer's choice
-            </h5>
-          </Link>
-        </h5>
+              <h5
+                css={css`
+                  color: #0080c0;
+                  text-decoration: underline;
+                `}
+              >
+                Dark Theme
+              </h5>
+            </Link>
+          </h5>
+        </div>
+        <br />
+        <br />
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>

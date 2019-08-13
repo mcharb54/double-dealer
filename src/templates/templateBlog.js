@@ -34,9 +34,11 @@ export default ({ data }) => {
         >
           {frontmatter.title}
         </h1>
+        <div>
         <h5
           css={css`
             text-decoration: none;
+            display: inline-block;
             color: inherit;
           `}
         >
@@ -54,12 +56,14 @@ export default ({ data }) => {
               css={css`
                 color: #0080C0;
                 text-decoration: underline;
+                float: right;
               `}
             >
-              Dealer's choice
+              Light Theme
             </h5>
           </Link>
         </h5>
+        </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Tuoyal>

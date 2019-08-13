@@ -10,7 +10,7 @@ import Card from "react-bootstrap/Card";
 
 export default ({ data }) => (
   <Layout>
-  <SEO title="Fiction" />
+    <SEO title="Fiction" />
     <div>
       <Helmet>
         <style type="text/css">
@@ -47,11 +47,11 @@ export default ({ data }) => (
       >
         <h5
           css={css`
-            color: #0080C0;
+            color: #0080c0;
             text-decoration: underline;
           `}
         >
-          Dealer's choice
+          Dark Theme
         </h5>
       </Link>
       <br />

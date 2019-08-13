@@ -66,7 +66,7 @@ export default ({ data }) => (
             text-decoration: underline;
           `}
         >
-          Dealer's choice
+          Dark Theme
         </h5>
       </Link>
       <br />

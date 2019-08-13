@@ -55,38 +55,22 @@ export default ({ data }) => {
               color: inherit;
               margin: 0;
               padding: 0;
+              transform: scale(-1, 1);
             `}
           >
-            Eht
+            The
           </h6>
           <h1
             css={css`
               border-bottom: 1px solid;
               text-align: center;
               color: inherit;
+              transform: scale(-1, 1);
             `}
           >
-            Elbuod Relaed
+            Double Dealer
           </h1>
         </div>
-        <br />
-        <Link
-          to={`/`}
-          css={css`
-            display: inline-block;
-            font-style: normal;
-          `}
-        >
-          <h5
-            css={css`
-              color: #0080c0;
-              text-decoration: underline;
-            `}
-          >
-            Dealer's choice
-          </h5>
-        </Link>
-        <br />
 
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
