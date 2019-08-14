@@ -34,12 +34,14 @@ export default ({ data }) => {
         >
           {frontmatter.title}
         </h1>
+        <hr />
         <div>
         <h5
           css={css`
             text-decoration: none;
             display: inline-block;
             color: inherit;
+            float: left;
           `}
         >
           By {frontmatter.writer}
@@ -50,13 +52,13 @@ export default ({ data }) => {
             css={css`
               display: inline-block;
               font-style: normal;
+              float: right;
             `}
           >
             <h5
               css={css`
                 color: #0080C0;
                 text-decoration: underline;
-                float: right;
               `}
             >
               Light Theme
@@ -64,6 +66,8 @@ export default ({ data }) => {
           </Link>
         </h5>
         </div>
+        <br />
+        <br />
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Tuoyal>
