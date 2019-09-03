@@ -1,13 +1,13 @@
 ---
 backroad: /thousandcattle/
 date: 2019-09-03T19:56:12.425Z
-cover_image: /img/arthur-parton-89413_1920.jpg
+cover_image: /img/zahvat_grivickogo_reduta-1-.jpg
 title: A THOUSAND HEAD OF CATTLE
 writer: William Saphier
 ---
 <h1 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h1>
 
-William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. "A Thousand Head of Cattle" appeared in the second issue of _The Double Dealer_, February 1921.
+William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. "A Thousand Head of Cattle" appeared in the second issue of _The Double Dealer_, February 1921. The story takes place during the Russo-Turkish War of 1877–78, specifically around the The Seige of Plevna.
 
 <h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
 
@@ -47,4 +47,7 @@ Toward evening the road became deserted. The two soldiers had orders not to stop
 
 Someone knocked at the door and entered without being asked. It was Ioan Doina and his wife Garofa, one of the men who had made the trip with the cattle. loan turned to his wife and said: "Did I not tell you?" and then addressing grandmother, added: "For the last two months I have heard nothing else from this man. Day and night he talks of it. He does not sleep, he does not eat, he is going mad." 
 
-"They were our boys, boys from our village,'' said Cuna in half pleading, half threatening voice. Both men looked each other in the face, and there was silence. loan turned about, took his wife's sleeve, and edged his way out of the room. Cuna's wife followed slowly. Father and son, left alone, sat like two monuments for many hours. Some one knocked at the door, the son opened, and in came the two soldiers who had entertained the mother with their heroic tales. They greeted Cuna, who looked frightened, rose suddenly, and shouted to his son: "Take them out, take them out. Don't ever let them touch my threshold again." The eldest son, with stiff steps and outstretched arms, like an advancing wall, saw them out. He followed only a few inches behind them, without touching their clothes.
+"They were our boys, boys from our village,'' said Cuna in half pleading, half threatening voice. Both men looked each other in the face, and there was silence. loan turned about, took his wife's sleeve, and edged his way out of the room. Cuna's wife followed slowly. Father and son, left alone, sat like two monuments for many hours. Some one knocked at the door, the son opened, and in came the two soldiers who had entertained the mother with their heroic tales. They greeted Cuna, who looked frightened, rose suddenly, and shouted to his son: "Take them out, take them out. Don't ever let them touch my threshold again." The eldest son, with stiff steps and outstretched arms, like an advancing wall, saw them out. He followed only a few inches behind them, without touching their clothes.  
+
+<br/><br/><br/>
+Painting By <a href="https://en.wikipedia.org/wiki/en:Nikolai_Dmitriev-Orenburgsky" class="extiw" title="w:en:Nikolai Dmitriev-Orenburgsky">Nikolai Dmitriev-Orenburgsky</a> - <a rel="nofollow" class="external autonumber" href="http://www.art-catalog.ru/picture.php?id_picture=8055">[1]</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=3360705">Link</a>
