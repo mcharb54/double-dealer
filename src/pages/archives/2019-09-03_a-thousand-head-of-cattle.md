@@ -5,7 +5,7 @@ cover_image: /img/arthur-parton-89413_1920.jpg
 title: A THOUSAND HEAD OF CATTLE
 writer: William Saphier
 ---
-MY grandfather drove a thousand head of cattle from northern Maldova, through the plains of Valachia, across the Danube to the front at Plevna. The war was at its fiercest, Osman Pasha was getting desperate, and the besieging armies needed food.
+My grandfather drove a thousand head of cattle from northern Maldova, through the plains of Valachia, across the Danube to the front at Plevna. The war was at its fiercest, Osman Pasha was getting desperate, and the besieging armies needed food.
 
 A thousand head of cattle were let out of the stalls and corrals. Most of the men were on horseback, a few on foot, and a dozen big dogs made up the convoy. Grandfather was the last man. Two kind eyes in a savage face, a long beard inclined to be reddish brown. He never turned his face after saying goodbye to his wife, that is, as long as he thought she could see him. 
 
