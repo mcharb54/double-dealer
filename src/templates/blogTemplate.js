@@ -40,25 +40,25 @@ export default ({ data }) => {
           >
             By {frontmatter.writer}
           </h5>
-          <h5>
-            <Link
-              to={frontmatter.backroad}
+          <br />
+          <br />
+          <Link
+            to={frontmatter.backroad}
+            css={css`
+              display: inline-block;
+              font-style: normal;
+              float: left;
+            `}
+          >
+            <h6
               css={css`
-                display: inline-block;
-                font-style: normal;
-                float: right;
+                color: #0080c0;
+                text-decoration: underline;
               `}
             >
-              <h5
-                css={css`
-                  color: #0080c0;
-                  text-decoration: underline;
-                `}
-              >
-                Dark Theme
-              </h5>
-            </Link>
-          </h5>
+              Dark Theme
+            </h6>
+          </Link>
         </div>
         <br />
         <br />

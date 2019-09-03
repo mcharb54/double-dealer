@@ -36,35 +36,35 @@ export default ({ data }) => {
         </h1>
         <hr />
         <div>
-        <h5
-          css={css`
-            text-decoration: none;
-            display: inline-block;
-            color: inherit;
-            float: left;
-          `}
-        >
-          By {frontmatter.writer}
-        </h5>
-        <h5>
+          <h5
+            css={css`
+              text-decoration: none;
+              display: inline-block;
+              color: inherit;
+              float: left;
+            `}
+          >
+            By {frontmatter.writer}
+          </h5>
+          <br />
+          <br />
           <Link
             to={fields.slug}
             css={css`
               display: inline-block;
               font-style: normal;
-              float: right;
+              float: left;
             `}
           >
-            <h5
+            <h6
               css={css`
-                color: #0080C0;
+                color: #0080c0;
                 text-decoration: underline;
               `}
             >
               Light Theme
-            </h5>
+            </h6>
           </Link>
-        </h5>
         </div>
         <br />
         <br />
