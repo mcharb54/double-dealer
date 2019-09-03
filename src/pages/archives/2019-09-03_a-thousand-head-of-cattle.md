@@ -5,9 +5,11 @@ cover_image: /img/arthur-parton-89413_1920.jpg
 title: A THOUSAND HEAD OF CATTLE
 writer: William Saphier
 ---
+<h1 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h1>
 
+William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. The story below appeared in the February 1921 issue of _The Double Dealer_.
 
-
+<h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
 
 My grandfather drove a thousand head of cattle from northern Maldova, through the plains of Valachia, across the Danube to the front at Plevna. The war was at its fiercest, Osman Pasha was getting desperate, and the besieging armies needed food.
 
@@ -25,9 +27,9 @@ Months passed and no word came from Cuna. All were getting anxious, rumors began
 
 The two soldiers would come around regularly every afternoon and tell of the horrible scenes they had witnessed at the front. One delighted in describing scattered brains and dried blood on skulls and stones. The other described the long bayonets of the Turks or the moon-like yattaguns, "sharp like a razor." Grandmother sat there, cried, and served tea and things to the two heroes, who found in her a good listener. There were no doubts left in her mind as to the end of her husband. She would see and talk to no one but the two soldiers, who had at least seen the spot where her husband died. 
 
-She was greatly surprised one morning, when a courier arrived and brought a letter from Cuna, who was only two days behind the courier. Immediately she ran to the candle dipping shop, shouting the news to all on her way. There she made two large bundles of candles and brought them to the spacious synagogue near the top of the hill. The attendant, the "shamass,'' could not understand what she said and gesticulated, but he took the candles and promised to place them in the best candelabra, near the altar. Grandmother swam in a sea of emotion, and was deaf to the earnest stories of the two heroes. 
+She was greatly surprised one morning, when a courier arrived and brought a letter from Cuna, who was only two days behind the courier. Immediately she ran to the candle dipping shop, shouting the news to all on her way. There she made two large bundles of candles and brought them to the spacious synagogue near the top of the hill. The attendant, the "shamass," could not understand what she said and gesticulated, but he took the candles and promised to place them in the best candelabra, near the altar. Grandmother swam in a sea of emotion, and was deaf to the earnest stories of the two heroes. 
 
-<h1 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h1>
+<h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
 
 Three heavy creaking carts and loud men stopped in front of the house at midnight. Grandmother, half clad, ran out of the house, followed after some time by the eldest son, he with the tall boots, serious face and silent as a stone. Grandmother wept and laughed and talked. Grandfather was changed. His face was sunburned but thin, he was old and bent and spoke in a sad, soft manner. Four men carried two copper kettles full of Austrian and Russian gold coins into the house. All the men climbed into the carts, and after a short talk with grandfather, left for their homes. Grandfather, aided by the eldest son, put the copper kettles into the huge brick bake-oven. He answered none of the questions put by his wife, but looked tenderly into her eyes now and then. Most of the time he kept his eyes on the floor. 
 
