@@ -7,7 +7,7 @@ writer: William Saphier
 ---
 <h1 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h1>
 
-William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. The story below appeared in the February 1921 issue of _The Double Dealer_.
+William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. "A Thousand Head of Cattle" appeared in the second issue of _The Double Dealer_, February 1921.
 
 <h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
 
