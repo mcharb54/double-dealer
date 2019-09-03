@@ -7,6 +7,8 @@ writer: William Saphier
 ---
 
 
+
+
 My grandfather drove a thousand head of cattle from northern Maldova, through the plains of Valachia, across the Danube to the front at Plevna. The war was at its fiercest, Osman Pasha was getting desperate, and the besieging armies needed food.
 
 A thousand head of cattle were let out of the stalls and corrals. Most of the men were on horseback, a few on foot, and a dozen big dogs made up the convoy. Grandfather was the last man. Two kind eyes in a savage face, a long beard inclined to be reddish brown. He never turned his face after saying goodbye to his wife, that is, as long as he thought she could see him. 
@@ -25,7 +27,7 @@ The two soldiers would come around regularly every afternoon and tell of the hor
 
 She was greatly surprised one morning, when a courier arrived and brought a letter from Cuna, who was only two days behind the courier. Immediately she ran to the candle dipping shop, shouting the news to all on her way. There she made two large bundles of candles and brought them to the spacious synagogue near the top of the hill. The attendant, the "shamass,'' could not understand what she said and gesticulated, but he took the candles and promised to place them in the best candelabra, near the altar. Grandmother swam in a sea of emotion, and was deaf to the earnest stories of the two heroes. 
 
-<h1 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h1>
+<h1 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h1>
 
 Three heavy creaking carts and loud men stopped in front of the house at midnight. Grandmother, half clad, ran out of the house, followed after some time by the eldest son, he with the tall boots, serious face and silent as a stone. Grandmother wept and laughed and talked. Grandfather was changed. His face was sunburned but thin, he was old and bent and spoke in a sad, soft manner. Four men carried two copper kettles full of Austrian and Russian gold coins into the house. All the men climbed into the carts, and after a short talk with grandfather, left for their homes. Grandfather, aided by the eldest son, put the copper kettles into the huge brick bake-oven. He answered none of the questions put by his wife, but looked tenderly into her eyes now and then. Most of the time he kept his eyes on the floor. 
 
