@@ -5,11 +5,11 @@ cover_image: /img/zahvat_grivickogo_reduta-1-.jpg
 title: A THOUSAND HEAD OF CATTLE
 writer: William Saphier
 ---
-<h1 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h1>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
 William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for _Others_, a monthly modernist magazine he coedited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. "A Thousand Head of Cattle" appeared in the second issue of _The Double Dealer_, February 1921. The story takes place during the Russo-Turkish War of 1877–78, specifically around the The Seige of Plevna.
 
-<h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 My grandfather drove a thousand head of cattle from northern Maldova, through the plains of Valachia, across the Danube to the front at Plevna. The war was at its fiercest, Osman Pasha was getting desperate, and the besieging armies needed food.
 
@@ -29,7 +29,7 @@ The two soldiers would come around regularly every afternoon and tell of the hor
 
 She was greatly surprised one morning, when a courier arrived and brought a letter from Cuna, who was only two days behind the courier. Immediately she ran to the candle dipping shop, shouting the news to all on her way. There she made two large bundles of candles and brought them to the spacious synagogue near the top of the hill. The attendant, the "shamass," could not understand what she said and gesticulated, but he took the candles and promised to place them in the best candelabra, near the altar. Grandmother swam in a sea of emotion, and was deaf to the earnest stories of the two heroes. 
 
-<h1 style="text-align: center; font-weight:bold; color: inherit;">******</h1>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Three heavy creaking carts and loud men stopped in front of the house at midnight. Grandmother, half clad, ran out of the house, followed after some time by the eldest son, he with the tall boots, serious face and silent as a stone. Grandmother wept and laughed and talked. Grandfather was changed. His face was sunburned but thin, he was old and bent and spoke in a sad, soft manner. Four men carried two copper kettles full of Austrian and Russian gold coins into the house. All the men climbed into the carts, and after a short talk with grandfather, left for their homes. Grandfather, aided by the eldest son, put the copper kettles into the huge brick bake-oven. He answered none of the questions put by his wife, but looked tenderly into her eyes now and then. Most of the time he kept his eyes on the floor. 
 
@@ -48,6 +48,6 @@ Toward evening the road became deserted. The two soldiers had orders not to stop
 Someone knocked at the door and entered without being asked. It was Ioan Doina and his wife Garofa, one of the men who had made the trip with the cattle. loan turned to his wife and said: "Did I not tell you?" and then addressing grandmother, added: "For the last two months I have heard nothing else from this man. Day and night he talks of it. He does not sleep, he does not eat, he is going mad." 
 
 "They were our boys, boys from our village,'' said Cuna in half pleading, half threatening voice. Both men looked each other in the face, and there was silence. loan turned about, took his wife's sleeve, and edged his way out of the room. Cuna's wife followed slowly. Father and son, left alone, sat like two monuments for many hours. Some one knocked at the door, the son opened, and in came the two soldiers who had entertained the mother with their heroic tales. They greeted Cuna, who looked frightened, rose suddenly, and shouted to his son: "Take them out, take them out. Don't ever let them touch my threshold again." The eldest son, with stiff steps and outstretched arms, like an advancing wall, saw them out. He followed only a few inches behind them, without touching their clothes.  
-
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 <br/><br/><br/>
 Painting By <a href="https://en.wikipedia.org/wiki/en:Nikolai_Dmitriev-Orenburgsky" style="color:rgb(0, 128, 192)" title="w:en:Nikolai Dmitriev-Orenburgsky">Nikolai Dmitriev-Orenburgsky</a> - <a rel="nofollow" class="external autonumber" style="color:rgb(0, 128, 192)" href="http://www.art-catalog.ru/picture.php?id_picture=8055">[1]</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=3360705" style="color:rgb(0, 128, 192)">Link</a>
