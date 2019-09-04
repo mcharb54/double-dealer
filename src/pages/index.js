@@ -29,10 +29,6 @@ export default ({ data }) => {
         </Helmet>
         <SEO
           title="Home"
-          image={
-            data.allMarkdownRemark.edges[2].node.frontmatter.cover_image
-              .childImageSharp.resize
-          }
           keywords={[
             `southern magazine`,
             `the south`,
@@ -82,9 +78,7 @@ export default ({ data }) => {
                     }
                   `}
                 >
-                  <Img
-                    fluid={node.frontmatter.cover_image.childImageSharp.fluid}
-                  />
+                  <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
                   <Card.Title>
                     <h2
                       css={css`
@@ -131,6 +125,7 @@ export const query = graphql`
               childImageSharp {
                 fluid(maxHeight: 560) {
                   ...GatsbyImageSharpFluid
+                  src
                 }
                 resize(width: 1200) {
                   width
