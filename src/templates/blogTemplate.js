@@ -62,7 +62,12 @@ export default ({ data }) => {
         </div>
         <br />
         <br />
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div
+          css={css`
+            font-family: "Roboto", sans-serif;
+          `}
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       </div>
     </Layout>
   );
