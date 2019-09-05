@@ -93,7 +93,7 @@ module.exports = {
         short_name: `Double Dealer`,
         start_url: `/`, // This path is relative to the root of the site.
         display: `standalone`,
-        icon: `src/images/blackicon.png`,
+        icon: `src/images/blackddlogo.png`,
         background_color: `#000`,
         theme_color: `#000`
       }

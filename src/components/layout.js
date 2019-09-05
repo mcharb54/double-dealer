@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
+import Img from "gatsby-image";
 import ogol from "../images/twotree.png";
 
 const HeaderDiv = styled.div`
@@ -21,6 +22,13 @@ export default ({ children }) => {
           siteMetadata {
             title
             eltit
+          }
+        }
+        logo: file(relativePath: { eq: "ddlogoblack.png" }) {
+          childImageSharp {
+            fixed(height: 75){
+              ...GatsbyImageSharpFixed
+            }
           }
         }
       }
@@ -64,9 +72,7 @@ export default ({ children }) => {
         >
           <Navbar bg="custom-nav" bsPrefix="navbar" variant="dark" expand="lg">
             <Navbar.Brand className="mr-0" href="/">
-              <img alt="Logo" src={ogol} width="40" height="40" />
-              {"  "}
-              {data.site.siteMetadata.title}
+              <Img fixed={data.logo.childImageSharp.fixed} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -85,9 +91,7 @@ export default ({ children }) => {
                 `}
                 href="/xedni"
               >
-                <img alt="Logo" src={ogol} width="40" height="40" />
-                {"  "}
-                {data.site.siteMetadata.title}
+              <Img fixed={data.logo.childImageSharp.fixed} />
               </Navbar.Brand>
             </Navbar.Collapse>
           </Navbar>

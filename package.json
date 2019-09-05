@@ -2,7 +2,7 @@
   "name": "double-dealer",
   "private": true,
   "description": "A national nagazine from the south",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
