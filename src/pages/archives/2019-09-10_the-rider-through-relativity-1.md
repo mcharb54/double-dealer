@@ -15,7 +15,7 @@ _"The Rider Through Relativity" is a piece of science fiction concerned with Ein
 
 _The artwork used for this story is from a play Scheffauer wrote titled "The Hollow Head of Mars."_
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 "My death warrant," said Aurel Sharrington. He stared at the sheet in his hand, glaring white in the electric light that showered from his table lamp. The familiar writing of his old friend Dr. Hameroy, swam and swelled before his eyes. The long angular characters began to resemble, as he thought, lines of dancing skeletons, grotesquely interlocked.
 
@@ -89,7 +89,7 @@ The movement in the street was petrified on the instant, frozen in action as in 
 
 "Naturally," said Sharrington, "the machine has been stopped."
 
-"We are travelling at the speed of 298,000 of your miles per a second of your time—"that is the speed of your sunlight. But that is as nothing to the velocities of the ether vibrations."
+"We are travelling at the speed of 298,000 of your miles per a second of your time—that is the speed of your sunlight. But that is as nothing to the velocities of the ether vibrations."
 
 Sharrington's sight, hearing, smell and touch seemed to blend into one. He felt himself transfused as in a core of ardent and intolerable light. And the thought came to him that this must indeed be death, and that it might even be some limbo in the "vast obscure," some hell.
 
@@ -107,7 +107,7 @@ Sharrington passed his hand across his eyes. "I am dazed," he said, "it is all a
 
 "All these things we knew and used hundreds of years ago—of our years—which are as many thousands of yours."
 
-"It is terrible! terrible! cried Sharrington. "Humanity will be lost and damned forever—the dead past will no longer be able to bury its dead."
+"It is terrible! terrible!" cried Sharrington. "Humanity will be lost and damned forever—the dead past will no longer be able to bury its dead."
 
 "Only to your earthly eyes and only because Earth is still a rude, imperfect planet, are these things terrible. The past is not dead—somewhere, if you have but eyes to see it—or instruments—it is always present. Somewhere it lives—as you live now!"
 
