@@ -7,16 +7,12 @@ writer: Herman George Scheffauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
-The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction short concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before the story below. 
+The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction story concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before the story below. 
 
 Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
 Scheffauer's play _The New Shylock_ debuted in Germany in 1913, and was met with much fanfare. It was subsequently performed in both London and New York. The artwork for this story is actually artwork from another play of his called _The Hollow Head of Mars._
 
-
-
-__
-
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Cover image via Procureur2014 [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
