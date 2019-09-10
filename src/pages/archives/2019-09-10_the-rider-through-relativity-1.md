@@ -217,4 +217,5 @@ Aurel Sharrington was not at all disturbed by this visit from his wife and his f
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
-Cover image via Procureur2014 [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
+Cover image via Procureur2014 [<a style="color:rgb(0, 128, 192)" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a
+style="color:rgb(0, 128, 192)" href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
