@@ -15,7 +15,7 @@ _"The Rider Through Relativity" is a piece of science fiction concerned with Ein
 
 _The artwork used for this story is from a play Scheffauer wrote titled "The Hollow Head of Mars."_
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
 
 "My death warrant," said Aurel Sharrington. He stared at the sheet in his hand, glaring white in the electric light that showered from his table lamp. The familiar writing of his old friend Dr. Hameroy, swam and swelled before his eyes. The long angular characters began to resemble, as he thought, lines of dancing skeletons, grotesquely interlocked.
 
@@ -25,7 +25,7 @@ _The artwork used for this story is from a play Scheffauer wrote titled "The Hol
 
 He let the letter drop on the desk, and reached for a sheet of paper. The pen thudded into the great crystal inkstand, then whispered over the coarse, hand-made paper:
 
-My Dear Eve: You are free—for I'm going to be free. There's no hope for me, I hear—so there is hope for you. Forgive the drama at the tail-end of my destiny—and be happy with whomever you may fee is necessary. . . .
+My Dear Eve: You are free—for I'm going to be free. There's no hope for me, I hear—so there is hope for you. Forgive the drama at the tail-end of my destiny—and be happy with whomever you may feel is necessary. . . .
 
 "How banal!" he muttered, tore the sheets into bits, seized another and wrote:
 
@@ -219,7 +219,7 @@ She stared at him and was silent. And then he knew that the love that had grown 
 
 Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow—and love."
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
 
 Cover image via Procureur2014 [<a style="color:rgb(0, 128, 192)" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a
 style="color:rgb(0, 128, 192)" href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
