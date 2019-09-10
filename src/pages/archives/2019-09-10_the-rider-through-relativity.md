@@ -7,7 +7,7 @@ writer: Herman George Scheffauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
-The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction short concerned with Einstein's theory of relativity (the theory was published in its final form in 1916, 5 years before the story below). 
+The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction short concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before the story below. 
 
 Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
