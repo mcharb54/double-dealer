@@ -193,7 +193,7 @@ The Strange Being played upon a number of keys with a rhythmic touch as one play
 
 Sharrington's life now began to unroll backward before his eyes. He saw himself at school, saw himself playing and even fighting in the fields near his home. He saw his mother all in black and himself standing about a grave in the cemetery. He saw this opened, the coffin lifted out and transported in a hearse to his house. A little while and he was walking the streets hand in hand with his father. His mother came to meet them, holding wide her arms.
 
-A sob broke from him; tears burnt like fiery acids in his eyes. He saw himself as a fair and radiant child of four—of three—of two years, toddling beside his nurse. He saw himself as an infant, as a suckling at his mother's breast in the sunlit garden behind the old house. Then men and women went up and down the front steps and thosa that came down carried flowers in their hands. The doctor's carriage drove away.
+A sob broke from him; tears burnt like fiery acids in his eyes. He saw himself as a fair and radiant child of four—of three—of two years, toddling beside his nurse. He saw himself as an infant, as a suckling at his mother's breast in the sunlit garden behind the old house. Then men and women went up and down the front steps and those that came down carried flowers in their hands. The doctor's carriage drove away.
 
 "This is the 4th of August, 1887," said the master of the machine—
 
