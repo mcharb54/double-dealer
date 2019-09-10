@@ -15,7 +15,7 @@ _"The Rider Through Relativity" is a piece of science fiction concerned with Ein
 
 _The artwork used for this story is from a play Scheffauer wrote titled "The Hollow Head of Mars."_
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 "My death warrant," said Aurel Sharrington. He stared at the sheet in his hand, glaring white in the electric light that showered from his table lamp. The familiar writing of his old friend Dr. Hameroy, swam and swelled before his eyes. The long angular characters began to resemble, as he thought, lines of dancing skeletons, grotesquely interlocked.
 
@@ -89,7 +89,7 @@ The movement in the street was petrified on the instant, frozen in action as in 
 
 "Naturally," said Sharrington, "the machine has been stopped."
 
-"We are travelling at the speed of 298,000 of your miles per a second of your time—"that is the speed of your sunlight. But that is as nothing to the velocities of the ether vibrations."
+"We are travelling at the speed of 298,000 of your miles per a second of your time—that is the speed of your sunlight. But that is as nothing to the velocities of the ether vibrations."
 
 Sharrington's sight, hearing, smell and touch seemed to blend into one. He felt himself transfused as in a core of ardent and intolerable light. And the thought came to him that this must indeed be death, and that it might even be some limbo in the "vast obscure," some hell.
 
@@ -107,7 +107,7 @@ Sharrington passed his hand across his eyes. "I am dazed," he said, "it is all a
 
 "All these things we knew and used hundreds of years ago—of our years—which are as many thousands of yours."
 
-"It is terrible! terrible! cried Sharrington. "Humanity will be lost and damned forever—the dead past will no longer be able to bury its dead."
+"It is terrible! terrible!" cried Sharrington. "Humanity will be lost and damned forever—the dead past will no longer be able to bury its dead."
 
 "Only to your earthly eyes and only because Earth is still a rude, imperfect planet, are these things terrible. The past is not dead—somewhere, if you have but eyes to see it—or instruments—it is always present. Somewhere it lives—as you live now!"
 
@@ -137,7 +137,7 @@ Upon the spherical reflector, with its miraculous powers of concentration and ma
 
 "Flanders and the Champagne," said, the man from Ypranil.
 
-Great masses of grey troops moved eastward. They resembled an enormous slate-colored serpent whose scales glittered in the sunlight. Narrow channels like the canals of Mars swallowed them up. Ruins began to smoke, out of them arose houses, flaming, spires leaped into the air, church walls erected themselves' piecemeal. The buildings burst into puffs of smoke, flame and dust and spat back shells into the throats of howitzers which first bloomed with smoke, and then belched fire. Thousands of rude graves were opened; corpses were borne into battle and came to life. Dead and dismembered men rose from the ground and were whole. They embraced one another and drew swords and bayonets from one another's breasts and ran to cover. Shattered war planes rose flaming from the earth and sailed serenely through the air. The waste of sand blew up and became green. The deep pits and round shellcraters arose under great domes of sand that were showered upon them amidst fountains of flame, and vanished. Levelled forests leaped erect from prostrate trunks and splintered boughs. The roads were black with men, animals and vehicles pushing on towards the cities. Thousands of soldiers embarked and crossed the Channel. Darkened cities sprang to light. Out of the sea wrecks rose foaming, burst into flame. Swimming seamen leaped aboard from bursts of foam, jetsam gathered itself and streamed into the hatches out of the sea. The vessels steamed away, stern first, following a white wake, the wave curling forward at the bows.
+Great masses of grey troops moved eastward. They resembled an enormous slate-colored serpent whose scales glittered in the sunlight. Narrow channels like the canals of Mars swallowed them up. Ruins began to smoke, out of them arose houses, flaming, spires leaped into the air, church walls erected themselves piecemeal. The buildings burst into puffs of smoke, flame and dust and spat back shells into the throats of howitzers which first bloomed with smoke, and then belched fire. Thousands of rude graves were opened; corpses were borne into battle and came to life. Dead and dismembered men rose from the ground and were whole. They embraced one another and drew swords and bayonets from one another's breasts and ran to cover. Shattered war planes rose flaming from the earth and sailed serenely through the air. The waste of sand blew up and became green. The deep pits and round shellcraters arose under great domes of sand that were showered upon them amidst fountains of flame, and vanished. Levelled forests leaped erect from prostrate trunks and splintered boughs. The roads were black with men, animals and vehicles pushing on towards the cities. Thousands of soldiers embarked and crossed the Channel. Darkened cities sprang to light. Out of the sea wrecks rose foaming, burst into flame. Swimming seamen leaped aboard from bursts of foam, jetsam gathered itself and streamed into the hatches out of the sea. The vessels steamed away, stern first, following a white wake, the wave curling forward at the bows.
 
 A pageant of great capitals ensued. Paris streamed across the dark mirror. A narrow street; an open cafe, an excited crowd, a stout bearded man stretched upon a marble table,—he opens his eyes, is lifted to the floor, leaps into his chair, a puff of smoke, he declaims passionately to an admiring group.
 
@@ -193,7 +193,7 @@ The Strange Being played upon a number of keys with a rhythmic touch as one play
 
 Sharrington's life now began to unroll backward before his eyes. He saw himself at school, saw himself playing and even fighting in the fields near his home. He saw his mother all in black and himself standing about a grave in the cemetery. He saw this opened, the coffin lifted out and transported in a hearse to his house. A little while and he was walking the streets hand in hand with his father. His mother came to meet them, holding wide her arms.
 
-A sob broke from him; tears burnt like fiery acids in his eyes. He saw himself as a fair and radiant child of four—of three—of two years, toddling beside his nurse. He saw himself as an infant, as a suckling at his mother's breast in the sunlit garden behind the old house. Then men and women went up and down the front steps and thosa that came down carried flowers in their hands. The doctor's carriage drove away.
+A sob broke from him; tears burnt like fiery acids in his eyes. He saw himself as a fair and radiant child of four—of three—of two years, toddling beside his nurse. He saw himself as an infant, as a suckling at his mother's breast in the sunlit garden behind the old house. Then men and women went up and down the front steps and those that came down carried flowers in their hands. The doctor's carriage drove away.
 
 "This is the 4th of August, 1887," said the master of the machine—
 
@@ -219,7 +219,7 @@ She stared at him and was silent. And then he knew that the love that had grown 
 
 Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow—and love."
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Cover image via Procureur2014 [<a style="color:rgb(0, 128, 192)" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a
 style="color:rgb(0, 128, 192)" href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
