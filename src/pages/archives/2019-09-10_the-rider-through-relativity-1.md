@@ -67,7 +67,7 @@ The voice was full of the resonant harmonies of precious metal. Never before had
 
 "My name does not matter," said the strange being. "It is distinguished if not honoured among men. You are in the cabin of the "Stellar Shuttle." The "Stellar Shuttle" is an astroplane—such as are in common use in our system. It is impelled by intensified waves of ether and its maximum speed exceeds by far the speed of your sun's waves of light. We have mastered forces which are as yet unrevealed to you, even though you are upon the threshold of revelation. I am an inhabitant of Ypranil, the largest planet in the system of Sirius. Our powers, the fruit of millions of years of development might seem almost divine to you. Yet there are worlds that are further advanced upon the eternal spiral than even Ypranil."
 
-"The environment," said Aurel Sharrington," is more than uncanny—but I am used to hoaxes—"
+"The environment," said Aurel Sharrington, "is more than uncanny—but I am used to hoaxes—"
 
 The majestic figure, with a profound melancholy written upon its face, reached forth in the luminous haze and touched something that shone upon what seemed a wall. There was a faint clatter and a flash, a thin and singing note. A dark well opened before Sharrington's eyes and in this there span what appeared to be a globe of hollow crystal or a bubble with a surface of the most intense and brilliant black. The enclosure of the well thrilled with unimaginable vibrations. Across the dark, apparently liquid surface of the bubble, a small and ruddy disc swam into sight.
 
@@ -134,6 +134,7 @@ The stranger gave no heed.
 Upon the spherical reflector, with its miraculous powers of concentration and magnification, a great waste floated into view—a region bare and hideous—like one vast sore.
 
 "The Sahara!" cried Sharrington.
+
 "Flanders and the Champagne," said, the man from Ypranil.
 
 Great masses of grey troops moved eastward. They resembled an enormous slate-colored serpent whose scales glittered in the sunlight. Narrow channels like the canals of Mars swallowed them up. Ruins began to smoke, out of them arose houses, flaming, spires leaped into the air, church walls erected themselves' piecemeal. The buildings burst into puffs of smoke, flame and dust and spat back shells into the throats of howitzers which first bloomed with smoke, and then belched fire. Thousands of rude graves were opened; corpses were borne into battle and came to life. Dead and dismembered men rose from the ground and were whole. They embraced one another and drew swords and bayonets from one another's breasts and ran to cover. Shattered war planes rose flaming from the earth and sailed serenely through the air. The waste of sand blew up and became green. The deep pits and round shellcraters arose under great domes of sand that were showered upon them amidst fountains of flame, and vanished. Levelled forests leaped erect from prostrate trunks and splintered boughs. The roads were black with men, animals and vehicles pushing on towards the cities. Thousands of soldiers embarked and crossed the Channel. Darkened cities sprang to light. Out of the sea wrecks rose foaming, burst into flame. Swimming seamen leaped aboard from bursts of foam, jetsam gathered itself and streamed into the hatches out of the sea. The vessels steamed away, stern first, following a white wake, the wave curling forward at the bows.
@@ -150,7 +151,9 @@ London, Amsterdam, Berlin swept by—crowds, traffic, newsboys with flaring pape
 
 A deep sigh broke from the lips of the man from Ypranil. His voice trembled, anguish tore at its mellow music. Torment disturbed his features, tears rolled down his cheeks.
 
-"You can weep!" cried Sharrington, "you have tears then—even in Ypranil?" "Light!" said the stranger, "the glorious, the eternal. I was once part of light—I was its bearer—now I am fated to roam the inter-stellar cold and darkness—a lonely spark in one vast immensity."
+"You can weep!" cried Sharrington, "you have tears then—even in Ypranil?"
+
+"Light!" said the stranger, "the glorious, the eternal. I was once part of light—I was its bearer—now I am fated to roam the inter-stellar cold and darkness—a lonely spark in one vast immensity."
 
 Sharrington gazed at his companion with awe and fascination. And now he knew that he was man. His soul widened. Visions of ineffable splendour, vast and apocalyptic burst upon it.
 
