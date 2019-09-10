@@ -219,7 +219,7 @@ She stared at him and was silent. And then he knew that the love that had grown 
 
 Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow—and love."
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\\*\\*\\*\\*\\*\\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Cover image via Procureur2014 [<a style="color:rgb(0, 128, 192)" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a
 style="color:rgb(0, 128, 192)" href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
