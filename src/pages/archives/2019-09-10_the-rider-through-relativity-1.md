@@ -11,7 +11,7 @@ _The story below appeared in issue 3 of "The Double Dealer."_
 
 _Herman George Scheffauer (1878-1927) was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time._ 
 
-_"The Rider Through Relativity" is a science fiction story concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before Scheffauer's story. The story and grammar has been left as it originally appeared._
+_"The Rider Through Relativity" is a piece of science fiction concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before Scheffauer's story. The contents and grammar have been left as they originally appeared._
 
 _The artwork used for this story is from a play Scheffauer wrote titled "The Hollow Head of Mars."_
 
