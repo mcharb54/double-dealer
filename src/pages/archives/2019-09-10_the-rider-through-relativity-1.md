@@ -34,27 +34,27 @@ My Dearest Eve . . .
 
 He opened a drawer in the desk—a small flat object shone with a dull blue-black lustre—he laid it upon the edge of the desk—a small automatic pistol. "— the rest is steel and fire."
 
-Odd, he thought, that one should be playful, almost witty—considering the occasion. A hangman's humor—or philosophy. The one thing that might reconcile one to remain is that one is constantly making new discoveries— those impressive death-bed sayings preserved so piously may be true after all —the last flare of the expiring match.
+Odd, he thought, that one should be playful, almost witty—considering the occasion. A hangman's humor—or philosophy. The one thing that might reconcile one to remain is that one is constantly making new discoveries—those impressive death-bed sayings preserved so piously may be true after all—the last flare of the expiring match.
 
-Aurel Sharrington had come to a snarl in the threads of his existence. And he was for a Gordian solution— scarcely in keeping with the teachings of the philosopher after whom he had been named. His eye encompassed the triangle made by the two sheets of paper and the sinister weapon.
+Aurel Sharrington had come to a snarl in the threads of his existence. And he was for a Gordian solution—scarcely in keeping with the teachings of the philosopher after whom he had been named. His eye encompassed the triangle made by the two sheets of paper and the sinister weapon.
 
 "Here is my existence geometrically laid out," he mused, "a triangle—the bill for life and the bill for love. They've presented them a bit prematurely considering I am only thirty-three—thirty-three, three and thirty. Good old Hameroy will not bear me a grudge, I hope, for falsifying his forecast and dying of something else. He cannot condemn me to life to serve him as a kind of guinea-pig—it would not be fair."
 
-"As for Eve, she has grown used to living alone. She is Eve's true daughter and will survive. I was never meant to be her Adam. Well, to make a long matter of thirty-three years and God  knows how many months of suffering —short—"
+"As for Eve, she has grown used to living alone. She is Eve's true daughter and will survive. I was never meant to be her Adam. Well, to make a long matter of thirty-three years and God  knows how many months of suffering—short—"
 
-His pale thin hand reached for the brutal firearm. He held it fondly in his hands—like a book or a crucifix. His eyes swam with sudden tears— faintness came upon him—the tides of life seemed to be already fleeing from his body before the blow. Through half-opened eyes he saw the shining ring of the muzzle. It fascinated him. Again his lips fashioned words—words scarcely audible:
+His pale thin hand reached for the brutal firearm. He held it fondly in his hands—like a book or a crucifix. His eyes swam with sudden tears—faintness came upon him—the tides of life seemed to be already fleeing from his body before the blow. Through half-opened eyes he saw the shining ring of the muzzle. It fascinated him. Again his lips fashioned words—words scarcely audible:
 
-"The ring of gold meant bondage— for both. This ring of steel means release—for both. It may be as difficult for a rich man to enter heaven as for a camel to pass through the eye of a needle. But here's a tiny orifice through which a poor fool may pass into a good, sound sleep."
+"The ring of gold meant bondage—for both. This ring of steel means release—for both. It may be as difficult for a rich man to enter heaven as for a camel to pass through the eye of a needle. But here's a tiny orifice through which a poor fool may pass into a good, sound sleep."
 
 His will, springing into one soaring stream of resolution bade his finger fire. And the finger obeyed.
 
 Grey mist. Clouds that wallow, rise and fall. A clanging as of countless anvils. A planetary ringing in the ears—as of a thin, ethereal music, a burning vibration sweet and endless, swelling, dwindling, dying away and returning once more.
 
-"Awake!" said a voice. "You cannot escape the law. You cannot escape life. In the blundering fashion of your fellows you sought to break the thread— by crude mechanical means."
+"Awake!" said a voice. "You cannot escape the law. You cannot escape life. In the blundering fashion of your fellows you sought to break the thread—by crude mechanical means."
 
 A figure grew plain beside him. It was a tall man clad in a tight-fitting garment which clung to his heroic form like silk and shimmered like silver. His face was august and sorrowfully serene. A radiance seemed to stream from it, a mellow light poured from his great sad eyes. His hair glittered like a crown of crystals and curled into points like flame.
 
-"I know," said Sharrington, "this is fever." Once more he drummed up all his will-power. "This is a hospital— you are a surgeon. Spare yourself a useless job."
+"I know," said Sharrington, "this is fever." Once more he drummed up all his will-power. "This is a hospital—you are a surgeon. Spare yourself a useless job."
 
 "The useless task was yours," said the stranger," and an evil task. This is not a hospital nor am I a surgeon. Yet in my way I have effected cures. I saw you—by a science you could not comprehend—and I transported you hither. In our world physical intervention as you know it in yours, is no longer necessary. We work with other forces."
 
@@ -62,7 +62,7 @@ The voice was full of the resonant harmonies of precious metal. Never before had
 
 "You are my guest, my passenger."
 
-"Your guest — your passenger? Whose? Where? In what? You have interfered—I had an important engagement—"
+"Your guest—your passenger? Whose? Where? In what? You have interfered—I had an important engagement—"
 
 "My name does not matter," said the strange being. "It is distinguished if not honoured among men. You are in the cabin of the "Stellar Shuttle." The "Stellar Shuttle" is an astroplane—such as are in common use in our system. It is impelled by intensified waves of ether and its maximum speed exceeds by far the speed of your sun's waves of light. We have mastered forces which are as yet unrevealed to you, even though you are upon the threshold of revelation. I am an inhabitant of Ypranil, the largest planet in the system of Sirius. Our powers, the fruit of millions of years of development might seem almost divine to you. Yet there are worlds that are further advanced upon the eternal spiral than even Ypranil."
 
@@ -82,7 +82,7 @@ A blush of silvery lustre swept over the spinning globe. Over its surface, like 
 
 "It is an interesting bit of stained film," said he, "presumably taken from an aeroplane."
 
-"We have overtaken a ray of light that left that spot on Earth two days ago," said the stranger quietly. "We are travelling somewhat more slowly than this ray. Were we travelling at the same speed, the life you see would be fixed in simultaneousness—that is it would stand still as in a photograph —thus:"
+"We have overtaken a ray of light that left that spot on Earth two days ago," said the stranger quietly. "We are travelling somewhat more slowly than this ray. Were we travelling at the same speed, the life you see would be fixed in simultaneousness—that is it would stand still as in a photograph—thus:"
 
 The movement in the street was petrified on the instant, frozen in action as in a photograph.
 
@@ -104,11 +104,11 @@ Sharrington passed his hand across his eyes. "I am dazed," he said, "it is all a
 
 "Relativity," murmured Sharrington, and shuddered, he could not say why, "ah, yes. Einstein's Theory—Rutherford and his system of releasing atomic forces."
 
-"All these things we knew and used hundreds of years ago—of our years— which are as many thousands of yours."
+"All these things we knew and used hundreds of years ago—of our years—which are as many thousands of yours."
 
 "It is terrible! terrible! cried Sharrington. "Humanity will be lost and damned forever—the dead past will no longer be able to bury its dead."
 
-"Only to your earthly eyes and only because Earth is still a rude, imperfect planet, are these things terrible. The past is not dead—somewhere, if you have but eyes to see it—or instruments —it is always present. Somewhere it lives—as you live now!"
+"Only to your earthly eyes and only because Earth is still a rude, imperfect planet, are these things terrible. The past is not dead—somewhere, if you have but eyes to see it—or instruments—it is always present. Somewhere it lives—as you live now!"
 
 "Unfortunately," said Aurel Sharrington.
 
@@ -130,7 +130,7 @@ The stranger gave no heed.
 
 "We shall pass through the years like level sunlight through a forest. Today, by your mundane calendar it is the 15th of October, 1920. I shall now steer the "Stellar Shuttle" into the light wave of the end of 1918. I shall bring Europe to your view."
 
-Upon the spherical reflector, with its miraculous powers of concentration and magnification, a great waste floated into view—a region bare and hideous —like one vast sore.
+Upon the spherical reflector, with its miraculous powers of concentration and magnification, a great waste floated into view—a region bare and hideous—like one vast sore.
 
 "The Sahara!" cried Sharrington.
 "Flanders and the Champagne," said, the man from Ypranil.
@@ -171,9 +171,9 @@ The streets opened and disgorged beams, columns and shining tracks, then engulfe
 
 Sometimes the focus or the plane of vision seemed to hover directly above the streets, then again it receded and the details of the Earth's surface broadened into landscapes as seen from some lofty peak, again these dissolved into murky continents that glowed dull red or grey or green. And then, as with a sudden lurch, the spherical shape of the Earth disclosed itself and Sharrington looked upon the familiar outlines of North America and the northern crown of ice. Light and darkness alternated and the days and the years were as the rhythmic breathing of some all-embracing cosmic organism, the winking of some sidereal machine.
 
-Once again the Earth seemed to swoop upward—another war "began." Grant and Lee met at Appomattox Court House to arrange the gigantic duel. The South prepared great battlefields, towards these crawled the wearied and broken armies, blue and grey, collided in a foam of smoke and dust, fire and blood, separated and marched away, all ranks filled and all flags flying. Flaming cities rose phoenix-like, out of the ruins and smiled. Gettysburg leaped to tremendous life then ebbed into the peace of green fields. Vicksburg blazed like a blood-red star, then mirrored itself in the river. The "Monitor" and the "Merrimac" were born in a welter of fire, smoke and foam, disengaged, steamed away and were dismantled on the ways. Bull Run came— the last battle of the war, and ended with the Union troops marching gaily into Washington. The Negro problem was solved.There were jubilees, dancing and feasts upon the plantations.
+Once again the Earth seemed to swoop upward—another war "began." Grant and Lee met at Appomattox Court House to arrange the gigantic duel. The South prepared great battlefields, towards these crawled the wearied and broken armies, blue and grey, collided in a foam of smoke and dust, fire and blood, separated and marched away, all ranks filled and all flags flying. Flaming cities rose phoenix-like, out of the ruins and smiled. Gettysburg leaped to tremendous life then ebbed into the peace of green fields. Vicksburg blazed like a blood-red star, then mirrored itself in the river. The "Monitor" and the "Merrimac" were born in a welter of fire, smoke and foam, disengaged, steamed away and were dismantled on the ways. Bull Run came—the last battle of the war, and ended with the Union troops marching gaily into Washington. The Negro problem was solved.There were jubilees, dancing and feasts upon the plantations.
 
-Sherrington saw caravans of prairie schooners rolling eastward from the Rockies. In California men filled up great gaps in the wounded Earth and cast into them handsful of quartz and gleaming nuggets — frenziedly, as though mad to be rid of the yellow curse.
+Sherrington saw caravans of prairie schooners rolling eastward from the Rockies. In California men filled up great gaps in the wounded Earth and cast into them handsful of quartz and gleaming nuggets—frenziedly, as though mad to be rid of the yellow curse.
 
 "There are the giant redwoods," said Sharrington, pointing, "by this devolution one might see them dwindle into saplings."
 
@@ -183,7 +183,7 @@ The great cities dwindled from the surface of the continent and became groups of
 
 New York becomes Nieuw Amsterdam. The British cede it to the Dutch. The Indian chief returns the 24 dollars for which he had sold Manhattan. The Hollanders withdraw. The smoke of wigwams goes up from green Manhattan.
 
-The Pilgrim Fathers leave the land with thanksgivings; the "Mayflower" bursts into sail and wallows her way stern first back to England. The wilderness triumphant,—the sea—savages —rockbound capes—hills, white beaches, swamps, islands rise and fall, flee and fade. The Earth is seized at the end of a flying ray of light and turned like a jewel upon a pin. Cuba,—like an enormous lizard basking in foam, in a field of sapphire. Three caravels moored in a bight. On a shining strand, bright against dark groves of palms, men in glittering armour, in velvet jerkins, priests in cassocks, bearded sailors, golden banners with the Madonna. Half-naked savages in brilliant feathers stand at gaze. Embarkation. The caravels set sail. Columbus leaves San Salvador to discover Europe. A hemisphere is delivered up to oblivion; the violated sea recovers its sanctity and its secrecy.
+The Pilgrim Fathers leave the land with thanksgivings; the "Mayflower" bursts into sail and wallows her way stern first back to England. The wilderness triumphant,—the sea—savages—rockbound capes—hills, white beaches, swamps, islands rise and fall, flee and fade. The Earth is seized at the end of a flying ray of light and turned like a jewel upon a pin. Cuba,—like an enormous lizard basking in foam, in a field of sapphire. Three caravels moored in a bight. On a shining strand, bright against dark groves of palms, men in glittering armour, in velvet jerkins, priests in cassocks, bearded sailors, golden banners with the Madonna. Half-naked savages in brilliant feathers stand at gaze. Embarkation. The caravels set sail. Columbus leaves San Salvador to discover Europe. A hemisphere is delivered up to oblivion; the violated sea recovers its sanctity and its secrecy.
 
 The Strange Being played upon a number of keys with a rhythmic touch as one plays upon the keyboard of a piano.
 
@@ -197,7 +197,7 @@ A sob broke from him; tears burnt like fiery acids in his eyes. He saw himself a
 
 "Let us send the astroplane in pursuit of the ray."
 
-The mysterious engine began to wind up the past along this ray, pursuing it into the abysses of space, this time in the direction of flight. And Sharrington saw leaf after leaf of his outward life unfold again—his mother's funeral, his horseback rides in the Park, his meeting, his walks with Eve, their marriage, their honeymoon five hundred miles away. Then the day when he first fell ill, his visits to Mark Hameroy's office, the estrangement between him and Eve. Once he started and almost cried out as he saw Eve leave the doctor's office after he himself had just passed out of the door. The fateful evening came again. He saw himself enter the house and vanish. But he knew that within he was ascending the silent, carpeted steps, sitting brooding over the letters, holding heroic debate with himself, opening the drawer —ah, the weapon still felt cold and heavy in his hand—the shining ring, the ring—the Ring of the Eternal occurrence.
+The mysterious engine began to wind up the past along this ray, pursuing it into the abysses of space, this time in the direction of flight. And Sharrington saw leaf after leaf of his outward life unfold again—his mother's funeral, his horseback rides in the Park, his meeting, his walks with Eve, their marriage, their honeymoon five hundred miles away. Then the day when he first fell ill, his visits to Mark Hameroy's office, the estrangement between him and Eve. Once he started and almost cried out as he saw Eve leave the doctor's office after he himself had just passed out of the door. The fateful evening came again. He saw himself enter the house and vanish. But he knew that within he was ascending the silent, carpeted steps, sitting brooding over the letters, holding heroic debate with himself, opening the drawer—ah, the weapon still felt cold and heavy in his hand—the shining ring, the ring—the Ring of the Eternal occurrence.
 
 The terrified old housekeeper telephoned to Dr. Hameroy and to Mrs. Sharrington. They came, as if by accident, together, and entered Sharrington's study—Mrs. Barbour remaining below. Dr. Hameroy ran to his friend's side and felt his pulse.
 
@@ -207,13 +207,13 @@ He twisted the pistol out of the hand that clutched it.
 
 "Unloaded," he said, as he flung it on the desk. "I had seen to that myself."
 
-Eve Sharrington's eyes were fixed upon Hameroy's letter which lay open and disgust broke from her lip3. Hameroy snatched the letter and tore it into shreds. And now she saw the other letter: My Dear Eve . . . and began to weep.
+Eve Sharrington's eyes were fixed upon Hameroy's letter which lay open and disgust broke from her lips. Hameroy snatched the letter and tore it into shreds. And now she saw the other letter: My Dear Eve . . . and began to weep.
 
-"It was the letter that was loaded, Eve," said he, as he caught the woman by the arms and looked into her eyes, —"for our sakes."
+"It was the letter that was loaded, Eve," said he, as he caught the woman by the arms and looked into her eyes,—"for our sakes."
 
 She stared at him and was silent. And then he knew that the love that had grown up between them was as dead as the man before them who had been the obstacle to its fulfillment.
 
-Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow— and love."
+Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow—and love."
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
