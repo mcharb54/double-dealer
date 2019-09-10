@@ -7,7 +7,7 @@ writer: Herman George Scheffauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
-Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to leave his day job as an architect behind to focus on writing full time. 
+Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
