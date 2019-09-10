@@ -59,7 +59,7 @@ A figure grew plain beside him. It was a tall man clad in a tight-fitting garmen
 
 "The useless task was yours," said the stranger," and an evil task. This is not a hospital nor am I a surgeon. Yet in my way I have effected cures. I saw you—by a science you could not comprehend—and I transported you hither. In our world physical intervention as you know it in yours, is no longer necessary. We work with other forces."
 
-The voice was full of the resonant harmonies of precious metal. Never before had Sharrington heard such & voice nor so strange an accent. It might have been the English of another age, and yet the idiom was modern.
+The voice was full of the resonant harmonies of precious metal. Never before had Sharrington heard such a voice nor so strange an accent. It might have been the English of another age, and yet the idiom was modern.
 
 "You are my guest, my passenger."
 
