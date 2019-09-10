@@ -7,7 +7,9 @@ writer: William Saphier
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
-_William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for Others, a monthly modernist magazine he co-edited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. "A Thousand Head of Cattle" appeared in the second issue of The Double Dealer, in February 1921. The story takes place during the Russo-Turkish War of 1877–78, specifically around the The Seige of Plevna._
+_"A Thousand Head of Cattle" appeared in the second issue of The Double Dealer, in February 1921._
+
+_William Saphier was a Romanian-born poet. According to poets.org, he served as associate editor for "Others," a monthly modernist magazine he co-edited with Alfred Kreymborg. The magazine, under Saphier and Kreymborg, published the early poetry of T. S. Eliot, Marianne Moore, Ezra Pound, and Wallace Stevens. The story takes place during the Russo-Turkish War of 1877–78, specifically around the The Seige of Plevna._
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
