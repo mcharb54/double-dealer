@@ -11,7 +11,8 @@ The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through R
 
 Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
-Scheffauer's play _The New Shylock_ debuted in Germany in 1913, and was met with much fanfare. It was subsequently performed in both London and New York. The artwork for this story is actually artwork from another play of his called _The Hollow Head of Mars._
+The artwork used for this story is actually artwork from another play of his called _The Hollow Head of Mars._
+
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
