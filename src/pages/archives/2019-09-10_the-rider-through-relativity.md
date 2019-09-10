@@ -6,3 +6,7 @@ title: THE RIDER THROUGH RELATIVITY
 writer: Herman George Scheffhauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
+
+
+
+Cover image via Procureur2014 [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
