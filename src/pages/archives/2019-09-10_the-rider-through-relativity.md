@@ -3,9 +3,11 @@ backroad: /relativityrider/
 date: 2019-09-10T15:01:28.178Z
 cover_image: /img/hollow-head-2.jpg
 title: THE RIDER THROUGH RELATIVITY
-writer: Herman George Scheffhauer
+writer: Herman George Scheffauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
+
+Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to leave his day job as an architect behind to focus on writing full time. 
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
