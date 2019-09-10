@@ -9,7 +9,7 @@ writer: Herman George Scheffhauer
 
 Herman George Scheffauer (1878-1927) was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
-The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction story concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before the story below. 
+The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through Relativity" is a science fiction story concerned with Einstein's theory of  relativity. The theory was published in its final form in 1916, just a few years before the story below. The story and grammar has been left as it originally appeared.
 
 The artwork used for this story is from a play Scheffauer wrote titled _The Hollow Head of Mars._
 
@@ -24,7 +24,7 @@ The artwork used for this story is from a play Scheffauer wrote titled _The Holl
 
 He let the letter drop on the desk, and reached for a sheet of paper. The pen thudded into the great crystal inkstand, then whispered over the coarse, hand-made paper:
 
-My Dear Eve: You are free—for I'm going to be free. There's no hope for me, I hear—so there is hope for you. Forgive the drama at thetail-end of my destiny—and be happy with whomever you may fee is necessary. . . .
+My Dear Eve: You are free—for I'm going to be free. There's no hope for me, I hear—so there is hope for you. Forgive the drama at the tail-end of my destiny—and be happy with whomever you may fee is necessary. . . .
 
 "How banal!" he muttered, tore the sheets into bits, seized another and wrote:
 
@@ -44,19 +44,19 @@ Aurel Sharrington had come to a snarl in the threads of his existence. And he wa
 
 His pale thin hand reached for the brutal firearm. He held it fondly in his hands—like a book or a crucifix. His eyes swam with sudden tears— faintness came upon him—the tides of life seemed to be already fleeing from his body before the blow. Through half-opened eyes he saw the shining ring of the muzzle. It fascinated him. Again his lips fashioned words—words scarcely audible:
 
-"The ring of gold meant bondage— for both. This ring of steel means re- lease—for both. It may be as difficult for a rich man to enter heaven as for a camel to pass through the eye of a needle. But here's a tiny orifice through which a poor fool may pass into a good, sound sleep."
+"The ring of gold meant bondage— for both. This ring of steel means release—for both. It may be as difficult for a rich man to enter heaven as for a camel to pass through the eye of a needle. But here's a tiny orifice through which a poor fool may pass into a good, sound sleep."
 
 His will, springing into one soaring stream of resolution bade his finger fire. And the finger obeyed.
 
-Grey mist. Clouds that wallow, rise and fall. A clanging as of countless anvils. A planetary ringing in the ears —as of a thin, ethereal music, a burn- ing vibration sweet and endless, swell- ing, dwindling, dying away and return- ing once more.
+Grey mist. Clouds that wallow, rise and fall. A clanging as of countless anvils. A planetary ringing in the ears—as of a thin, ethereal music, a burning vibration sweet and endless, swelling, dwindling, dying away and returning once more.
 
-"Awake!" said a voice. "You cannot escape the law. You cannot escape life. In the blundering fashion of your fel- lows you sought to break the thread— by crude mechanical means."
+"Awake!" said a voice. "You cannot escape the law. You cannot escape life. In the blundering fashion of your fellows you sought to break the thread— by crude mechanical means."
 
 A figure grew plain beside him. It was a tall man clad in a tight-fitting garment which clung to his heroic form like silk and shimmered like silver. His face was august and sorrowfully serene. A radiance seemed to stream from it, a mellow light poured from his great sad eyes. His hair glittered like a crown of crystals and curled into points like flame.
 
 "I know," said Sharrington, "this is fever." Once more he drummed up all his will-power. "This is a hospital— you are a surgeon. Spare yourself a useless job."
 
-"The useless task was yours," said the stranger," and an evil task. This is not a hospital nor am I a surgeon. Yet in my way I have effected cures. I saw you—by a science you could not com- prehend—and I transported you hither. In our world physical intervention as you know it in yours, is no longer necessary. We work with other forces."
+"The useless task was yours," said the stranger," and an evil task. This is not a hospital nor am I a surgeon. Yet in my way I have effected cures. I saw you—by a science you could not comprehend—and I transported you hither. In our world physical intervention as you know it in yours, is no longer necessary. We work with other forces."
 
 The voice was full of the resonant harmonies of precious metal. Never before had Sharrington heard such & voice nor so strange an accent. It might have been the English of another age, and yet the idiom was modern.
 
@@ -64,21 +64,21 @@ The voice was full of the resonant harmonies of precious metal. Never before had
 
 "Your guest — your passenger? Whose? Where? In what? You have interfered—I had an important engagement—"
 
-"My name does not matter," said the strange being. "It is distinguished if not honoured among men. You are in the cabin of the "Stellar Shuttle." The "Stellar Shuttle" is an astroplane— such as are in common use in our sys- tem. It is impelled by intensified waves of ether and its maximum speed exceeds by far the speed of your sun's waves of light. We have mastered for- ces which are as yet unrevealed to you, even though you are upon the threshold of revelation. I am an inhabitant of Ypranil, the largest planet in the sys- tem of Sirius. Our powers, the fruit of millions of years of development might seem almost divine to you. Yet there are worlds that are further advanced upon the eternal spiral than even Ypranil."
+"My name does not matter," said the strange being. "It is distinguished if not honoured among men. You are in the cabin of the "Stellar Shuttle." The "Stellar Shuttle" is an astroplane—such as are in common use in our system. It is impelled by intensified waves of ether and its maximum speed exceeds by far the speed of your sun's waves of light. We have mastered forces which are as yet unrevealed to you, even though you are upon the threshold of revelation. I am an inhabitant of Ypranil, the largest planet in the system of Sirius. Our powers, the fruit of millions of years of development might seem almost divine to you. Yet there are worlds that are further advanced upon the eternal spiral than even Ypranil."
 
 "The environment," said Aurel Sharrington," is more than uncanny—but I am used to hoaxes—"
 
-The majestic figure, with a profound melancholy written upon its face, reached forth in the luminous haze and touched something that shone upon what seemed a wall. There was a faint clatter and a flash, a thin and singing note. A dark well opened before Shar- rington's eyes and in this there span what appeared to be a globe of hollow crystal or a bubble with a surface of the most intense and brilliant black. The enclosure of the well thrilled with unimaginable vibrations. Across the dark, apparently liquid surface of the bubble, a small and ruddy disc swam into sight.
+The majestic figure, with a profound melancholy written upon its face, reached forth in the luminous haze and touched something that shone upon what seemed a wall. There was a faint clatter and a flash, a thin and singing note. A dark well opened before Sharrington's eyes and in this there span what appeared to be a globe of hollow crystal or a bubble with a surface of the most intense and brilliant black. The enclosure of the well thrilled with unimaginable vibrations. Across the dark, apparently liquid surface of the bubble, a small and ruddy disc swam into sight.
 
 "What is that?" asked Sharrington.
 
-"The planet called Earth which you were so anxious to leave," said the lu- minous being. "You have left it."
+"The planet called Earth which you were so anxious to leave," said the luminous being. "You have left it."
 
-"I see the outlines of continents," said Sharrington, "the splashing, spatulate shape of North America, the triangle of South America—like a New- foundland's head. But our kinemato- graphic science is so well developed that this trick is mere child's play."
+"I see the outlines of continents," said Sharrington, "the splashing, spatulate shape of North America, the triangle of South America—like a Newfoundland's head. But our kinematographic science is so well developed that this trick is mere child's play."
 
 "We are travelling slowly," said the white figure, "look again."
 
-A blush of silvery lustre swept over the spinning globe. Over its surface, like smoke taking shape, like an image emerging out of blurred distances into focus, he saw a landscape quiver into view. It grew larger and more distinct, the edges pitched mistily away at the sides, the top and bottom. Still enlarg- ing, a city loomed up, silhouettes of buildings, domes and towers whirled by, familiar in shape, yet strange in as- pect. Now a street appeared—he knew it—it was his own. People passed to and fro along this street, automobiles, an electric car, wagons. The door of his house opened; he saw himself descend the steps in the purple-tinted light.
+A blush of silvery lustre swept over the spinning globe. Over its surface, like smoke taking shape, like an image emerging out of blurred distances into focus, he saw a landscape quiver into view. It grew larger and more distinct, the edges pitched mistily away at the sides, the top and bottom. Still enlarging, a city loomed up, silhouettes of buildings, domes and towers whirled by, familiar in shape, yet strange in aspect. Now a street appeared—he knew it—it was his own. People passed to and fro along this street, automobiles, an electric car, wagons. The door of his house opened; he saw himself descend the steps in the purple-tinted light.
 
 "It is an interesting bit of stained film," said he, "presumably taken from an aeroplane."
 
@@ -90,19 +90,19 @@ The movement in the street was petrified on the instant, frozen in action as in 
 
 "We are travelling at the speed of 298,000 of your miles per a second of your time—"that is the speed of your sunlight. But that is as nothing to the velocities of the ether vibrations."
 
-Sharrington's sight, hearing, smell and touch seemed to blend into one. He felt himself transfused as in a core of ardent and intolerable light. And the thought came to him that this must in- deed be death, and that it might even be some limbo in the "vast obscure," some hell.
+Sharrington's sight, hearing, smell and touch seemed to blend into one. He felt himself transfused as in a core of ardent and intolerable light. And the thought came to him that this must indeed be death, and that it might even be some limbo in the "vast obscure," some hell.
 
-He saw the same street, but now a house was being built close to his father's house. He gave a cry—he re- membered the building of that house years ago; it was before the era of films. A street car, drawn by horses, came swaying down the street. He saw his mother descend the steps—he bent his burning eyes upon the spinning mir- ror—how young she looked! how beau- tiful she was! He saw himself, a school boy in knee-breeches, running up to embrace her.
+He saw the same street, but now a house was being built close to his father's house. He gave a cry—he remembered the building of that house years ago; it was before the era of films. A street car, drawn by horses, came swaying down the street. He saw his mother descend the steps—he bent his burning eyes upon the spinning mirror—how young she looked! how beautiful she was! He saw himself, a school boy in knee-breeches, running up to embrace her.
 
-With incredible swiftness, with wing- ing stretches of darkness and light, the mysterious sphere or bubble flashed and glittered and each was a day or a night recaptured from eternity.
+With incredible swiftness, with winging stretches of darkness and light, the mysterious sphere or bubble flashed and glittered and each was a day or a night recaptured from eternity.
 
-"We are advancing slowly against the transpired Earth-rays," said the traveller from Ypranil. "They are breaking against our cosmic mirror like waves against the prow of a boat. We move at will and at ease—whitherso- ever we please—it is all a matter of computation."
+"We are advancing slowly against the transpired Earth-rays," said the traveller from Ypranil. "They are breaking against our cosmic mirror like waves against the prow of a boat. We move at will and at ease—whithersoever we please—it is all a matter of computation."
 
 Sharrington passed his hand across his eyes. "I am dazed," he said, "it is all a dream and an evil one—it is all vanity."
 
 "It is all relativity," said the other.
 
-"Relativity," murmured Sharrington, and shuddered, he could not say why, "ah, yes. Einstein's Theory—Ruther- ford and his system of releasing atomic forces."
+"Relativity," murmured Sharrington, and shuddered, he could not say why, "ah, yes. Einstein's Theory—Rutherford and his system of releasing atomic forces."
 
 "All these things we knew and used hundreds of years ago—of our years— which are as many thousands of yours."
 
@@ -112,46 +112,46 @@ Sharrington passed his hand across his eyes. "I am dazed," he said, "it is all a
 
 "Unfortunately," said Aurel Sharrington.
 
-"The past is preserved to all eternity," said the mysterious stranger, "it is forever flowing, forever flying through distance. Relatively, the speed of the images projected from the Earth are to some of the speeds which we al- ready master, as the motion of a glacier is to the motion of a cataract. Thus all that is born to light flies on eternally through the dark of interstellar space. Where there is an eye to intercept and gather the ray, it comes to life. Your days and deeds, like my days and deeds, are without end, whether measured by the life of a midge or the life of a planet."
+"The past is preserved to all eternity," said the mysterious stranger, "it is forever flowing, forever flying through distance. Relatively, the speed of the images projected from the Earth are to some of the speeds which we already master, as the motion of a glacier is to the motion of a cataract. Thus all that is born to light flies on eternally through the dark of interstellar space. Where there is an eye to intercept and gather the ray, it comes to life. Your days and deeds, like my days and deeds, are without end, whether measured by the life of a midge or the life of a planet."
 
 He was silent for a time, then asked:
 
-"Shall we unravel the past? Shall we salvage something of this hidden but indestructible record? Things familiar to you from your own destructible re- cords? Shall we read Time backward? Pursue Life downward towards its source?"
+"Shall we unravel the past? Shall we salvage something of this hidden but indestructible record? Things familiar to you from your own destructible records? Shall we read Time backward? Pursue Life downward towards its source?"
 
-"Wonderful!" cried Sharrington. "You must accept that word as a tribute from me—for my father had taught me that my motto in life was to be nil admirari. Your miracles are plausible because they are scientific. One of our well-known terrestrial writers—un- known, no doubt, in Ypranil, H. G. Wells, has already ventured into this field. He wrote a book called the "Time Machine."
+"Wonderful!" cried Sharrington. "You must accept that word as a tribute from me—for my father had taught me that my motto in life was to be nil admirari. Your miracles are plausible because they are scientific. One of our well-known terrestrial writers—unknown, no doubt, in Ypranil, H. G. Wells, has already ventured into this field. He wrote a book called the "Time Machine."
 
-"He wrote it, now you may live it," said the deep and golden voice. "Shall we overleap, overtake decades, centur- ies, millenia?"
+"He wrote it, now you may live it," said the deep and golden voice. "Shall we overleap, overtake decades, centuries, millenia?"
 
 A sudden terror came upon Sharrington.
 
-"Oh, no more of the Earth," he cried. "May the night swallow it up in ever- lasting mercy. Let no man lift the cur- tain—let it hide its sorrow, crime, mad-ness, misery and death. Write your own history—or unwrite it. Leave ours alone. It is a tragedy."
+"Oh, no more of the Earth," he cried. "May the night swallow it up in everlasting mercy. Let no man lift the curtain—let it hide its sorrow, crime, mad-ness, misery and death. Write your own history—or unwrite it. Leave ours alone. It is a tragedy."
 
 The stranger gave no heed.
 
 "We shall pass through the years like level sunlight through a forest. Today, by your mundane calendar it is the 15th of October, 1920. I shall now steer the "Stellar Shuttle" into the light wave of the end of 1918. I shall bring Europe to your view."
 
-Upon the spherical reflector, with its miraculous powers of concentration and magnification, a great waste float- ed into view—a region bare and hideous —like one vast sore.
+Upon the spherical reflector, with its miraculous powers of concentration and magnification, a great waste floated into view—a region bare and hideous —like one vast sore.
 
 "The Sahara!" cried Sharrington.
 "Flanders and the Champagne," said, the man from Ypranil.
 
-Great masses of grey troops moved eastward. They resembled an enorm- ous slate-colored serpent whose scales glittered in the sunlight. Narrow chan- nels like the canals of Mars swallowed them up. Ruins began to smoke, out of them arose houses, flaming, spires leaped into the air, church walls erected themselves' piecemeal. The buildings burst into puffs of smoke, flame and dust and spat back shells into the throats of howitzers which first bloom- ed with smoke, and then belched fire. Thousands of rude graves were opened; corpses were borne into battle and came to life. Dead and dismembered men rose from the ground and were whole. They embraced one another and drew swords and bayonets from one another's breasts and ran to cover. Shattered war planes rose flaming from the earth and sailed serenely through the air. The waste of sand blew up and became green. The deep pits and round shell- craters arose under great domes of sand that were showered upon them amidst fountains of flame, and vanished. Levelled forests leaped erect from pro- strate trunks atnd splintered boughs. The roads were black with men, animals and vehicles pushing on towards the cities. Thousands of soldiers embarked and crossed the Channel. Darkened cities sprang to light. Out of the sea wrecks rose foaming, burst into flame. Swimming seamen leaped aboard from bursts of foam, jetsam gathered itself and streamed into the hatches out of the sea. The vessels steamed away, stern first, following a white wake, the wave curling forward at the bows.
+Great masses of grey troops moved eastward. They resembled an enormous slate-colored serpent whose scales glittered in the sunlight. Narrow channels like the canals of Mars swallowed them up. Ruins began to smoke, out of them arose houses, flaming, spires leaped into the air, church walls erected themselves' piecemeal. The buildings burst into puffs of smoke, flame and dust and spat back shells into the throats of howitzers which first bloomed with smoke, and then belched fire. Thousands of rude graves were opened; corpses were borne into battle and came to life. Dead and dismembered men rose from the ground and were whole. They embraced one another and drew swords and bayonets from one another's breasts and ran to cover. Shattered war planes rose flaming from the earth and sailed serenely through the air. The waste of sand blew up and became green. The deep pits and round shellcraters arose under great domes of sand that were showered upon them amidst fountains of flame, and vanished. Levelled forests leaped erect from prostrate trunks and splintered boughs. The roads were black with men, animals and vehicles pushing on towards the cities. Thousands of soldiers embarked and crossed the Channel. Darkened cities sprang to light. Out of the sea wrecks rose foaming, burst into flame. Swimming seamen leaped aboard from bursts of foam, jetsam gathered itself and streamed into the hatches out of the sea. The vessels steamed away, stern first, following a white wake, the wave curling forward at the bows.
 
-A pageant of great capitals ensued. Paris streamed across the dark mirror. A narrow street; an open cafe, an ex- cited crowd, a stout bearded man stretched upon a marble table,—he opens his eyes, is lifted to the floor, leaps into his chair, a puff of smoke, he declaims passionately to an admiring group.
+A pageant of great capitals ensued. Paris streamed across the dark mirror. A narrow street; an open cafe, an excited crowd, a stout bearded man stretched upon a marble table,—he opens his eyes, is lifted to the floor, leaps into his chair, a puff of smoke, he declaims passionately to an admiring group.
 
 "That is Jean Jaurés," said Sharrington. "I heard him speak once."
 
-London, Amsterdam, Berlin swept by—crowds, traffic, newsboys with flaring papers. Vienna unrolled its glorious concentric streets. Serajevo melted into view, decked in flags and wreaths. A man and a woman lay bleeding in a car- riage, again a puff of smoke, they sat up, and bowed to the public.
+London, Amsterdam, Berlin swept by—crowds, traffic, newsboys with flaring papers. Vienna unrolled its glorious concentric streets. Serajevo melted into view, decked in flags and wreaths. A man and a woman lay bleeding in a carriage, again a puff of smoke, they sat up, and bowed to the public.
 
-"What is life—what is death" asked the inhabitant of Ypranil. "Life is but a running thread of light between in- finity and infinity. Backwards or for- wards—all is one. You have just seen how the Great War ended—ended—as seen from a certain point in space."
+"What is life—what is death" asked the inhabitant of Ypranil. "Life is but a running thread of light between infinity and infinity. Backwards or forwards—all is one. You have just seen how the Great War ended—ended—as seen from a certain point in space."
 
 "Yes," said Sharrington, "the gods who turn the crank of the universe care little whether it runs forward or back-ward. All is illusion to us—their slaves, their dupes—all except Light."
 
-A deep sigh broke from the lips of the man from Ypranil. His voice trem- bled, anguish tore at its mellow music. Torment disturbed his features, tears rolled down his cheeks.
+A deep sigh broke from the lips of the man from Ypranil. His voice trembled, anguish tore at its mellow music. Torment disturbed his features, tears rolled down his cheeks.
 
-"You can weep!" cried Sharrington, "you have tears then—even in Ypra- nil?" "Light!" said the stranger, "the glorious, the eternal. I was once part of light—I was its bearer—now I am fated to roam the inter-stellar cold and darkness—a lonely spark in one vast immensity."
+"You can weep!" cried Sharrington, "you have tears then—even in Ypranil?" "Light!" said the stranger, "the glorious, the eternal. I was once part of light—I was its bearer—now I am fated to roam the inter-stellar cold and darkness—a lonely spark in one vast immensity."
 
-Sharrington gazed at his companion with awe and fascination. And now he knew that he was man. His soul widen- ed. Visions of ineffable splendour, vast and apocalyptic burst upon it.
+Sharrington gazed at his companion with awe and fascination. And now he knew that he was man. His soul widened. Visions of ineffable splendour, vast and apocalyptic burst upon it.
 
 "Your name!" he exclaimed—"who are you . . . ?"
 
@@ -161,21 +161,21 @@ A silence. The astral mirror sang and coruscated.
 
 "A sea!" cried Sharrington. "Ah! Sandy Hook! the forts! Manhattan, the Wool worth, the Singer buildings, the Flatiron—"
 
-Plumes of steam soared from the crests of the giant city; banners flew. The streets streamed with human be- ings, the cars crawled along dragging their shadows. Hundreds of domes and cupolas and spires glittered. This choral in towering stone, this litany of labour—almost he heard its voice. A great emotion overcame Aurel Shar- rington. Earth-sick he grew—home- sick—he stretched out his hands to the scene.
+Plumes of steam soared from the crests of the giant city; banners flew. The streets streamed with human beings, the cars crawled along dragging their shadows. Hundreds of domes and cupolas and spires glittered. This choral in towering stone, this litany of labour—almost he heard its voice. A great emotion overcame Aurel Sharrington. Earth-sick he grew—home-sick—he stretched out his hands to the scene.
 
 "This too," said the Strange Being, "is only the fabric of a dream. I shall increase our speed along this ray—the metropolis will dismantle and dissolve itself."
 
- Skyscraper after skyscraper began to cloud itself in veils of scaffolding. Turrets were unrigged, finials, crests, flagpoles vanished, great ashlars sank into the depths, the steel skeletons emerged, fell apart and melted away. Soon the yawning pits of the excava- tions were seen, earth and sand leaped out of the carts to meet the shovels of the men who restored them to their place. The soil smoothed itself and burst into grass, children came and gamboled there.
+ Skyscraper after skyscraper began to cloud itself in veils of scaffolding. Turrets were unrigged, finials, crests, flagpoles vanished, great ashlars sank into the depths, the steel skeletons emerged, fell apart and melted away. Soon the yawning pits of the excavations were seen, earth and sand leaped out of the carts to meet the shovels of the men who restored them to their place. The soil smoothed itself and burst into grass, children came and gamboled there.
 
 The streets opened and disgorged beams, columns and shining tracks, then engulfed rivers of rock and earth and closed again. The city shrank, great gaps appeared. The roadways and rails of the Manhattan Bridge were taken up, the vertical carriers fell away from the huge cables, the cables writhed from the towers like enormous serpents, the towers disintegrated stone by stone. The Brooklyn Bridge fell apart, girder by girder, strand by strand, stone by stone.
 
-Sometimes the focus or the plane of vision seemed to hover directly above the streets, then again it receded and the details of the Earth's surface broad- ened into landscapes as seen from some lofty peak, again these dissolved into murky continents that glowed dull red or grey or green. And then, as with a sudden lurch, the spherical shape of the Earth disclosed itself and Sharring- ton looked upon the familiar outlines of North America and the northern crown of ice. Light and darkness al- ternated and the days and the years were as the rhythmic breathing of some all-embracing cosmic organism, the winking of some sidereal machine.
+Sometimes the focus or the plane of vision seemed to hover directly above the streets, then again it receded and the details of the Earth's surface broadened into landscapes as seen from some lofty peak, again these dissolved into murky continents that glowed dull red or grey or green. And then, as with a sudden lurch, the spherical shape of the Earth disclosed itself and Sharrington looked upon the familiar outlines of North America and the northern crown of ice. Light and darkness alternated and the days and the years were as the rhythmic breathing of some all-embracing cosmic organism, the winking of some sidereal machine.
 
-Once again the Earth seemed to swoop upward—another war "began." Grant and Lee met at Appomattox Court House to arrange the gigantic duel. The South prepared great battle- fields, towards these crawled the wear- ied and broken armies, blue and grey, collided in a foam of smoke and dust, fire and blood, separated and marched away, all ranks filled and all flags fly- ing. Flaming cities rose phoenix-like, out of the ruins and smiled. Gettysburg leaped to tremendous life then ebbed into the peace of green fields. Vicks- burg blazed like a blood-red star, then mirrored itself in the river. The "Moni- tor" and the "Merrimac" were born in a welter of fire, smoke and foam, dis- engaged, steamed away and were dis- mantled on the ways. Bull Run came— the last battle of the war, and ended with the Union troops marching gaily into Washington. The Negro problem was solved.There were jubilees, danc- ing and feasts upon the plantations.
+Once again the Earth seemed to swoop upward—another war "began." Grant and Lee met at Appomattox Court House to arrange the gigantic duel. The South prepared great battlefields, towards these crawled the wearied and broken armies, blue and grey, collided in a foam of smoke and dust, fire and blood, separated and marched away, all ranks filled and all flags fly- ing. Flaming cities rose phoenix-like, out of the ruins and smiled. Gettysburg leaped to tremendous life then ebbed into the peace of green fields. Vicks- burg blazed like a blood-red star, then mirrored itself in the river. The "Monitor" and the "Merrimac" were born in a welter of fire, smoke and foam, dis- engaged, steamed away and were dis- mantled on the ways. Bull Run came— the last battle of the war, and ended with the Union troops marching gaily into Washington. The Negro problem was solved.There were jubilees, dancing and feasts upon the plantations.
 
-Sherrington saw caravans of prairie- schooners rolling eastward from the Rockies. In California men filled up great gaps in the wounded Earth and cast into them handsful of quartz and gleaming nuggets — frenziedly, as though mad to be rid of the yellow curse.
+Sherrington saw caravans of prairie schooners rolling eastward from the Rockies. In California men filled up great gaps in the wounded Earth and cast into them handsful of quartz and gleaming nuggets — frenziedly, as though mad to be rid of the yellow curse.
 
-"There are the giant redwoods," said Sharrington, pointing, "by this de- volution one might see them dwindle into saplings."
+"There are the giant redwoods," said Sharrington, pointing, "by this devolution one might see them dwindle into saplings."
 
 "They are the oldest living things on your Earth," said his guide, "over three thousand years old. The range of my mirror reaches only to a radius of 960 years."
 
@@ -205,15 +205,15 @@ The terrified old housekeeper telephoned to Dr. Hameroy and to Mrs. Sharrington.
 
 He twisted the pistol out of the hand that clutched it.
 
-"Unloaded," he said, as he flung it on the desk. "I had seen to that my- self."
+"Unloaded," he said, as he flung it on the desk. "I had seen to that myself."
 
-Eve Sharrington's eyes were fixed upon Hameroy's letter which lay open and disgust broke from her lip3. Hame- roy snatched the letter and tore it into shreds. And now she saw the other letter: My Dear Eve . . . and began to weep.
+Eve Sharrington's eyes were fixed upon Hameroy's letter which lay open and disgust broke from her lip3. Hameroy snatched the letter and tore it into shreds. And now she saw the other letter: My Dear Eve . . . and began to weep.
 
 "It was the letter that was loaded, Eve," said he, as he caught the woman by the arms and looked into her eyes, —"for our sakes."
 
 She stared at him and was silent. And then he knew that the love that had grown up between them was as dead as the man before them who had been the obstacle to its fulfillment.
 
-Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am con- tent. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow— and love."
+Aurel Sharrington was not at all disturbed by this visit from his wife and his friend at this unearthly hour, for to him all hours had become unearthly. He had voyaged into the silences and the secrecies and had returned with the ultimate wisdom of all time. A sweet smile hovered upon his lips; his whole expression seemed to say: "I am content. For I know that not only time and size and space are relative, but that all things are so—life and death and immortality, happiness and sorrow— and love."
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
