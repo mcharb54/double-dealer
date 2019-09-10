@@ -15,7 +15,7 @@ _A unique chapter in the romantic history of New Orleans was contributed by Lafc
 
 _This item, for some reason, has escaped the eyes of the several editors who have industrially dug out from various periodicals and journals, vagrant matter of this now highly appreciated litterateur. No collected volume, so far as we know, of the many posthumous publications contains this very interesting example of Lafcadio Hearn done in his best style. The character of Llulla, fifty years ago, was a well-known celebrity of the Vieux Carre and in his old age ran a cemetery on Louisa Street, where he held court in the matters of the code duello dispensing service before or after as required._
 
-_\*Text (re)printed below as it was (re)printed originally in 1921. This work was published before January 1, 1924, and is in the public domain worldwide because the author died at least 100 years ago._
+_\*Text (re)printed below as it was (re)printed originally in 1921._
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">I.</h2>
 
