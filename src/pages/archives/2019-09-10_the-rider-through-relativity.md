@@ -15,4 +15,8 @@ Scheffauer's play _The New Shylock_ debuted in Germany in 1913, and was met with
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
+
+
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
+
 Cover image via Procureur2014 [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
