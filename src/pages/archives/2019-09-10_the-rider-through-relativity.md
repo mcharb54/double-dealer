@@ -7,10 +7,12 @@ writer: Herman George Scheffauer
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
+The story below appeared in issue 3 of _The Double Dealer._ 
+
 Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 
+<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
 
 Cover image via Procureur2014 [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Hollow_head.jpg">via Wikimedia Commons</a>
