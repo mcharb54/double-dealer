@@ -11,7 +11,7 @@ The story below appeared in issue 3 of _The Double Dealer_. "The Rider Through R
 
 Herman George Scheffauer was a German-American writer, poet, playwright, journalist and translator. Scheffauer was encouraged by his mentor, Ambrose Bierce, to quit his day job as an architect in order to focus on writing full time. 
 
-The artwork used for this story is actually artwork from another play of his called _The Hollow Head of Mars._
+The artwork used for this story is actually artwork from a play Scheffauer wrote titled _The Hollow Head of Mars._
 
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
