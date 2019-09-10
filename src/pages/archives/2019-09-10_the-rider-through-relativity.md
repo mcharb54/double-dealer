@@ -5,4 +5,4 @@ cover_image: /img/hollow-head-2.jpg
 title: THE RIDER THROUGH RELATIVITY
 writer: Herman George Scheffhauer
 ---
-T
+<h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
