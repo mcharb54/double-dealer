@@ -1,7 +1,7 @@
 ---
 backroad: /dialoguesofscamander/
 date: 2019-09-17T14:41:02.215Z
-cover_image: /img/blackddlogo.png
+cover_image: /img/polycrates.jpg
 title: Dialogues of Scamander
 writer: Marvin Lear
 ---
