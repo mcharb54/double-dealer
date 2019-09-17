@@ -11,9 +11,9 @@ _The story below appeared in issue 3 of "The Double Dealer."_
 
 _While we wish we could provide more details about the author of the following story, what information we have comes from an issue of another defunct literary magazine "The Dial"_:
 
-_Marvin Lear is the nom-de-plume of an American editor whose published volumes have attracted the notice of the discriminating._
+"_Marvin Lear is the nom-de-plume of an American editor whose published volumes have attracted the notice of the discriminating._"
 
-_Whoever Marvin Lear may have been, his writing on politics and humor–as told through the eyes of Greek figures Scamander and Polycrates–is certainly as relevant today as it was when it first appeared in 1921._
+_Whoever Marvin Lear may have been, his writing on politics and humor––as told through the eyes of Greek figures Scamander and Polycrates––is certainly as relevant today as it was when it first appeared in 1921._
 
 ### <center>I. RED BREECHES</center>
 <center>SCAMANDER</center>
