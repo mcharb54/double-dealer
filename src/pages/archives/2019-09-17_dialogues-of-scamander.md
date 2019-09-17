@@ -13,6 +13,7 @@ When I was a youth, I was a devil in politics.
 
 So we all were, Scamander. I am quite certain that nobody, since the beginning of time, wore redder breeches than I did when I was twenty-one. I was a great enemy of kings, Scamander, and reasonably hard on aristocrats. I was the arch-lover of mobs in my day, and nobody could have explained to you, better than I could, the perfection of popular government. But my red breeches have faded sadly in the weather.
 <center>SCAMANDER</center>
+
 I am as great an enemy of kings as I ever was. 
 <center>POLYCRATES</center>
 
