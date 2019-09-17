@@ -13,7 +13,7 @@ _While we wish we could provide more details about the author of the following s
 
 "_Marvin Lear is the nom-de-plume of an American editor whose published volumes have attracted the notice of the discriminating._"
 
-_Whoever Marvin Lear may have been, his writing on politics and humor––as told through the eyes of Greek figures Scamander and Polycrates––is certainly as relevant today as it was when it first appeared in 1921._
+_Whoever Marvin Lear may have been, his writing on politics and humor—as told through the eyes of Greek figures Scamander and Polycrates—is certainly as relevant today as it was when it first appeared in 1921._
 
 ### <center>I. RED BREECHES</center>
 **<center>SCAMANDER</center>**
