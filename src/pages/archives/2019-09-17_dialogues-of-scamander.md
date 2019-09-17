@@ -71,3 +71,8 @@ It does not matter. My conclusion is sound, and it satisfies me—which satisfac
 It is only the great humorists who can tell us the truth in such a way we will believe it. I defy you to show me a magnificent passage of poetry in which mankind is properly drawn as a monkey, and in which it is clearly demonstrated that his destiny as a spiritual soul does not essentially matter. The philosophers do occasionally confide to us this conclusion, but they do it in so melancholy a fashion that one is as shy of believing it as of catching the mumps. Yet when we listen to the great humorists, Scamander, we find ourselves so enchanted by the exhilaration of their fancy and the exuberance of their speech that we are quite carried away and, before we know very well what we are about, passionately embrace the truth as though it were some sort of good news.
 
 The great humorist, however, as I began by saying, is as rare as a great comet. His character is determined by rare prerequisites, still more rarely found in conjunction. The prerequisites of a great humorist, or a great satirist, Scamander, are, firstly, grandeur in irony, wisdom and art, and, secondly, courage. It requires spiritual courage to face the amazing farce of existence and it requires social courage to interpret it. A great satirist incurs danger. He may be starved, imprisoned, ostracized, or hanged. Worse may befall him. You will recall Abas, the son of Metanira, who was changed into a lizard for laughing at the gods. Without question, the profession is dangerous. Most of us, being very cowardly devils, prefer to laugh in our sleeves. 
+
+<h2><Center>******</Center></h2>
+
+
+Cover Image
