@@ -75,4 +75,4 @@ The great humorist, however, as I began by saying, is as rare as a great comet. 
 <h2><Center>******</Center></h2>
 
 
-Cover Image
+Cover Image: Engraving of Polycrates and Anacreon. From Vorzeit und Gegenwart: Eine historische Lese-Gabe zur Unterhaltung und Belehrung für alle Stände (1832)
