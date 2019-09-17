@@ -5,4 +5,4 @@ cover_image: /img/blackddlogo.png
 title: Fiction Coming Soon
 writer: The Double Dealer
 ---
-Sign up
+To sign up to receive future updates about _The Double Dealer_, head to the about page!
