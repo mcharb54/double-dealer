@@ -2,14 +2,14 @@
 backroad: /dialoguesofscamander/
 date: 2019-09-17T14:41:02.215Z
 cover_image: /img/polycrates.jpg
-title: Dialogues of Scamander
+title: DIALOGUES OF SCAMANDER
 writer: Marvin Lear
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
 _The story below appeared in issue 3 of "The Double Dealer."_
 
-_While we wish we could provide more details about the author of the following story, what information we have comes from an issue of another defunct literary magazine "The Dial"_:
+_While we wish we could provide more details about the author of the following story, what information we have comes from an issue of a defunct literary magazine "The Dial"_:
 
 "_Marvin Lear is the nom-de-plume of an American editor whose published volumes have attracted the notice of the discriminating._"
 
