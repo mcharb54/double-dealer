@@ -5,6 +5,13 @@ cover_image: /img/blackddlogo.png
 title: Dialogues of Scamander
 writer: Marvin Lear
 ---
+<h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
+
+_While we wish we could provide more details about the author of the following story, what information we have comes from an issue of another defunct literary magazine "The Dial"_:
+
+_Marvin Lear is the nom-de-plume of an American editor whose published volumes have attracted the notice of the discriminating._
+
+_Whoever Marvin Lear may have been, his writing on politics and humor–as told through the eyes of Greek figures Scamander and Polycrates–is certainly as relevant today as it was when it appeared in Issue 3 of "The Double Dealer," March 1921._
 ### <center>I. RED BREECHES</center>
 <center>SCAMANDER</center>
 
