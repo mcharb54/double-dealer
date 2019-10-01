@@ -9,7 +9,7 @@ writer: Judith Gautier
 
 _The story below, translated by Lafcadio Hearn, appeared in issue 4 of "The Double Dealer." The original spelling and grammar have been preserved._
 
-_Judith Gautier (1845-1917) was a French poet and novelist. Gautier had a scholarly interest in East Asia, and according to "The New International Encyclopedia," her works dealt greatly with Chinese and Japanese themes._
+_Judith Gautier (1845-1917) was a French poet and novelist. Gautier had a scholarly interest in East Asia, and according to "The New International Encyclopedia," her works dealt greatly with themes associated in the west with this region._
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
