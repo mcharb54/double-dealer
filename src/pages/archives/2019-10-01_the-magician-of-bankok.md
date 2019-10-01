@@ -1,7 +1,7 @@
 ---
 backroad: /themagicianofbankok/
 date: 2019-10-01T15:00:22.011Z
-cover_image: /img/blackddlogo.png
+cover_image: /img/screen-shot-2019-10-01-at-3.19.00-pm.png
 title: THE MAGICIAN OF BANKOK
 writer: Judith Gautier
 ---
