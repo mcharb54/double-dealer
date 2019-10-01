@@ -76,3 +76,7 @@ The man digs again; the earth changes to flames.
 The earth ceases to flame, but a multitude of demons of a frightful greenish hue, armed with red-hot goads and whips of fire, assail the sacrilege and scourge him ceaselessly. He, insensible, savage, frenzied, plunges his arm into the yawning grave, and accomplishes a hideous task.
 
 Suddenly he leaps to his feet. He brandishes a newly-born corpse. He flies under the pale moon. He shrieks: "I have won the secret of the Future!"
+
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
+
+John Singer Sargent [Public domain], <a href="https://commons.wikimedia.org/wiki/File:Judith_Gautier.jpg">via Wikimedia Commons</a>
