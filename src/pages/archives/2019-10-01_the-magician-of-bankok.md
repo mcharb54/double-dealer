@@ -79,4 +79,4 @@ Suddenly he leaps to his feet. He brandishes a newly-born corpse. He flies under
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
-John Singer Sargent [Public domain], <a href="https://commons.wikimedia.org/wiki/File:Judith_Gautier.jpg">via Wikimedia Commons</a>
+John Singer Sargent [Public domain], <a href="https://commons.wikimedia.org/wiki/File:Judith_Gautier.jpg" style="color:rgb(0, 128, 192)" >via Wikimedia Commons</a>
