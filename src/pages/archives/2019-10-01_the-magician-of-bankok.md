@@ -11,8 +11,7 @@ _The story below, translated by Lafcadio Hearn, appeared in issue 4 of "The Doub
 
 _Judith Gautier (1845-1917) was a French poet and novelist. Gautier had a scholarly interest in East Asia, and according to "The New International Encyclopedia," her works dealt greatly with Chinese and Japanese themes._
 
-
-
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Bankok becomes enveloped in darkness and silence; huge stars open their blossoms of fire in the sky; it is the hour when sorcerers prepare for their deeds of evil and cast spells upon their enemies; objects become deformed by vagueness and take frightful shapes—the palms seem full of black birds; the domes of the pagodas look like huge bald skulls; obscurity crouches in the underbrush, and one fancies that he beholds the forms of reptiles moving everywhere. The sounds of human life yield place to the murmurs of the night—to the lapping of the waves upon the river's bank, to the rustling of leaves in the wind—to the thousand inexplicable sighs which are born of silence.
 
