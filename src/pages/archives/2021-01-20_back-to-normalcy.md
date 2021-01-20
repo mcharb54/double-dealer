@@ -1,7 +1,8 @@
 ---
 backroad: /normalcy/
 date: 2021-01-20T22:05:36.864Z
-cover_image: /img/arthur-parton-89413_1920.jpg
+cover_image: >-
+  /img/collier-s_1921_united_states_of_america_-_presidential_inaugural_on_east_front_of_the_capitol.jpg
 title: BACK TO NORMALCY
 writer: The Editors
 ---
