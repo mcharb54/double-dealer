@@ -12,7 +12,7 @@ _In honor of Joe Biden's inauguration as the 46th President of the United States
 
 _On the event of this year’s inauguration, NBC News described the occasion as “radically normal.” Swap a name, here or there, and it becomes clear both how much and how little can change in a century's time._
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Since the voters of this country have almost by acclamation elected Tweedledee in default of Tweedledum, we may look forward with assurance to a rule of _normalcy_. Everyone says so; the very billboards which announce the shrinking cost of vestments admit, "We are getting back to normal." 
 
@@ -22,6 +22,6 @@ We do not want to appear irrelevant, but have you ever played golf? Then you mus
 
 Fellow mal de mer-maids and men, on this economic ocean, which tosses us high, rolls us under, or leaves us petulantly becalmed, reflect —is _normalcy_ a possible condition; or is it but a delusion?
 
-<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+<h2 style="text-align: center; font-weight:bold; color: inherit;">******</h2>
 
 Photo of Harding Inauguration: Keystone View Co., Public domain, via Wikimedia Commons
