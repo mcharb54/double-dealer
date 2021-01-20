@@ -20,3 +20,7 @@ Back to normal —or better, forward to normal, to a time when the bear will lie
 We do not want to appear irrelevant, but have you ever played golf? Then you must know that every golf player is chronically "off his game." All the other golfers will tell you that one day Q. went out and miraculously beat his record fifteen strokes. Now, he is absurdly attempting to repeat the performance. Or, as he would express it, he is trying to get "back to normal." 
 
 Fellow mal de mer-maids and men, on this economic ocean, which tosses us high, rolls us under, or leaves us petulantly becalmed, reflect —is _normalcy_ a possible condition; or is it but a delusion?
+
+<h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\*\*\*</h2>
+
+Photo of Harding Inauguration: Keystone View Co., Public domain, via Wikimedia Commons
