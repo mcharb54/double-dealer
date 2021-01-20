@@ -12,7 +12,3 @@ _In honor of Joe Biden's inauguration as the 46th President of the United States
 _On the event of this year’s inauguration, NBC News described the occasion as “radically normal.” Swap a name, here or there, and it becomes clear both how much and how little can change in a century's time._
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">\*\*\*\**</h2>
-
-__
-
-__
