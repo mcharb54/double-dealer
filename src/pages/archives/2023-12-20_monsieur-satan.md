@@ -66,3 +66,9 @@ And Monsieur Satan let a smile rove over his face. Had he remembered some past m
 Just then a pony cart in which were seated two children bolted down the road. Monsieur Satan was at the reins quicker than a flash of light (I say this literally) and with a frosty smile brought the two children to the table of the half-crazed mother.  
 
 And was that act being recorded, too, in the ether—in favor of Monsieur Satan?
+
+
+
+
+
+\*
