@@ -9,7 +9,7 @@ writer: Benjamin De Casseres
 
 Only from reading _The Double Dealer_ did I learn of Benjamin De Casseres. The best I can do is provide a link to his [Wikipedia page](https://en.wikipedia.org/wiki/Benjamin_De_Casseres#Social_influence).
 
-_\*Text reprinted below as it appeared originally in May, 1921._
+_\*Text reprinted below as it appeared originally in May, 1921_
 
 <h2 style="text-align: center; font-weight:bold; color: inherit;">*</h2>
 
