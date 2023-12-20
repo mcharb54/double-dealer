@@ -4,8 +4,12 @@ date: 2023-12-20T17:44:06.949Z
 cover_image: >-
   /img/dall·e-2023-12-20-13.42.30-create-an-illustration-of-monsieur-satan-from-benjamin-de-casseres-story-depicted-as-a-completely-human-figure-resembling-the-poet-arthur-rimbaud.-h.png
 title: Monsieur Satan
-writer: Benjamin De Casser
+writer: Benjamin De Casseres
 ---
+For information on the author, please see his [Wikipedia page](https://en.wikipedia.org/wiki/Benjamin_De_Casseres#Social_influence)
+
+
+
 The French have strange names. There are Monsieur Brave-Man, Remy Funny-Man, Man-God, and so on. It is probably part of the Gallic imagination — these names. So when I went to see the celebrated Monsieur Satan in Paris I was no more astonished to find that that was really his name than that the name of the greatest poet in the world to-day is Gabriel the Announcer. 
 
 Monsieur Satan fascinated me, but did not astound me. Probably because I had known him always — or fancied I did. He had a negligent, self-revealing manner. He would pronounce dogmatically the most astonishing paradoxes in a tone of voice such as one would use when one would say, "plate of buckwheats, please." 
