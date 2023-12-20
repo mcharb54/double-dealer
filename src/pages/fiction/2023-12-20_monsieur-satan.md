@@ -1,8 +1,7 @@
 ---
 backroad: /satanmonsieur/
 date: 2023-12-20T17:44:06.949Z
-cover_image: >-
-  /img/dall·e-2023-12-20-13.42.30-create-an-illustration-of-monsieur-satan-from-benjamin-de-casseres-story-depicted-as-a-completely-human-figure-resembling-the-poet-arthur-rimbaud.-h.png
+cover_image: /img/benjamin_de_casseres_leslies_weekly_oct_29_1921.png
 title: Monsieur Satan
 writer: Benjamin De Casseres
 ---
