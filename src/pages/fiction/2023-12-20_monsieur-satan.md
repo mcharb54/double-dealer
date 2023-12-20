@@ -6,7 +6,13 @@ cover_image: >-
 title: Monsieur Satan
 writer: Benjamin De Casseres
 ---
-For information on the author, please see his [Wikipedia page](https://en.wikipedia.org/wiki/Benjamin_De_Casseres#Social_influence)
+<h2 style="text-align: center; font-weight:bold; color: inherit;">Editors Note</h2>
+
+Only from reading _The Double Dealer_ did I learn of Benjamin De Casseres. The best I can do is provide a link to his [Wikipedia page](https://en.wikipedia.org/wiki/Benjamin_De_Casseres#Social_influence).
+
+_\*Text reprinted below as it appeared originally in May, 1921._
+
+<h2 style="text-align: center; font-weight:bold; color: inherit;">I.</h2>
 
 
 
