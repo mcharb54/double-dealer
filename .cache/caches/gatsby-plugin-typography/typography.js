@@ -1,1 +1,0 @@
-module.exports = require("/Users/martincharboneau/Documents/GitHub/double-dealer/src/utils/typography")
