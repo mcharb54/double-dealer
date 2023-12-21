@@ -39,12 +39,12 @@
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "typography-theme-kirkham": "^0.16.19"
-  },
-  "overrides": {
-    "react": "^18.2.0",
-    "@types/react": "^18.0.17",
-    "react-dom": "^18.2.0"
+    "typography-theme-kirkham": "^0.16.19",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mdx-js/react": "^3.0.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-mdx": "^5.13.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

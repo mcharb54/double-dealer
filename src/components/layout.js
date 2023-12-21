@@ -6,7 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import Img from "gatsby-image";
-import ogol from "../images/twotree.png";
 
 const HeaderDiv = styled.div`
   margin: 0;

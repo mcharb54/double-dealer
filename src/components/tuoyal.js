@@ -6,7 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import Img from "gatsby-image";
-import logo from "../images/icon.png";
 
 const HeaderDiv = styled.div`
   margin: 0;

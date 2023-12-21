@@ -65,6 +65,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-decap-cms`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
