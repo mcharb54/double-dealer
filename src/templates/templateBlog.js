@@ -79,9 +79,9 @@ export default ({ data }) => {
   );
 };
 
-export const templateBlogQuery = graphql`
-  query templateBlogQuery($path: String!) {
-    markdownRemark(frontmatter: { backroad: { eq: $path } }) {
+export const pageQuery = graphql`
+  query BlogPostByPath($path: String!) {
+    markdownRemark(fields: { slug: { eq: $path } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
