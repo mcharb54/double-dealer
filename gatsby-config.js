@@ -46,6 +46,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -64,7 +65,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
