@@ -106,7 +106,7 @@ export const query = graphql`
 query {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] }
-    filter: { fileAbsolutePath: { regex: "/articles/" } }
+    filter: { fileAbsolutePath: { regex: "/fiction/" } }
     limit: 1000
   ) {
     totalCount
