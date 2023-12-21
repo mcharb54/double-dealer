@@ -41,6 +41,11 @@
     "typography": "^0.16.19",
     "typography-theme-kirkham": "^0.16.19"
   },
+  "overrides": {
+    "react": "^18.2.0",
+    "@types/react": "^18.0.17",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "prettier": "^1.18.2"
