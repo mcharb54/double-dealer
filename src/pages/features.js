@@ -106,8 +106,8 @@ export default ({ data }) => (
 export const query = graphql`
 query {
   allMarkdownRemark(
-    sort: { order: DESC, fields: [frontmatter___date] }
-    filter: { fileAbsolutePath: { regex: "/articles/" } }
+    sort: {frontmatter: {date: DESC}}
+    filter: {fileAbsolutePath: {regex: "/archives/"}}
     limit: 1000
   ) {
     totalCount
@@ -121,19 +121,17 @@ query {
           backroad
           cover_image {
             childImageSharp {
-              # Specify the image processing specifications right in the query.
-              # Makes it trivial to update as your page's design changes.
               fluid(maxHeight: 560) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
         }
-      fields {
-      slug
+        fields {
+          slug
         }
+      }
     }
   }
-}
 }
 `;

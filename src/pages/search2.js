@@ -45,22 +45,19 @@ export default ({ data }) => (
 );
 
 export const query = graphql`
-  query {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
-      totalCount
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            writer
-          }
+query {
+  allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
+    totalCount
+    edges {
+      node {
+        excerpt(pruneLength: 250)
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          writer
         }
       }
     }
   }
+}
 `;

@@ -122,35 +122,35 @@ export default ({ data }) => {
 };
 
 export const query = graphql`
-  query {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
-      totalCount
-      edges {
-        node {
-          excerpt(pruneLength: 150)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            writer
-            backroad
-            cover_image {
-              childImageSharp {
-                # Specify the image processing specifications right in the query.
-                # Makes it trivial to update as your page's design changes.
-                fluid(maxHeight: 560) {
-                  ...GatsbyImageSharpFluid
-                }
+query {
+  allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
+    totalCount
+    edges {
+      node {
+        excerpt(pruneLength: 150)
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          writer
+          cover_image {
+            childImageSharp {
+              fluid(maxHeight: 560) {
+                ...GatsbyImageSharpFluid
+                src
+              }
+              resize(width: 1200) {
+                width
+                height
+                src
               }
             }
           }
-          fields {
-            slug
-          }
+        }
+        fields {
+          slug
         }
       }
     }
   }
+}
 `;
