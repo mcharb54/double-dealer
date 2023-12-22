@@ -73,7 +73,6 @@ export default ({ data }) => {
   );
 };
 
-
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(fields: { slug: { eq: $path } }) {

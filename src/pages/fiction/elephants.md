@@ -1,6 +1,6 @@
 ---
 backroad: /ficcomingsoon/
-date: '2019-07-11'
+date: 2019-07-31T01:30:00.556Z
 cover_image: /img/blackddlogo.png
 title: Fiction Coming Soon
 writer: The Double Dealer
