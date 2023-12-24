@@ -1,5 +1,6 @@
 ---
 backroad: /dancerthe/
+cover_image: /img/ddlogoblack.png
 title: The Dancer
 writer: Lafcadio Hearn
 ---
