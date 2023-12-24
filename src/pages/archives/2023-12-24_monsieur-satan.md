@@ -1,5 +1,6 @@
 ---
 backroad: /satanmonsieur/
+cover_image: /img/ddlogoblack.png
 title: Monsieur Satan
 writer: Benjamin De Casseres
 ---
