@@ -1,7 +1,7 @@
 ---
 backroad: /satanmonsieur/
-cover_image: /img/ddlogoblack.png
-title: Monsieur Satan
+cover_image: /img/image-from-rawpixel-id-599314-jpeg.jpg
+title: MONSIEUR SATAN
 writer: Benjamin De Casseres
 ---
 The French have strange names. There are Monsieur Brave-Man, Remy Funny-Man, Man-God, and so on. It is probably part of the Gallic imagination — these names. So when I went to see the celebrated Monsieur Satan in Paris I was no more astonished to find that that was really his name than that the name of the greatest poet in the world to-day is Gabriel the Announcer.
