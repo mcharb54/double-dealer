@@ -1,7 +1,7 @@
 ---
 backroad: /dancerthe/
-cover_image: /img/ddlogoblack.png
-title: The Dancer
+cover_image: /img/img_4764.jpg
+title: THE DANCER
 writer: Lafcadio Hearn
 ---
 In a curiously illustrated edition of Balzac's Peau de Chagrin there is a strange and terrible face which some of you may remember having seen: It is the face of the bric-a-brac dealer who sold the mysterious parchment, -a forehead of immense breadth; a nose like that of Mephisto in Retzch's outlines; a mouth thin, straight, and passionless; eyes large and sinister, with brows knotted above the nose like adders and rising wickedly toward the temples, -in short a face most sinister, most infernal, but withal fascinating with a diabolic fascination. Now can you imagine such a visage transformed and softened by youth and femininity, made beautiful without losing its strength of menacing wickedness; -the nose a little less rugged, the eyes a little larger, the brows a little lighter? Then you have before you an idea of the dancer's face. 
