@@ -1,0 +1,400 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.44 'Fira Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Fira Sans',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2.15rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.58293rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.35824rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.85805rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.79482rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}ul{margin-left:1.44rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.44rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:0.85rem;line-height:1.44rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:1rem;line-height:1.44rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}blockquote{margin-left:0;margin-right:1.44rem;margin-top:0;padding-bottom:0;padding-left:1.17rem;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:1.16543rem;line-height:1.44rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.27rem solid hsla(0,0%,0%,0.2);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.08rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.08rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.44rem;margin-bottom:calc(1.08rem / 2);margin-top:calc(1.08rem / 2);}li > ul{margin-left:1.44rem;margin-bottom:calc(1.08rem / 2);margin-top:calc(1.08rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.08rem / 2);}code{font-size:0.85rem;line-height:1.44rem;}kbd{font-size:0.85rem;line-height:1.44rem;}samp{font-size:0.85rem;line-height:1.44rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96rem;padding-right:0.96rem;padding-top:0.72rem;padding-bottom:calc(0.72rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:#9f392b;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.44rem;color:hsla(0,0%,0%,0.8);font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){blockquote{margin-left:-1.08rem;margin-right:0;padding-left:0.81rem;}}</style><meta name="generator" content="Gatsby 5.16.1"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="description" content="A Play in One Act. &quot;........ et le comble de la finesse était de se surprende l&#x27;un ou l&#x27;autre à recevoir une bagatelle sans prononcer le mot…"/><meta data-react-helmet="true" property="og:title" content="BAGATELLE"/><meta data-react-helmet="true" property="og:url" content="https://www.thedoubledealer.com/1921-02-01_bagatelle/"/><meta data-react-helmet="true" property="og:description" content="A Play in One Act. &quot;........ et le comble de la finesse était de se surprende l&#x27;un ou l&#x27;autre à recevoir une bagatelle sans prononcer le mot…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta name="theme-color" content="#000"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link href="//fonts.googleapis.com/css?family=Playfair+Display:700|Fira+Sans:400,400i,700,700i" rel="stylesheet" type="text/css"/><title data-react-helmet="true">BAGATELLE | The Double Dealer</title><link data-react-helmet="true" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/><script data-react-helmet="true" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"BAGATELLE","author":{"@type":"Person","name":"Louis Gilmore"},"datePublished":"1921-02-01","description":"A Play in One Act. \"........ et le comble de la finesse était de se surprende l'un ou l'autre à recevoir une bagatelle sans prononcer le mot…","publisher":{"@type":"Organization","name":"The Double Dealer","url":"https://www.thedoubledealer.com"}}</script><style data-react-helmet="true" type="text/css">body { background-color: white; color: black; }
+               a { color: inherit; }
+               .bg-custom-nav { background-color: black; color: white; font-family: 'Playfair Display', serif; padding-left: 20px; padding-right: 20px; }</style><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/><link rel="icon" href="/favicon-32x32.png?v=93a51835ae995dd99e9ffb3ece99bc47" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=93a51835ae995dd99e9ffb3ece99bc47"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=93a51835ae995dd99e9ffb3ece99bc47"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion="css 156hnfo">.css-156hnfo{margin:0;background-color:white;color:black;}</style><div class="css-156hnfo"><style data-emotion="css r91k4r">.css-r91k4r{margin:0;background-color:black;}</style><div class="css-r91k4r"><style data-emotion="css 1o4nbck">.css-1o4nbck{margin:0 auto;max-width:1200px;}</style><div class="css-1o4nbck"><nav class="navbar navbar-expand-lg navbar-dark bg-custom-nav"><a class="mr-0 css-1xdhyk6 navbar-brand" href="/"><img src="/static/blackddlogo-b990807d32a27ef64cc5ed9988cd4956.png" height="75" alt="The Double Dealer"/></a><button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse" id="basic-navbar-nav"><div class="mx-auto navbar-nav"><a href="/features/" class="nav-link">Features</a><a href="/fiction/" class="nav-link">Fiction</a><a href="/archives/" class="nav-link">Archives</a><a href="/latest/" class="nav-link">Latest</a><a href="/about/" class="nav-link">About</a></div><style data-emotion="css 1uyo4hm">.css-1uyo4hm{background:none;border:none;padding:0;cursor:pointer;-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1);}</style><button aria-label="Toggle theme" class="css-1uyo4hm"><img src="/static/blackddlogo-b990807d32a27ef64cc5ed9988cd4956.png" height="75" alt="Toggle theme"/></button></div></nav></div></div><style data-emotion="css zjavu7">.css-zjavu7{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;background-color:white;color:black;max-width:700px;padding:0;}</style><div class="site css-zjavu7"><style data-emotion="css 14t2kkj">.css-14t2kkj{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;padding-top:50px;padding-left:20px;padding-right:20px;}</style><div class="site-content css-14t2kkj"><div><style data-emotion="css 1g4oxzt">.css-1g4oxzt{margin-top:0.72rem;margin-bottom:0.36rem;text-align:center;color:inherit;}</style><h1 class="css-1g4oxzt">BAGATELLE</h1><style data-emotion="css 1loy5nt">.css-1loy5nt{text-align:center;margin-bottom:0.72rem;}</style><div class="css-1loy5nt"><style data-emotion="css 3oyv9o">.css-3oyv9o{background:none;border:1px solid currentColor;color:inherit;padding:4px 14px;cursor:pointer;font-size:0.8rem;letter-spacing:0.05em;}</style><button class="css-3oyv9o">Dark Mode</button></div><hr/><div><style data-emotion="css uehqiy">.css-uehqiy{display:inline-block;font-style:normal;float:left;color:inherit;}</style><h5 class="css-uehqiy">By <!-- -->Louis Gilmore</h5><style data-emotion="css clziq8">.css-clziq8{display:inline-block;font-style:italic;float:right;color:inherit;margin-top:2px;}</style><h6 class="css-clziq8">Vol. I, No. 2<!-- --> — <!-- -->February 1921</h6></div><br/><br/><style data-emotion="css cl5vjn">.css-cl5vjn{font-family:"Roboto",sans-serif;color:inherit;}</style><div class="css-cl5vjn"><p><em>A Play in One Act.</em></p>
+<p><em>"........ et le comble de la finesse était de se surprende l'un ou l'autre à recevoir une bagatelle sans prononcer le mot sacramentel."</em> — Balzac.</p>
+<p><strong>Persons:</strong> Shabiyah, <em>The Gazelle.</em> Kasim, <em>The Philosopher.</em> Faroun, <em>The Husband.</em></p>
+<p><strong>Scene:</strong> <em>The interior of an Arab's tent on the edge of the desert. At the spectator's right is a divan composed of saddle-bags, carpets and pillows. At his right, a large chest. A mirror of burnished copper hangs on the tent wall back of chest. The only entrance and exit is a door, at center rear, screened by a flap of the tent so that it cuts off from the interior the glare of the sun.</em></p>
+<p><em>As the curtain rises, SHABIYAH is seated cross-legged on the divan, playing a lute. She puts down the lute, yawns, listens, and hearing someone, goes to back of tent to look out.</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Seeing someone, after a pause speaks)</em>
+In Allah's name, wilt thou not rest in the shade?</p>
+<p><strong>KASIM</strong>
+<em>(In the doorway)</em>
+There is no God but Allah, the Compassionate, the Merciful! I came hither because of the palm-tree.</p>
+<p><strong>SHABIYAH</strong>
+This tent has spread itself in the shadow of the palm tree. Rest in its shade.</p>
+<p><strong>KASIM</strong>
+<em>(Following her into tent)</em>
+I hear and obey.</p>
+<p><strong>SHABIYAH</strong>
+Tell me, O youth, what is thy name?</p>
+<p><strong>KASIM</strong>
+My name is Kasim.</p>
+<p><strong>SHABIYAH</strong>
+O Kasim, rest on these carpets.
+<em>(She brings a basin and ewer of copper and pours water over his hands)</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Placing before him a tray containing a dish of fresh dates and a vessel of milk and a cup)</em>
+O Kasim, eat of these fruits for 'we have no other meat, and fear nothing from me.</p>
+<p><em>(Kasim eats. He then washes his hands and mouth in the same manner as before but more thoroughly.)</em></p>
+<p><strong>SHABIYAH</strong>
+Now thou hast eaten, O Kasim, tell me whence thou art and how camest thou hither.</p>
+<p><strong>KASIM</strong>
+O damsel. . .</p>
+<p><strong>SHABIYAH</strong>
+Thou mayest call me Shabiyah.</p>
+<p><strong>KASIM</strong>
+O Shabiyah, know that I am of the city of Cairo and that I am travelling toward Bagdad with a company of merchants who have halted not far from this place.</p>
+<p><strong>SHABIYAH</strong>
+Thou art a merchant?</p>
+<p><strong>KASIM</strong>
+I am a philosopher.</p>
+<p><strong>SHABIYAH</strong>
+By Allah, thou art young for a philosopher!</p>
+<p><strong>KASIM</strong>
+Indeed, I am no ordinary philosopher.</p>
+<p><strong>SHABIYAH</strong>
+What marvel is this!</p>
+<p><strong>KASIM</strong>
+Know, O Shabiyah, that of philosophers there are two kinds; ordinary philosophers, who are frequently old and always tedious; and extraordinary philosophers, whose wisdom is the flower of observation and the fruit of experience. <em>(He draws from his vest a book which he reads.)</em>
+<em>(Pause).</em></p>
+<p><strong>SHABIYAH</strong>
+Thy book—O philosopher of the age—since it appears the sole object worthy of attention; permit me to ask the name of the science it treats?</p>
+<p><strong>KASIM</strong>
+This book is beyond the understanding of women.</p>
+<p><em>(Pause, during which Kasim reads while Shabiyah watches him from under her eyelashes.)</em></p>
+<p><strong>SHABIYAH</strong>
+My husband is away.</p>
+<p><strong>KASIM</strong>
+Thy husband . . .</p>
+<p><strong>SHABIYAH</strong>
+Faroun . . . He is gone to the bazaar.</p>
+<p><strong>KASIM</strong>
+<em>(Neglecting his book)</em>
+Ah!</p>
+<p><strong>SHABIYAH</strong>
+He is buying a gold chain.</p>
+<p><strong>KASIM</strong>
+Buys he this chain for thee, O gazelle?</p>
+<p><strong>SHABIYAH</strong>
+Yes and no. It will be mine only if I win it from him at Bagatelle.</p>
+<p><strong>KASIM</strong>
+Bagatelle?</p>
+<p><strong>SHABIYAH</strong>
+Bagatelle. Thou hast never played it?</p>
+<p><strong>KASIM</strong>
+No.</p>
+<p><strong>SHABIYAH</strong>
+O Kasim, it is a game played for a forfeit. The players are two; the forfeit whatever they agree on. My Faroun and I have agreed to play for a gold chain.</p>
+<p><strong>KASIM</strong>
+How does one play this game?</p>
+<p><strong>SHABIYAH</strong>
+To win the forfeit—one must surprise whomever one is playing with, into accepting a key, a flower, a book—some bagatelle!—without that other saying the word "bagatelle."</p>
+<p><strong>KASIM</strong>
+Shall <em>we</em> play Bagatelle?</p>
+<p><strong>SHABIYAH</strong>
+Agreed; and for what forfeit?</p>
+<p><strong>KASIM</strong>
+Do thou name it.</p>
+<p><strong>SHABIYAH</strong>
+The ruby on thy finger.</p>
+<p><strong>KASIM</strong>
+This ring? <em>(holding it up).</em></p>
+<p><strong>SHABIYAH</strong>
+In the name of Allah, yes.</p>
+<p><strong>KASIM</strong>
+I would not part with it for a thousand dirhams.</p>
+<p><strong>SHABIYAH</strong>
+Has it a history?</p>
+<p><strong>KASIM</strong>
+This ring was given me by a most beautiful and wise lady, with the words "O Kasim, I have taught thee all I know; there is nothing more we can teach thee."</p>
+<p><strong>SHABIYAH</strong>
+Allah is all-knowing. Let us play for the ring?</p>
+<p><strong>KASIM</strong>
+So be it.</p>
+<p><strong>SHABIYAH</strong>
+It is agreed; and Allah is my witness. O Kasim, remember—Take nothing at my hand without at the same time saying the all-important word . . .</p>
+<p><strong>KASIM</strong>
+Not even a kiss? <em>(He kisses her hand, exclaiming Bagatelle!)</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Laughing)</em>
+Thou hast learned but the half of thy lesson, seeing that a kiss is not a bagatelle . . . <em>(Affecting surprise.)</em> But tell me? . . . Thou art no longer reading!</p>
+<p><strong>KASIM</strong>
+I was distracted by thy beauty and grace.</p>
+<p><strong>SHABIYAH</strong>
+Needs must thou tell me of this book? Verily my patience is at an end on thy account.</p>
+<p><strong>KASIM</strong>
+<em>(Drawing a deep breath)</em>
+I am the author of this work but the subject matter is not of mine invention—It is a collection of all the tricks, rogueries, ruses and wiles that women have invented and of which they are capable.</p>
+<p><strong>SHABIYAH</strong>
+What! . . . All? . . .</p>
+<p><strong>KASIM</strong>
+Yes. . . . All.</p>
+<p><strong>SHABIYAH</strong>
+And is thy book the flower of observation?</p>
+<p><strong>KASIM</strong>
+It is even so.</p>
+<p><strong>SHABIYAH</strong>
+And the fruit of thine own experience?</p>
+<p><strong>KASIM</strong>
+Thou hast said it.</p>
+<p><strong>SHABIYAH</strong>
+Hast thou forgotten the whole or a part of thy wisdom?</p>
+<p><strong>KASIM</strong>
+How so?</p>
+<p><strong>SHABIYAH</strong>
+Why wast thou reading, then?</p>
+<p><strong>KASIM</strong>
+To avoid temptation.</p>
+<p><strong>SHABIYAH</strong>
+And now?</p>
+<p><strong>KASIM</strong>
+I seek thy beauty and grace for thy face beams with light, thy cheeks are rose-red and thine eyelids langorous.</p>
+<p><strong>SHABIYAH</strong>
+<em>(Slyly).</em>
+Hast thou no fear that I play thee a trick <em>not</em> in thy collection?</p>
+<p><strong>KASIM</strong>
+No, for through the constant study of women I have arrived at a state where I no longer fear them.</p>
+<p><strong>SHABIYAH</strong>
+Ah . . .
+<em>(Pause.)</em></p>
+<p><strong>SHABIYAH</strong>
+Philosopher of the age?</p>
+<p><strong>KASIM</strong>
+What wouldst thou, garden of delights?</p>
+<p><strong>SHABIYAH</strong>
+O Kasim, I would have thee abide with me a while that thou mayest tell me thy history and acquaint me with the rare adventures that have come to thy knowledge . . .</p>
+<p><strong>KASIM</strong>
+What? All!</p>
+<p><strong>SHABIYAH</strong>
+Yes . . . All.</p>
+<p><strong>KASIM</strong>
+So be it. But, ere I begin. I will enact an adventure . . .</p>
+<p><strong>SHABIYAH</strong>
+What tale is this?</p>
+<p><strong>KASIM</strong>
+By Allah, my heart is well-nigh torn in sunder with longing for thee; nor will I let half the day pass ere I possess thee and take my fill of thy beauty and grace.</p>
+<p><strong>SHABIYAH</strong>
+Bethink thee what thou wilt do.</p>
+<p><strong>KASIM</strong>
+How so?</p>
+<p><strong>SHABIYAH</strong>
+Belike it may come to my husband's ears, and who will deliver us from his hand . . .</p>
+<p><strong>KASIM</strong>
+Is not thy husband at the bazaar?</p>
+<p><strong>SHABIYAH</strong>
+Yes.</p>
+<p><strong>KASIM</strong>
+How will he know of this? <em>(He kisses her mouth.)</em> Thy hair is like the nights of estrangment and separation and thy face like the days of union . .</p>
+<p><strong>SHABIYAH</strong>
+<em>(Breaks from his embrace, sits upright, listens).</em>
+Didst thou not hear?</p>
+<p><strong>KASIM</strong>
+What?</p>
+<p><em>(She goes to door of tent and listens.)</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Startled).</em>
+It is his horse! My husband will be here in a moment!</p>
+<p><strong>KASIM</strong>
+<em>(Jumps from divan. His book, unnoticed, falling to floor right of divan).</em></p>
+<p><strong>SHABIYAH</strong>
+He is as jealous as a tiger and as pitiless. If Faroun find you here, he will kill us both.</p>
+<p><em>(Kasim starts for door.)</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Divining his intent).</em>
+Hasten not to destroy thyself. He will see thee . . . <em>(with a flash of inspiration.)</em> The chest—there is nothing for it but that thou hide in the chest!</p>
+<p><em>(Kasim hesitates.)</em></p>
+<p><strong>SHABIYAH</strong>
+Art thou afraid?</p>
+<p><strong>KASIM</strong>
+Yes.</p>
+<p><strong>SHABIYAH</strong>
+By Allah and if thou valuest thy life, quick, hide in this chest.</p>
+<p><strong>KASIM</strong>
+<em>(Getting into chest)</em>
+I commit my affair unto Allah for no one can avoid what he hath decreed.</p>
+<p><strong>SHABIYAH</strong>
+<em>(Locks chest with key which she attaches again to her girdle; glances around the tent and sees the book).</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Shoving the book under the divan with her foot).</em>
+And it be the will of Allah, I will show thee a trick not in thy book!</p>
+<p><em>(She adds Kohl to her eyelids and a little more red to her lips, and is ready, a few seconds later, to receive, with a thousand blandishments, Faroun, who enters).</em></p>
+<p><strong>SHABIYAH</strong>
+O my Lord and light of mine eyes . .</p>
+<p><strong>FAROUN</strong>
+<em>(Fondling her).</em>
+Gazelle.</p>
+<p><strong>SHABIYAH</strong>
+Blessed be Allah and his Prophet, thou art returned sooner than I expected.</p>
+<p><strong>FAROUN</strong>
+Gazelle, I had not come but out of longing for the sight of thy face, for I must again to the bazaar on a matter of business <em>(sits on divan).</em></p>
+<p><strong>SHABIYAH</strong>
+Wilt thou partake of some refreshment?</p>
+<p><strong>FAROUN</strong>
+What is there?</p>
+<p><strong>SHABIYAH</strong>
+Dates and milk.</p>
+<p><strong>FAROUN</strong>
+I am not hungry. I will smoke my nargileh.</p>
+<p><em>(Faroun proceeds to smoke the nargileh while Shabiyah seats herself on a cushion not far from his feet).</em></p>
+<p><strong>FAROUN</strong>
+Tell me, gazelle, how hast thou passed the time during mine absence!</p>
+<p><strong>SHABIYAH</strong>
+<em>(Fervently).</em>
+There is no power and no virtue but in Allah, the most high, the Sublime? . . .</p>
+<p><strong>FAROUN</strong>
+Hast thou some rare story to tell me or some marvel to make known to me?</p>
+<p><strong>SHABIYAH</strong>
+<em>(Quietly and with perfect self possession).</em>
+There is nothing for it but that I tell thee the whole truth, hiding naught of a singular adventure that befell me . .</p>
+<p><strong>FAROUN</strong>
+I am listening, my gazelle.</p>
+<p><strong>SHABIYAH</strong>
+There came here a kind of philosopher, who claims that he has collected into a book all the tricks, rogueries, ruses and wiles that women have invented and of which they are capable . . .</p>
+<p><strong>FAROUN</strong>
+I am listening.</p>
+<p><strong>SHABIYAH</strong>
+And this philosopher is a goodly youth with shining face and slender shape, black eyes and joined eyebrows . . .</p>
+<p><strong>FAROUN</strong>
+Go on, I am listening . . .</p>
+<p><strong>SHABIYAH</strong>
+<em>(With animation).</em>
+He was ardent, impetuous—he threw his arms about me, and . . .</p>
+<p><strong>FAROUN</strong>
+<em>(Terrible)</em>—And?</p>
+<p><strong>SHABIYAH</strong>
+Thou camest in time to save my faltering virtue.</p>
+<p><strong>FAROUN</strong>
+<em>(Bounds from the divan, a long knife in his hand. Shabiyah falls at his feet).</em></p>
+<p><strong>FAROUN</strong>
+<em>(Taking her by the hair).</em>
+Where is this dog? Produce him to my sight!</p>
+<p><strong>SHABIYAH</strong>
+<em>(Embracing his knees).</em>
+Thou wilt not kill me?</p>
+<p><strong>FAROUN</strong>
+<em>(Threatening her with the knife).</em>
+By Allah, if thou wouldst live, speak—where is this dog?</p>
+<p><strong>SHABIYAH</strong>
+<em>(With a glance as prompt as it is timid)</em>
+The chest.</p>
+<p><strong>FAROUN</strong>
+<em>(Taking a stride toward the chest).</em>
+Ah! . . .</p>
+<p><strong>SHABIYAH</strong>
+<em>(Proffering the key, her eyes downcast).</em>
+It is locked . . .</p>
+<p><strong>FAROUN</strong>
+<em>(Snatches the key from her hand; runs toward the chest and is on the point of inserting the key in the lock when he is stopped by an explosion of laughter from Shabiyah).</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Swaying with delight).</em>
+The chain, the chain! Give me the gold chain! Thou hast forgotten the bagatelle thou snatched from me! . . .</p>
+<p><em>(The key drops to the floor.)</em></p>
+<p><strong>FAROUN</strong>
+By the heart of the Prophet! . . .</p>
+<p><strong>SHABIYAH</strong>
+Thou hast lost thy chain. O Faroun, give it me. Have I not won it?</p>
+<p><strong>FAROUN</strong>
+Thou hast indeed won it <em>(He goes toward her with the chain, his knife no longer visible)</em>.. O subtlest of gazelles, here is thy chain. Another time, play no such cruel trick . . .</p>
+<p><strong>SHABIYAH</strong>
+<em>(Taking the chain)</em>
+My Faroun, it is not easy to catch thee; thou hast usually a better memory . . .</p>
+<p><strong>FAROUN</strong>
+Play me no such trick again, and I will bring thee the wealth of all the caravans that pass in a year. <em>(He starts to go).</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Arranging her hair before the mirror.)</em>
+What, art thou leaving?</p>
+<p><strong>FAROUN</strong>
+Yes.</p>
+<p><strong>SHABIYAH</strong>
+O my husband, let this suffice thee of ignoble suspicion and never again deem ill of me.</p>
+<p><strong>FAROUN</strong>
+So be it.</p>
+<p><strong>SHABIYAH</strong>
+<em>(Approaching him).</em>
+Accord me pardon for what is past.</p>
+<p><strong>FAROUN</strong>
+Allah grant thee grace!</p>
+<p><strong>SHABIYAH</strong>
+Be absent but a little while, O Faroun for I cannot endure to be parted from thee even for an hour.</p>
+<p><em>(Faroun goes).</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(Listens to make sure that he is gone; then, picking up the key, she unlocks and opens the chest).</em></p>
+<p><em>(Kasim's head and shoulders appear. He is pale and trembling).</em></p>
+<p><strong>SHABIYAH</strong>
+<em>(In a whisper).</em>
+He is gone . . .</p>
+<p><strong>KASIM</strong>
+<em>(Getting out of chest).</em>
+Ah.</p>
+<p><strong>SHABIYAH</strong>
+Praised be Allah who hath made the affair to end well; and we implore the Almighty to crown his favors with thy safe faring forth this place.</p>
+<p><strong>KASIM</strong>
+Is the way clear?</p>
+<p><strong>SHABIYAH</strong>
+Yes.</p>
+<p><strong>KASIM</strong>
+<em>(Starting to go).</em>
+Farewell.</p>
+<p><strong>SHABIYAH</strong>
+What, art thou going too?</p>
+<p><strong>KASIM</strong>
+<em>(In a flutter to be gone).</em>
+By Allah, yes.</p>
+<p><em>(He has reached the door when he stops.)</em></p>
+<p><strong>SHABIYAH</strong>
+Thy book—delay a little—thou hast forgotten thy book!</p>
+<p><strong>KASIM</strong>
+<em>(Feeling in his vest).</em>
+Ah <em>(Coming toward her).</em> Give it me that I may go my way, for I will no longer in this place.</p>
+<p><strong>SHABIYAH</strong>
+I hear and obey.</p>
+<p><em>(Shabiyah gets the book from under the divan. Kasim snatches it eagerly from her hands and starts for the door.)</em></p>
+<p><strong>SHABIYAH</strong>
+Stay, in the name of Allah, there is something else! . .</p>
+<p><strong>KASIM</strong>
+<em>(Startled).</em>
+What?</p>
+<p><strong>SHABIYAH</strong>
+Thou hast forgotten we are playing Bagatelle. Did I not warn thee—"Take nothing from my hand without at the same time saying the all-important word."</p>
+<p><strong>KASIM</strong>
+In the name of Allah . . .</p>
+<p><strong>SHABIYAH</strong>
+The ruby—the ruby on thy finger. Thou promised it and Allah is witness of what I say.</p>
+<p><strong>KASIM</strong>
+I promised no less a forfeit; therefore, it is thine. <em>(Drawing it from his finger).</em> Here . . . take it.</p>
+<p><strong>SHABIYAH</strong>
+<em>(Taking the ring).</em>
+How beautiful it is—it will remind me of thee! Wilt thou not stay?</p>
+<p><strong>KASIM</strong>
+No.</p>
+<p><strong>SHABIYAH</strong>
+Art thou afraid?</p>
+<p><strong>KASIM</strong>
+I mistrust thee.</p>
+<p><strong>SHABIYAH</strong>
+Come, tell me, how dost thou like my chain?</p>
+<p><strong>KASIM</strong>
+Would I had never seen thee.</p>
+<p><strong>SHABIYAH</strong>
+O Kasim, have I played thee a trick <em>not</em> in thy book?</p>
+<p><strong>KASIM</strong>
+One glance at thee has cost me a thousand sighs for indeed thou hast ravished my wit. Farewell.</p>
+<p><strong>SHABIYAH</strong>
+Delay a little. My Faroun is away for hours at a time and there is seldom here a philosopher to delight mine ears. Wilt thou not stay?</p>
+<p><strong>KASIM</strong>
+Why should I?</p>
+<p><strong>SHABIYAH</strong>
+Stay and see. I will give thee thy ring again.</p>
+<p><strong>KASIM</strong>
+Not for the ruby together with thy gold chain would I stay . . .</p>
+<p><strong>SHABIYAH</strong>
+I will give thee a kiss.</p>
+<p><strong>KASIM</strong>
+Not even a kiss. Farewell . . .</p>
+<p><strong>SHABIYAH</strong>
+Philosopher of the age?</p>
+<p><strong>KASIM</strong>
+<em>(Turning at door).</em>
+What wouldst thou now of me?</p>
+<p><strong>SHABIYAH</strong>
+Forget not to include this Bagatelle in thy collection.</p>
+<p><em>(Kasim goes).</em></p>
+<p><em>CURTAIN.</em></p>
+<p><strong>LOUIS GILMORE.</strong></p></div></div></div><style data-emotion="css jucpc2">.css-jucpc2{position:relative;padding-top:40px;}</style><footer class="css-jucpc2"><style data-emotion="css 1alorli">.css-1alorli{float:left;color:black;font-style:normal;padding-right:20px;padding-bottom:20px;}</style><p class="css-1alorli">Copyright © 2019–present The Double Dealer™</p><style data-emotion="css li1lag">.css-li1lag{float:right;color:black;-webkit-text-decoration:underline;text-decoration:underline;font-style:normal;padding-right:20px;padding-bottom:20px;}</style><a class="css-li1lag" href="/about/">About</a></footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/1921-02-01_bagatelle/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-8b9029e764ff68ab65b1.js\"],\"component---cache-caches-gatsby-plugin-offline-app-shell-js\":[\"/component---cache-caches-gatsby-plugin-offline-app-shell-js-516c667baf7465d03652.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-caa50668dc5cdf45219e.js\"],\"component---src-pages-about-js\":[\"/component---src-pages-about-js-bc9d245a65217db7f282.js\"],\"component---src-pages-archives-js\":[\"/component---src-pages-archives-js-94a1f30669db56b508f3.js\"],\"component---src-pages-features-js\":[\"/component---src-pages-features-js-3072759cf499bbeafe4c.js\"],\"component---src-pages-fiction-js\":[\"/component---src-pages-fiction-js-10ba948bd21f4424f341.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-6d9237cba9d326a62c1a.js\"],\"component---src-pages-latest-js\":[\"/component---src-pages-latest-js-08acbd936cd0c34f09e5.js\"],\"component---src-pages-search-js\":[\"/component---src-pages-search-js-ea79ad25141b52656640.js\"],\"component---src-pages-submissions-js\":[\"/component---src-pages-submissions-js-e9407a63240eb245d97e.js\"],\"component---src-pages-thanks-js\":[\"/component---src-pages-thanks-js-80c8c0982a72821e3ca1.js\"],\"component---src-templates-blog-template-js\":[\"/component---src-templates-blog-template-js-aed2475fa234675245d4.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="ac501c9b62c92c42026f";</script><script src="/webpack-runtime-2ac21840b91f2a439a5e.js" async></script><script src="/framework-6dabedfe7d6a50513ecc.js" async></script><script src="/app-8b9029e764ff68ab65b1.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
