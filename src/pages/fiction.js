@@ -7,8 +7,14 @@ import Layout from "../components/layout";
 import { rhythm } from "../utils/typography";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Card from "react-bootstrap/Card";
+import { useTheme } from "../context/ThemeContext";
 
 export default function FictionPage({ data }) {
+  const { dark } = useTheme();
+  const cardBorder = dark
+    ? "1px solid rgba(255, 255, 255, .875)"
+    : "1px solid rgba(0, 0, 0, .125)";
+
   return (
     <Layout>
       <SEO title="Fiction" />
@@ -16,11 +22,13 @@ export default function FictionPage({ data }) {
         <style type="text/css">{`
           .card {
             font-family: 'Playfair Display', serif;
+            background-color: inherit;
+            color: inherit;
             width: 100%;
             margin: 0;
             padding: 0;
             border: none;
-            border-bottom: 1px solid rgba(0, 0, 0, .125);
+            border-bottom: ${cardBorder};
           }
         `}</style>
       </Helmet>
@@ -34,13 +42,6 @@ export default function FictionPage({ data }) {
       >
         Fiction
       </h1>
-      <br />
-      <br />
-      <Link to="/fiction2" css={css`display: inline-block; font-style: normal;`}>
-        <h5 css={css`color: #0080c0; text-decoration: underline;`}>
-          Dark Theme
-        </h5>
-      </Link>
       <br />
       <br />
       {data.allMarkdownRemark.edges.map(({ node }) => (

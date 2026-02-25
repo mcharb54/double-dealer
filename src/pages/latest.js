@@ -22,13 +22,6 @@ export default function LatestPage({ data }) {
         </h1>
         <br />
         <br />
-        <Link to="/latest2" css={css`display: inline-block; font-style: normal;`}>
-          <h5 css={css`color: #0080c0; text-decoration: underline;`}>
-            Dark Theme
-          </h5>
-        </Link>
-        <br />
-        <br />
       </div>
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (

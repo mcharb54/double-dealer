@@ -7,19 +7,27 @@ import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Card from "react-bootstrap/Card";
+import { useTheme } from "../context/ThemeContext";
 
 export default function IndexPage({ data }) {
+  const { dark } = useTheme();
+  const cardBorder = dark
+    ? "1px solid rgba(255, 255, 255, .875)"
+    : "1px solid rgba(0, 0, 0, .125)";
+
   return (
     <Layout>
       <Helmet>
         <style type="text/css">{`
           .card {
             font-family: 'Playfair Display', serif;
+            background-color: inherit;
+            color: inherit;
             width: 100%;
             margin: 0;
             padding: 0;
             border: none;
-            border-bottom: 1px solid rgba(0, 0, 0, .125);
+            border-bottom: ${cardBorder};
           }
         `}</style>
       </Helmet>
@@ -42,6 +50,7 @@ export default function IndexPage({ data }) {
             color: inherit;
             margin: 0;
             padding: 0;
+            ${dark ? "transform: scale(-1, 1);" : ""}
           `}
         >
           The
@@ -51,6 +60,7 @@ export default function IndexPage({ data }) {
             border-bottom: 1px solid;
             text-align: center;
             color: inherit;
+            ${dark ? "transform: scale(-1, 1);" : ""}
           `}
         >
           Double Dealer
@@ -81,6 +91,8 @@ export default function IndexPage({ data }) {
                       margin-top: ${rhythm(1 / 4)};
                       margin-bottom: ${rhythm(1 / 4)};
                       text-align: center;
+                      font-style: normal;
+                      color: inherit;
                     `}
                   >
                     {node.frontmatter.title}

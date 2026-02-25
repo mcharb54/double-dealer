@@ -71,13 +71,7 @@ module.exports = {
       options: {
         excludes: [
           `/admin/**`,
-          `/xedni`,
-          `/archives2`,
-          `/features2`,
-          `/fiction2`,
-          `/latest2`,
           `/search`,
-          `/search2`,
           `/thanks`
         ]
       }

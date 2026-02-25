@@ -3,9 +3,11 @@ import { graphql, Link } from "gatsby";
 import { css } from "@emotion/react";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
+import { useTheme } from "../context/ThemeContext";
 
 export default function SearchPage({ data }) {
   const [query, setQuery] = useState("");
+  const { dark } = useTheme();
 
   const allPosts = data.allMarkdownRemark.edges;
   const results = query.trim()
@@ -32,13 +34,6 @@ export default function SearchPage({ data }) {
       </h1>
       <br />
       <br />
-      <Link to="/search2" css={css`display: inline-block; font-style: normal;`}>
-        <h5 css={css`color: #0080c0; text-decoration: underline;`}>
-          Dark Theme
-        </h5>
-      </Link>
-      <br />
-      <br />
       <input
         type="text"
         placeholder="Search articles, fiction, archives…"
@@ -48,7 +43,9 @@ export default function SearchPage({ data }) {
           width: 100%;
           padding: 8px 12px;
           font-size: 1rem;
-          border: 1px solid #ccc;
+          border: ${dark ? "1px solid #666" : "1px solid #ccc"};
+          background: ${dark ? "#111" : "white"};
+          color: ${dark ? "white" : "black"};
           margin-bottom: 24px;
         `}
       />

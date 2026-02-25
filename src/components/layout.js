@@ -5,8 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { useStaticQuery, Link, graphql } from "gatsby";
 import logo from "../images/blackddlogo.png";
+import { useTheme } from "../context/ThemeContext";
 
-export default function Layout({ children, dark = false }) {
+export default function Layout({ children }) {
+  const { dark, toggleTheme } = useTheme();
+
   const data = useStaticQuery(graphql`
     query SiteLayoutQuery {
       site {
@@ -16,13 +19,6 @@ export default function Layout({ children, dark = false }) {
       }
     }
   `);
-
-  const navLinks = dark
-    ? { features: "/features2", fiction: "/fiction2", archives: "/archives2", latest: "/latest2" }
-    : { features: "/features", fiction: "/fiction", archives: "/archives", latest: "/latest" };
-
-  const homeLink = dark ? "/xedni" : "/";
-  const altThemeLink = dark ? "/" : "/xedni";
 
   const bg = dark ? "black" : "white";
   const fg = dark ? "white" : "black";
@@ -81,7 +77,7 @@ export default function Layout({ children, dark = false }) {
               `}
               className="mr-0"
               as={Link}
-              to={homeLink}
+              to="/"
             >
               <img
                 src={logo}
@@ -93,27 +89,30 @@ export default function Layout({ children, dark = false }) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link as={Link} to={navLinks.features}>Features</Nav.Link>
-                <Nav.Link as={Link} to={navLinks.fiction}>Fiction</Nav.Link>
-                <Nav.Link as={Link} to={navLinks.archives}>Archives</Nav.Link>
-                <Nav.Link as={Link} to={navLinks.latest}>Latest</Nav.Link>
+                <Nav.Link as={Link} to="/features">Features</Nav.Link>
+                <Nav.Link as={Link} to="/fiction">Fiction</Nav.Link>
+                <Nav.Link as={Link} to="/archives">Archives</Nav.Link>
+                <Nav.Link as={Link} to="/latest">Latest</Nav.Link>
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
               </Nav>
-              <Navbar.Brand
-                className="mr-0"
+              <button
+                onClick={toggleTheme}
                 css={css`
+                  background: none;
+                  border: none;
+                  padding: 0;
+                  cursor: pointer;
                   ${!dark ? "transform: scale(-1, 1);" : ""}
                 `}
-                as={Link}
-                to={altThemeLink}
+                aria-label="Toggle theme"
               >
                 <img
                   src={logo}
                   height="75"
-                  alt="Switch theme"
+                  alt="Toggle theme"
                   style={!dark ? { filter: "invert(1)" } : {}}
                 />
-              </Navbar.Brand>
+              </button>
             </Navbar.Collapse>
           </Navbar>
         </div>

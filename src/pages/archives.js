@@ -7,8 +7,14 @@ import Layout from "../components/layout";
 import { rhythm } from "../utils/typography";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Card from "react-bootstrap/Card";
+import { useTheme } from "../context/ThemeContext";
 
 export default function ArchivesPage({ data }) {
+  const { dark } = useTheme();
+  const cardBorder = dark
+    ? "1px solid rgba(255, 255, 255, .875)"
+    : "1px solid rgba(0, 0, 0, .125)";
+
   return (
     <Layout>
       <SEO title="Archives" />
@@ -16,11 +22,13 @@ export default function ArchivesPage({ data }) {
         <style type="text/css">{`
           .card {
             font-family: 'Playfair Display', serif;
+            background-color: inherit;
+            color: inherit;
             width: 100%;
             margin: 0;
             padding: 0;
             border: none;
-            border-bottom: 1px solid rgba(0, 0, 0, .125);
+            border-bottom: ${cardBorder};
           }
         `}</style>
       </Helmet>
@@ -47,11 +55,6 @@ export default function ArchivesPage({ data }) {
         Here in our archives, we will be reviving a selection of those works
         over time.
       </h6>
-      <Link to="/archives2" css={css`display: inline-block; font-style: normal;`}>
-        <h5 css={css`color: #0080c0; text-decoration: underline;`}>
-          Dark Theme
-        </h5>
-      </Link>
       <br />
       <br />
       {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -117,7 +120,6 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             writer
-            backroad
             cover_image {
               childImageSharp {
                 gatsbyImageData(height: 560, layout: CONSTRAINED)

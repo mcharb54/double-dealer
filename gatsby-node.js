@@ -25,9 +25,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           fields {
             slug
           }
-          frontmatter {
-            backroad
-          }
         }
       }
     }
@@ -48,7 +45,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id;
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id;
 
-      // Light theme route (standard slug)
       createPage({
         path: post.fields.slug,
         component: blogTemplate,
@@ -56,23 +52,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.id,
           previousPostId,
           nextPostId,
-          dark: false,
         },
       });
-
-      // Dark theme route (backroad slug)
-      if (post.frontmatter.backroad) {
-        createPage({
-          path: post.frontmatter.backroad,
-          component: blogTemplate,
-          context: {
-            id: post.id,
-            previousPostId,
-            nextPostId,
-            dark: true,
-          },
-        });
-      }
     });
   }
 };

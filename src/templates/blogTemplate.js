@@ -1,19 +1,15 @@
 import React from "react";
 import SEO from "../components/SEO";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import { css } from "@emotion/react";
 import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
 
-export default function BlogTemplate({ data, pageContext }) {
+export default function BlogTemplate({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, fields, html, excerpt } = markdownRemark;
-  const { dark } = pageContext;
-
-  const altThemePath = dark ? fields.slug : frontmatter.backroad;
-  const altThemeLabel = dark ? "Light Theme" : "Dark Theme";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -33,7 +29,7 @@ export default function BlogTemplate({ data, pageContext }) {
   };
 
   return (
-    <Layout dark={!!dark}>
+    <Layout>
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
@@ -70,22 +66,6 @@ export default function BlogTemplate({ data, pageContext }) {
           >
             By {frontmatter.writer}
           </h5>
-          <br />
-          <br />
-          {altThemePath && (
-            <Link
-              to={altThemePath}
-              css={css`
-                display: inline-block;
-                font-style: normal;
-                float: left;
-              `}
-            >
-              <h6 css={css`color: #0080c0; text-decoration: underline;`}>
-                {altThemeLabel}
-              </h6>
-            </Link>
-          )}
         </div>
         <br />
         <br />
@@ -111,7 +91,6 @@ export const pageQuery = graphql`
         isoDate: date(formatString: "YYYY-MM-DD")
         title
         writer
-        backroad
         cover_image {
           childImageSharp {
             gatsbyImageData(height: 560, layout: CONSTRAINED)
