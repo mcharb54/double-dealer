@@ -45,7 +45,7 @@
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.23",
     "typography": "^0.16.23",
-    "typography-theme-kirkham": "^0.16.23"
+    "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
