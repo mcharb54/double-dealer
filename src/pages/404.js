@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/SEO";
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 import Layout from "../components/layout";
 
 export default () => (

@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/SEO";
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 import { navigate } from "gatsby-link";
 import Layout from "../components/layout";
 import Button from "react-bootstrap/Button";
@@ -8,15 +8,13 @@ import logo from "../images/icon.png";
 
 function encode(data) {
   const formData = new FormData();
-
   for (const key of Object.keys(data)) {
     formData.append(key, data[key]);
   }
-
   return formData;
 }
 
-export default class Contact extends React.Component {
+export default class AboutPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -24,10 +22,6 @@ export default class Contact extends React.Component {
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
-  };
-
-  handleAttachment = e => {
-    this.setState({ [e.target.name]: e.target.files[0] });
   };
 
   handleSubmit = e => {
@@ -53,7 +47,6 @@ export default class Contact extends React.Component {
             display: inline-block;
             border-bottom: 1px solid;
             text-align: center;
-            background-color: inherit;
             color: inherit;
           `}
         >
@@ -80,9 +73,7 @@ export default class Contact extends React.Component {
             src={logo}
             width="50px"
             height="30px"
-            css={css`
-              padding-right: 20px;
-            `}
+            css={css`padding-right: 20px;`}
           />
           ––The Double Dealer
         </p>
@@ -92,7 +83,6 @@ export default class Contact extends React.Component {
           css={css`
             border-bottom: 1px solid;
             text-align: center;
-            background-color: inherit;
             color: inherit;
           `}
         >
@@ -105,15 +95,12 @@ export default class Contact extends React.Component {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
-          css={css`
-            text-align: center;
-          `}
+          css={css`text-align: center;`}
         >
-          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="email-signup" />
           <p hidden>
             <label>
-              Don’t fill this out:{" "}
+              Don't fill this out:{" "}
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
@@ -147,7 +134,7 @@ export default class Contact extends React.Component {
                   background-color: inherit;
                   color: inherit;
                 `}
-                type="text"
+                type="email"
                 name="email"
                 onChange={this.handleChange}
               />
@@ -163,17 +150,12 @@ export default class Contact extends React.Component {
         <br />
         <br />
         <br />
-        <br />
-        <br />
         <p>
           The Double Dealer™ is not affiliated with the journal of the same name
           previously published by Pirate's Alley Faulkner Society.{" "}
           <a
             href="https://faulknersociety.org"
-            css={css`
-              color: #0080c0;
-              text-decoration: underline;
-            `}
+            css={css`color: #0080c0; text-decoration: underline;`}
           >
             Click here
           </a>{" "}

@@ -1,10 +1,9 @@
 /**
  * Configure your Gatsby site with this file.
  *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 module.exports = {
-  /* General Information */
   siteMetadata: {
     title: `The Double Dealer`,
     eltit: `Eht Elbuod Relaed`,
@@ -16,90 +15,97 @@ module.exports = {
     }
   },
   plugins: [
+    // Content sources
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/img`,
-        name: "media"
-      }
+      options: { path: `${__dirname}/static/img`, name: "media" }
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `articles`,
-        path: `${__dirname}/src/pages/articles`
-      }
+      options: { name: `articles`, path: `${__dirname}/src/pages/articles` }
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `fiction`,
-        path: `${__dirname}/src/pages/fiction`
-      }
+      options: { name: `fiction`, path: `${__dirname}/src/pages/fiction` }
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `archives`,
-        path: `${__dirname}/src/pages/archives`
-      }
+      options: { name: `archives`, path: `${__dirname}/src/pages/archives` }
     },
+
+    // Image processing
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+
+    // Markdown
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-relative-images`,
-            options: {
-              name: "media"
-            }
+            options: { name: "media" }
           },
           {
             resolve: `gatsby-remark-images`,
-            options: {}
-          }
+            options: { maxWidth: 700 }
+          },
+          `gatsby-remark-copy-linked-files`
         ]
       }
     },
 
-    `gatsby-plugin-decap-cms`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
+    // UI / styling
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`
-      }
+      options: { pathToConfigModule: `src/utils/typography` }
     },
+
+    // SEO
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        trackingId: "UA-145067224-1",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom path
-        exclude: ["/admin/**"]
+        excludes: [
+          `/admin/**`,
+          `/xedni`,
+          `/archives2`,
+          `/features2`,
+          `/fiction2`,
+          `/latest2`,
+          `/search`,
+          `/search2`,
+          `/thanks`
+        ]
       }
     },
+
+    // PWA
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `The Double Dealer`,
         short_name: `Double Dealer`,
-        start_url: `/`, // This path is relative to the root of the site.
+        start_url: `/`,
         display: `standalone`,
         icon: `src/images/blackddlogo.png`,
         background_color: `#000`,
         theme_color: `#000`
       }
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+
+    // CMS
+    `gatsby-plugin-decap-cms`
+
+    // NOTE: Google Analytics UA-145067224-1 has been removed.
+    // Universal Analytics was sunset in July 2023 and no longer collects data.
+    // To re-enable analytics, create a GA4 property at analytics.google.com,
+    // get your G-XXXXXXXX measurement ID, then install gatsby-plugin-gtag:
+    //   npm install gatsby-plugin-gtag
+    // and add:
+    //   { resolve: `gatsby-plugin-gtag`, options: { trackingId: `G-XXXXXXXX` } }
   ]
 };

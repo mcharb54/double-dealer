@@ -2,36 +2,33 @@ import React from "react";
 import SEO from "../components/SEO";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 import Layout from "../components/layout";
 import { rhythm } from "../utils/typography";
-import Img from "gatsby-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Card from "react-bootstrap/Card";
 
-export default ({ data }) => (
-  <Layout>
-    <SEO title="Features" />
-    <div>
+export default function FeaturesPage({ data }) {
+  return (
+    <Layout>
+      <SEO title="Features" />
       <Helmet>
-        <style type="text/css">
-          {`
+        <style type="text/css">{`
           .card {
             font-family: 'Playfair Display', serif;
             width: 100%;
             margin: 0;
             padding: 0;
             border: none;
-            border-bottom: 1px solid rgba(0,0,0,.125);
+            border-bottom: 1px solid rgba(0, 0, 0, .125);
           }
-    `}
-        </style>
+        `}</style>
       </Helmet>
       <h1
         css={css`
           display: inline-block;
           border-bottom: 1px solid;
           text-align: center;
-          background-color: inherit;
           color: inherit;
         `}
       >
@@ -39,19 +36,8 @@ export default ({ data }) => (
       </h1>
       <br />
       <br />
-      <Link
-        to={`/features2`}
-        css={css`
-          display: inline-block;
-          font-style: normal;
-        `}
-      >
-        <h5
-          css={css`
-            color: #0080c0;
-            text-decoration: underline;
-          `}
-        >
+      <Link to="/features2" css={css`display: inline-block; font-style: normal;`}>
+        <h5 css={css`color: #0080c0; text-decoration: underline;`}>
           Dark Theme
         </h5>
       </Link>
@@ -73,8 +59,9 @@ export default ({ data }) => (
                   }
                 `}
               >
-                <Img
-                  fluid={node.frontmatter.cover_image.childImageSharp.fluid}
+                <GatsbyImage
+                  image={getImage(node.frontmatter.cover_image)}
+                  alt={node.frontmatter.title}
                 />
                 <Card.Title>
                   <h2
@@ -99,38 +86,37 @@ export default ({ data }) => (
           </Card>
         </div>
       ))}
-    </div>
-  </Layout>
-);
+    </Layout>
+  );
+}
 
 export const query = graphql`
-query {
-  allMarkdownRemark(
-    sort: { fields: [frontmatter___date], order: DESC }
-            filter: { fileAbsolutePath: { regex: "/features/" } }
-             limit: 1000) {
-    totalCount
-    edges {
-      node {
-        excerpt(pruneLength: 150)
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          writer
-          backroad
-          cover_image {
-            childImageSharp {
-              fluid(maxHeight: 560) {
-                ...GatsbyImageSharpFluid
+  query {
+    allMarkdownRemark(
+      sort: { frontmatter: { date: DESC } }
+      filter: { fileAbsolutePath: { regex: "/features/" } }
+      limit: 1000
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 150)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            writer
+            cover_image {
+              childImageSharp {
+                gatsbyImageData(height: 560, layout: CONSTRAINED)
               }
             }
           }
-        }
-        fields {
-          slug
+          fields {
+            slug
+          }
         }
       }
     }
-  }
   }
 `;
