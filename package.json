@@ -20,7 +20,7 @@
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "bootstrap": "^4.6.2",
-    "decap-cms-app": "^3.0.12",
+    "decap-cms-app": "3.0.12",
     "decap-cms-media-library-cloudinary": "^3.0.1",
     "decap-cms-media-library-uploadcare": "^3.0.0",
     "gatsby": "^5.0.0",
