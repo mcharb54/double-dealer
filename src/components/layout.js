@@ -80,7 +80,8 @@ export default function Layout({ children, dark = false }) {
                 ${dark ? "transform: scale(-1, 1);" : ""}
               `}
               className="mr-0"
-              href={homeLink}
+              as={Link}
+              to={homeLink}
             >
               <img
                 src={logo}
@@ -92,18 +93,19 @@ export default function Layout({ children, dark = false }) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link href={navLinks.features}>Features</Nav.Link>
-                <Nav.Link href={navLinks.fiction}>Fiction</Nav.Link>
-                <Nav.Link href={navLinks.archives}>Archives</Nav.Link>
-                <Nav.Link href={navLinks.latest}>Latest</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link as={Link} to={navLinks.features}>Features</Nav.Link>
+                <Nav.Link as={Link} to={navLinks.fiction}>Fiction</Nav.Link>
+                <Nav.Link as={Link} to={navLinks.archives}>Archives</Nav.Link>
+                <Nav.Link as={Link} to={navLinks.latest}>Latest</Nav.Link>
+                <Nav.Link as={Link} to="/about">About</Nav.Link>
               </Nav>
               <Navbar.Brand
                 className="mr-0"
                 css={css`
                   ${!dark ? "transform: scale(-1, 1);" : ""}
                 `}
-                href={altThemeLink}
+                as={Link}
+                to={altThemeLink}
               >
                 <img
                   src={logo}
