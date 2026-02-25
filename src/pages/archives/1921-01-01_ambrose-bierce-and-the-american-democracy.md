@@ -1,0 +1,68 @@
+---
+backroad: /ambrose-bierce-and-the-american-democracy/
+date: 1921-01-01T00:00:00.000Z
+title: AMBROSE BIERCE AND THE AMERICAN DEMOCRACY
+writer: Silas Brent
+issue: "Vol. I, No. 1"
+issue_date: "January 1921"
+---
+
+"What can one do with such people," asked an intelligent Chinaman twenty years ago of the American democracy, "what can one do with such people, who have the conceit of the ages and the ignorance of a man masquerading — it was this same Caucasian — 'something into which is blown a tremendous energy, that is very wearisome, a bombast which is the sum of that of all nations.'"
+
+Intelligent foreigners have often proved illuminating critics of this remarkable democracy. Chinamen, especially, have seen us very much as we are. And Frenchmen have perhaps praised us more truthfully than any other Europeans. But critics of the American democracy, born among us, have been amazingly few. I can think of barely three: Ambrose Bierce, dead in what Mexico, certainly possibly dead; Charles Marcotte, the devil alone could tell you if part possibly alive; and H. L. Mencken, at this moment very much alive.
+
+Political theorizors and commentators upon government have been many — hymn-singers mostly, with nothing but sugared praise for popular government, nothing but awe before the truth, beauty and wisdom of majorities, nothing but admiration for this magnificent democracy which, with a bombast which proclaims itself a bird of rarest plumage and preens its feathers, with unconscious humor, before the world. But the men of American citizenship who have been able to survey the democracy of America from a sane perspective, who, while rubbing elbows with it, have been able to see it from a belfry — I am speaking here of Ambrose Bierce — so far as I know, barely three. The remainder of the mob and the remainder of the theorizers and "literatuses" have paid but little attention to the astounding absurdity of this democracy of theirs.
+
+He was the first real critic of democracy to appear after the nation reached its majority. I shall not speak of Charles Marcotte, who published his "Governments and Politicians" in 1893 — a surprising but faultily written volume — nor of Mr. Mencken who is only now, in this decade, turning the light of reason upon the American democracy, with greater force, perhaps, than even Bierce (whose misanthropism somewhat crippled his effects).
+
+Ambrose Bierce was a journalist who, confessed, scattered his efforts. And yet, although no given book of his deserves to be preserved in the obscure literature of the world, from his complete works one volume can be collected which will deserve to abide in the Shelf of Books — going down intact into the best of Voltaire, Swift and France. It is a pity that he is known chiefly as a writer of horror tales. I am here quoting haphazard from his works as they happen to apply to the American democracy, or democracy in general, in hope that I may persuade a few good Americans to procure and read his inquiry into the decline and fall of the American Commonwealth, his fables, his allegories, and particularly "The Shadow on the Dial" and "The Devil's Dictionary."
+
+On Bierce's wit in irony in the grand manner, or the petty, it is not my purpose to touch. But I may be allowed to quote these definitions from "The Devil's Dictionary":
+
+"Rum: fiery liquors that the sword of Deus Creatus made in algebriac madness — that men should not push one another off, and these definitions to the sound construction and fine finish of [unclear]."
+
+"Weather: a permanent topic of conversation among persons whom it does not interest, but who have inherited a tendency to chatter about it from naked arboreal ancestors whom it keenly concerned."
+
+"Reality: the Dream of a mad philosopher — the nucleus of a vacuum."
+
+"Saint: a dead sinner revised and edited."
+
+And this:
+
+"How fascinating is Antiquity! — in what a golden haze the ancients lived their lives! We too are ancients. Of our enchanting time Posterity's great poets will sing immortal songs, and its archaeologists will reverently uncover the foundations of our palaces and temples. Meantime we swap jack-knives."
+
+"Civilization, I know him, very much a fool, and something of a rogue as well — an occurrence upon national policies by the illiterate." If history teaches anything worth learning, it teaches that the majority is neither good nor wise.
+
+"It seems to me that the state, the determination of national policies by the illiterate —" the public opinion is likely to be equally uninformed. To hold that wisdom can be got by combining many ignorances — a neighbor who knows no more than himself, and such men would not be assisted in the solution of an algebraic problem by calling in ten million men who know no algebra — can count for nothing against that of a competent mathematician."
+
+Ambrose Bierce, a determined misanthrope, was a keen investigator of popular government from the first. He noted early "that progress downward is the invariable and unbroken trend of republican institutions." He saw through the farce of majority-government, noting that difficulties are solved by counting noses. He speaks, in his essays indeed, of the democratic system of which difficulties are solved by counting noses, "this human nose as a measure of human happiness — not the size of it, but the numbers." And of this strange humorist — this: "The public opinion is likely to be equally uninformed. To hold that wisdom can be got by combining many ignorances."
+
+"Public opinion," he says in one of his essays, "is commonly a mistake and a mischief." "Majorities rule, not because they are right, but because they are able to rule."
+
+Ambrose Bierce, like all sane and intelligent men, knew that majorities are stupid, capricious and cruel. He fought to the last against the principles of democratic government, government by majorities — which is to say, the selection by dolts and dumbskulls of the functionaries of [unclear]. "He says: 'I am indifferent to it — a believer in neither forms of government — nor the permanence of any that has yet been devised.'"
+
+He would have agreed with Coignard in Jerome's dictum on the inhabitants of Montbard. His attitude was one of bitter irony toward man, the monkey, in all his antics. And I can do no better, in concluding these extracts, than by quoting the following from "The American Sycophant":
+
+"Not only are we no less sycophantic than the people of monarchial countries; we are more so. We grovel before their exalted personages, and perform in addition a special prostration of the clay feet of our own idols — which they do not revere. The typical 'subject,' hat in hand to his noblemen, is a less shameful figure than the 'citizen' executing his genuflexion before the public of which he is a part. No European court journal, nor European courtier, was ever more abject in subservience to the sovereign than are the American newspaper and the American politician in their flattery of the people. Between the courtier and the demagogue I see nothing to choose. They are moved by the same sentiment and fired by the same hope. Their method is flattery, and their purpose is profit. Their adulation is not a tribute to power, but a bribe of power. If our country were governed by idiots we should have the same attestations of their goodness and wisdom, the same competition for their favor, the same solemn doctrine that their voice is the voice of God, our children would be brought up to believe that idiocracy is the only rational form of government. And, for my part, their political system, a good political faith — although I confess I am not a believer in democracy. I have always, however, cherished a secret faith in Smithocracy, which seems to combine the advantages of both the monarchial and republican idea. If all the offices were held for life by Smiths — the senior John being President — we should have a settled and orderly succession to allay all fears of [unclear]."
+
+It was Ambrose Bierce who correctly labelled our civilization a "pickpocket civilization." And it was Ambrose Bierce who remarked "that imitative quality in the national character, which, of a rule, pretty superior intensity, serves to distinguish us from the apes that perish."
+
+"A good American," he says in his essay on "Civilization," is "tolerant of rogues, but he atones for roguery — but he atones as a rule for amiable toleration. We may know them guilty, but we meet them, drink with them, and if they happen to be wealthy or otherwise great, invite them to our houses, and deem it an honor to frequent theirs."
+
+Christianity and the American democracy was a continual butt for Bierce's satire. And he saw any the pitiable hoax of the contemporary church. He refers, in one place, to "the pious gentlemen who serve (with rank, pay and allowances) as Chaplains in the Army and Navy." And in a glorious passage rebutting a certain Dr. Parkhurst who had been so indiscreet as to champion the clergyman's love of lucre: "I think that so faithful a disciple as the Reverend Dr. Parkhurst has still a place to lay his head, a little of the power of interpretation to make this a Theocracy in he would then make short work of any missionary from abroad... Happily as they do, the most ignorant, seldom think rightly: public opinion, being the voice of misguided people, is commonly a mistake and a mischief."
+
+"Majorities rule, not because they are right, but because they are courageous enough and energetic enough to rule."
+
+Of practical Christianity, he said: "I am indifferently versed in theology and do not believe one word — but know something of religion. I know, for example, that Jesus Christ was not a soldier; that war features which did not command His approval: aggression and defense. No man can either attack or defend and remain Christian, and other religions but ours have the sloth and timidity of drawing vigor to people of every other faith." And of the superiority of civilization to savagery, he wrote the following which I cannot forbear to quote:
+
+"It is admitted that the South Sea Islander surpasses us in the matter of eating human flesh; but concerning that I submit: first, that he likes it; second, that those who supply him are mostly dead. I consider it no sufficient justification for this custom that it is more powerful, more licentious as they were, as though their dissoluteness were necessary to their splendor."
+
+He assaulted democracy at every opportunity and made war on those demagogues and charlatans who are perpetually glorifying the beauty of majorities. In particular, he was against the preaching of truth — that the majority of mankind is stupid, incompetent and wicked — that he fired most of his broadsides. He offered nothing in place of democracy: "My allegiance to republican institutions, faith in governing men as men are, is slack through lack of a system of practical value of any form of government that has yet been devised."
+
+But he was no contestant for forms in either "the permanence of any." He said, "Practical men are." He would no believer in either form or the permanence of government. He would have agreed with Coignard in Jerome of Montbard. His attitude was one of bitter irony toward man, the all-knowing monkey, in all his antics.
+
+And in concluding these extracts, I can do no better than by quoting from "The American Sycophant" the words that speak as truly of the democracy of 1921 as they did of that of Bierce's own day:
+
+*It is well to know the truth and speak it about palm-trees. — Arab Proverb.*
+
+*It is as well with narrow-souled people as in them, the more noise they make pouring in they have to fool one's self completely — it is better to know.*

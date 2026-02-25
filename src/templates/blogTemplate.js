@@ -42,10 +42,12 @@ export default function BlogTemplate({ data }) {
         description={excerpt}
       />
       <div>
-        <GatsbyImage
-          image={getImage(frontmatter.cover_image)}
-          alt={frontmatter.title}
-        />
+        {frontmatter.cover_image && (
+          <GatsbyImage
+            image={getImage(frontmatter.cover_image)}
+            alt={frontmatter.title}
+          />
+        )}
         <h1
           css={css`
             margin-top: ${rhythm(1 / 2)};
@@ -84,6 +86,19 @@ export default function BlogTemplate({ data }) {
           >
             By {frontmatter.writer}
           </h5>
+          {frontmatter.issue && (
+            <h6
+              css={css`
+                display: inline-block;
+                font-style: italic;
+                float: right;
+                color: inherit;
+                margin-top: 2px;
+              `}
+            >
+              {frontmatter.issue} &mdash; {frontmatter.issue_date}
+            </h6>
+          )}
         </div>
         <br />
         <br />
@@ -109,6 +124,8 @@ export const pageQuery = graphql`
         isoDate: date(formatString: "YYYY-MM-DD")
         title
         writer
+        issue
+        issue_date
         cover_image {
           childImageSharp {
             gatsbyImageData(height: 560, layout: CONSTRAINED)

@@ -73,10 +73,12 @@ export default function ArchivesPage({ data }) {
                   }
                 `}
               >
-                <GatsbyImage
-                  image={getImage(node.frontmatter.cover_image)}
-                  alt={node.frontmatter.title}
-                />
+                {node.frontmatter.cover_image && (
+                  <GatsbyImage
+                    image={getImage(node.frontmatter.cover_image)}
+                    alt={node.frontmatter.title}
+                  />
+                )}
                 <Card.Title>
                   <h2
                     css={css`

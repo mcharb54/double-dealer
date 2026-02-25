@@ -15,7 +15,8 @@ export default function SearchPage({ data }) {
         const q = query.toLowerCase();
         return (
           node.frontmatter.title.toLowerCase().includes(q) ||
-          node.frontmatter.writer.toLowerCase().includes(q) ||
+          (node.frontmatter.writer || "").toLowerCase().includes(q) ||
+          (node.frontmatter.issue || "").toLowerCase().includes(q) ||
           node.excerpt.toLowerCase().includes(q)
         );
       })
@@ -71,7 +72,8 @@ export default function SearchPage({ data }) {
             </h2>
           </Link>
           <p css={css`color: grey; margin: 0;`}>
-            By {node.frontmatter.writer} — {node.frontmatter.date}
+            By {node.frontmatter.writer}
+            {node.frontmatter.issue ? ` — ${node.frontmatter.issue}, ${node.frontmatter.issue_date}` : ` — ${node.frontmatter.date}`}
           </p>
           <p>{node.excerpt}</p>
         </div>
@@ -94,6 +96,8 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             writer
+            issue
+            issue_date
           }
           fields {
             slug
