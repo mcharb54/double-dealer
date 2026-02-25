@@ -1,9 +1,11 @@
 ---
 backroad: /fencingmaster/
-date: 2019-07-31T01:30:00.556Z
+date: 1921-01-01T00:00:00.000Z
 cover_image: /img/sword-fight-painting-26.jpg
 title: THE LAST OF THE NEW ORLEANS FENCING MASTERS
 writer: Lafcadio Hearn
+issue: "Vol. I, No. 1"
+issue_date: "January 1921"
 ---
 <h2 style="text-align: center; font-weight:bold; color: inherit;">Editors' Note</h2>
 
