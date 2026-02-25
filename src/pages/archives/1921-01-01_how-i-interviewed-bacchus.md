@@ -19,15 +19,15 @@ My ears stiffened like a man's in the Sahara who has just been told there was a 
 
 "Why, you don't think I mean the president of the Fudge Union, do you?" he said, hiding his patent space cutter in a drawer.
 
-He swivelled around to his Them-the-Gate list. I knew the interview was over. I knew I had to get that interview with Bacchus somewhere, somehow, some way. I ambled out on Broadway, to sign up else.
+He swivelled around to his Them-the-Gate list. I knew the interview was over. I knew I had to get that interview with Bacchus somewhere, somehow, some way. I ambled out on Broadway, to sign up somewhere else.
 
 "What! you never heard of psychometry?"
 
-I turned quickly. Two men, arguing excitedly, disappeared. But the word "psychometry" remained. Was it a hunch? What in the Sacred Soup of Siam was psychometry? I turned into the nearest branch public library and feverishly turned the leaves of the dictionary. Psychometry is a trick among the Occult Squad. I have "divination by the history of an object by holding it in your hand. Hold your sweetheart's fan and her flirtations will swim into your brain. Press a dollar in your hand and the name of your landlord's profiteering crimes will be yours — if you have psychometric powers, a man of touch."
+I turned quickly. Two men, arguing excitedly, disappeared. But the word "psychometry" remained. Was it a hunch? What in the Sacred Soup of Siam was psychometry? I turned into the nearest branch public library and feverishly turned the leaves of the dictionary. Psychometry is a trick among the Occult Squad. It is "divination by the history of an object by holding it in your hand. Hold your sweetheart's fan and her flirtations will swim into your brain. Press a dollar in your hand and the name of your landlord's profiteering crimes will be yours — if you have psychometric powers, a man of touch."
 
 A great thought-flash illuminated me. Maybe I had that power — maybe I was a born psychometrist. A tremendous thought opened in me. If I had that power, why couldn't I, by holding a bottle of old Burgundy in my fist and letting my cerebrum and cerebellum float on their backs in my consciousness, evoke Bacchus and interview him?
 
-Another barrage on the backs — but the bottle of Burgundy? It was as rare at that time as a ten-cent pack of cigarettes, worth its weight in radium, and the Eighteenth Amendment sleuths were full upon me.
+Another hitch — but the bottle of Burgundy? It was as rare at that time as a ten-cent pack of cigarettes, worth its weight in radium, and the Eighteenth Amendment sleuths were full upon me.
 
 One thought pumps another out of our memory. I knew the butler of "Old Pale Ale" Smith, the millionaire clubman up the Avenue. He and his family were at Palm Beach. Would the butler let me into "Pale Ale's" wine cellar, estimated to contain about a billion dollars' worth of joy-juice in the mansion? Easiest thing ever. Tom Pourboire not only let me in the cellar, but spread a table for me down there, and yanked out a bottle of old Burgundy. I was his bona-fide guest, under the law; he should worry and so forth.
 
@@ -43,7 +43,7 @@ After shaking hands with me and addressing me as "Benson old pal," he took a sea
 
 "Talk low and quick," he said. "I've got old John Barleycorn, Grandfather Gambrinus and Little Lord Absinthe back in that corner. We're hiding from the raiders. Ain't this a great disguise? I dress according to the country. We're trying to drink up everything Old Pale Ale has in his cellar before he gets back from the beach."
 
-"The gang back there are sick — it's a big darkness of drinking all the stored stuff. You know I could always carry it — 'Where there's a wine there's a way' — with me. Well, go ahead, Benson, and spill your wheeze."
+"The gang back there are sick — it's a darkness of drinking all the stored stuff. You know I could always carry it — 'Where there's a wine there's a way' — with me. Well, go ahead, Benson, and spill your wheeze."
 
 "What are you doing on earth, anyway, old boy?" I asked, looking at my questionnaire in my hat.
 
@@ -61,11 +61,11 @@ Before Bacchus could answer, a voice that sounded like a singing coal mine came 
 
 "Can it!" shouted Bacchus. "That's the guy that put me on the blink. Why, his breath blew out the fires of Vulcan one morning Up There," continued Bacchus, addressing me.
 
-"John was a low-brow, never could disguise himself and was always singing that late hours kill all the fun, and that fellow has certainly been a bad actor, although when there's any sickness around there ain't a better friend. But about prohibition, Bac?" I insisted, my reportorial instinct alert.
+"John was a low-brow, never could disguise himself and was always singing that late hours kill all the fun, and that fellow has certainly been a bad actor, although when there's any sickness around there ain't a better friend than John. But about prohibition, Bac?" I insisted, my reportorial instinct alert.
 
-"Let me tell you, Benson," said Bacchus, poking his bottle of Nero's finest under my nose to emphasize his opinions, "that prohibition serves you right. You disgraced a god — that's me. I'm the oldest and the healthiest. You made me a Cinderella and lavished all your love on that demon back there. Look at me now. I've got to dress in this rig, go sneaking around from cellar to cellar with that rowdy back there — and I am celebrated by poets and prophets in the ages, the friend of laughter, the father of merriment. That's what you have!"
+"Let me tell you, Benson," said Bacchus, poking his bottle of Nero's finest under my nose to emphasize his opinions, "that prohibition serves you right. You disgraced a god — that's me. I invented, over the years, the finest pleasures ever known — me and Gambrinus; but you Americans picked up with that rowdy John Barleycorn and his crazy roughneck, introduced him to your own tables, to your own families, and when you couldn't come in by the Family Entrance and went to ramming me into hideous red-ink joints and keeping me alive on bum table d'hotes, [by] some wise old adage that no one can offend a god and get away with the goods. Why, I'm the oldest and the healthiest of the gods, the best!
 
-"As a matter of fact, since Mars still has a toothache and grouch, I've got to stick. I need America, and America needs me. I invented years of the finest killer ever known — me and Gambrinus; but you Americans picked up with that rowdy John Barleycorn and his crazy roughneck, introduced him to your own tables, to your own families, and when you couldn't come in by the Family Entrance and went to ramming me into hideous red-ink joints and keeping me alive on bum table d'hotes, some wise old — written off by other — that no one can offend a god and get away with the goods. Why, I'm the oldest and the healthiest of the gods, the best and — look at him over there!
+"As a matter of fact, since Mars still has a toothache and grouch, I've got to stick. I need America, and America needs me. You made me a Cinderella and lavished all your love on that demon back there. Look at me now — I've got to dress in this rig, go sneaking around from cellar to cellar with that rowdy back there — and I am celebrated by poets and prophets in the ages, the friend of laughter, the inventor of merriment.
 
 "There never was one exception. The Eskimos never had any use for me — damn them! Ice eaters and the North Pole for a bathtub, and never a drop to warm them up. Jack Frost has got their souls as well as their bodies, and it'll get yours if you look out. Where life flourishes there the gods flourish."
 
