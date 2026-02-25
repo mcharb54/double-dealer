@@ -27,21 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-7d4d65502f7a57809c55.js"
+    "url": "webpack-runtime-5289de31efb55967c5f3.js"
   },
   {
     "url": "framework-6dabedfe7d6a50513ecc.js"
   },
   {
-    "url": "app-b80c855e1a048bdec4ca.js"
+    "url": "app-8b9029e764ff68ab65b1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f3e613f21e31496c61fc1c49bac0092b"
+    "revision": "d2f20cb159777f7d28a6fba857bcdf1c"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "a2ec43e9062aa515976c6c8c74c77bf0"
+    "revision": "30c87ff76da017ba6ef0447288ece933"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -146,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/double-dealer`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/double-dealer/app-b80c855e1a048bdec4ca.js`))) {
+  if (!resources || !(await caches.match(`/app-8b9029e764ff68ab65b1.js`))) {
     return await fetch(event.request)
   }
 
@@ -164,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/double-dealer/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
