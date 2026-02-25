@@ -110,7 +110,7 @@ export default function Layout({ children }) {
                   src={logo}
                   height="75"
                   alt="Toggle theme"
-                  style={!dark ? { filter: "invert(1)" } : {}}
+                  style={dark ? { filter: "invert(1)" } : {}}
                 />
               </button>
             </Navbar.Collapse>
