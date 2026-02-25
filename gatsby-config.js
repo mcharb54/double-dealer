@@ -4,7 +4,6 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 module.exports = {
-  pathPrefix: `/double-dealer`,
   siteMetadata: {
     title: `The Double Dealer`,
     eltit: `Eht Elbuod Relaed`,

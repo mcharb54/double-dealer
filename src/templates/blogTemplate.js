@@ -6,10 +6,12 @@ import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
+import { useTheme } from "../context/ThemeContext";
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, fields, html, excerpt } = markdownRemark;
+  const { dark, toggleTheme } = useTheme();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -54,6 +56,22 @@ export default function BlogTemplate({ data }) {
         >
           {frontmatter.title}
         </h1>
+        <div css={css`text-align: center; margin-bottom: ${rhythm(1 / 2)};`}>
+          <button
+            onClick={toggleTheme}
+            css={css`
+              background: none;
+              border: 1px solid currentColor;
+              color: inherit;
+              padding: 4px 14px;
+              cursor: pointer;
+              font-size: 0.8rem;
+              letter-spacing: 0.05em;
+            `}
+          >
+            {dark ? "Light Mode" : "Dark Mode"}
+          </button>
+        </div>
         <hr />
         <div>
           <h5
