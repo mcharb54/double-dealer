@@ -89,10 +89,10 @@ export default function Layout({ children }) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link as={Link} to="/features">Features</Nav.Link>
-                <Nav.Link as={Link} to="/fiction">Fiction</Nav.Link>
+                {/* <Nav.Link as={Link} to="/features">Features</Nav.Link> */}
+                {/* <Nav.Link as={Link} to="/fiction">Fiction</Nav.Link> */}
                 <Nav.Link as={Link} to="/archives">Archives</Nav.Link>
-                <Nav.Link as={Link} to="/latest">Latest</Nav.Link>
+                {/* <Nav.Link as={Link} to="/latest">Latest</Nav.Link> */}
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
               </Nav>
               <button

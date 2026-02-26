@@ -1,19 +1,51 @@
-import React from "react";
+import { useState } from "react";
 import SEO from "../components/SEO";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import { css } from "@emotion/react";
 import Layout from "../components/layout";
 import { rhythm } from "../utils/typography";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Card from "react-bootstrap/Card";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useTheme } from "../context/ThemeContext";
 
 export default function ArchivesPage({ data }) {
   const { dark } = useTheme();
+  const [query, setQuery] = useState("");
+
   const cardBorder = dark
     ? "1px solid rgba(255, 255, 255, .875)"
     : "1px solid rgba(0, 0, 0, .125)";
+
+  const inputBg = dark ? "#111" : "#fff";
+  const inputFg = dark ? "#fff" : "#000";
+  const inputBorder = dark ? "1px solid #666" : "1px solid #ccc";
+
+  // Filter by title or writer
+  const q = query.toLowerCase();
+  const filtered = data.allMarkdownRemark.edges.filter(({ node }) => {
+    if (!q) return true;
+    const title = (node.frontmatter.title || "").toLowerCase();
+    const writer = (node.frontmatter.writer || "").toLowerCase();
+    return title.includes(q) || writer.includes(q);
+  });
+
+  // Group by issue
+  const groups = {};
+  filtered.forEach(({ node }) => {
+    const issue = node.frontmatter.issue || "Uncategorized";
+    if (!groups[issue]) {
+      groups[issue] = { issueDate: node.frontmatter.issue_date, items: [] };
+    }
+    groups[issue].items.push(node);
+  });
+
+  // Sort issues by date of their first item
+  const sortedIssues = Object.keys(groups).sort((a, b) => {
+    const dateA = groups[a].items[0]?.frontmatter.rawDate || "";
+    const dateB = groups[b].items[0]?.frontmatter.rawDate || "";
+    return dateA < dateB ? -1 : dateA > dateB ? 1 : 0;
+  });
 
   return (
     <Layout>
@@ -56,52 +88,109 @@ export default function ArchivesPage({ data }) {
         over time.
       </h6>
       <br />
-      <br />
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Card bsPrefix="card">
-            <Card.Body>
-              <Link
-                to={node.fields.slug}
-                css={css`
-                  text-decoration: none;
-                  color: inherit;
-                  &:hover {
-                    text-decoration: underline;
-                    color: inherit;
-                    text-decoration-color: #0080c0;
-                  }
-                `}
-              >
-                {node.frontmatter.cover_image && (
-                  <GatsbyImage
-                    image={getImage(node.frontmatter.cover_image)}
-                    alt={node.frontmatter.title}
-                  />
-                )}
-                <Card.Title>
-                  <h2
+
+      {/* Search */}
+      <div
+        css={css`
+          margin-bottom: ${rhythm(1)};
+        `}
+      >
+        <input
+          type="text"
+          placeholder="Search by title or author…"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          css={css`
+            width: 100%;
+            padding: 8px 12px;
+            background: ${inputBg};
+            color: ${inputFg};
+            border: ${inputBorder};
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            outline: none;
+            &::placeholder {
+              color: ${dark ? "#aaa" : "#888"};
+            }
+          `}
+        />
+      </div>
+
+      {filtered.length === 0 && (
+        <p css={css`color: inherit; font-style: italic;`}>No results found.</p>
+      )}
+
+      {sortedIssues.map((issue) => {
+        const { issueDate, items } = groups[issue];
+        return (
+          <div key={issue} css={css`margin-bottom: ${rhythm(1.5)};`}>
+            <h3
+              css={css`
+                font-family: 'Playfair Display', serif;
+                border-bottom: 1px solid;
+                padding-bottom: 4px;
+                margin-bottom: ${rhythm(1 / 2)};
+                color: inherit;
+              `}
+            >
+              {issue}
+              {issueDate && (
+                <span
+                  css={css`
+                    font-size: 0.75em;
+                    font-weight: normal;
+                    margin-left: 12px;
+                    opacity: 0.7;
+                  `}
+                >
+                  {issueDate}
+                </span>
+              )}
+            </h3>
+            {items.map((node) => (
+              <Card bsPrefix="card" key={node.id}>
+                <Card.Body>
+                  <Link
+                    to={node.fields.slug}
                     css={css`
-                      margin-top: ${rhythm(1 / 4)};
-                      margin-bottom: ${rhythm(1 / 4)};
-                      text-align: center;
+                      text-decoration: none;
+                      color: inherit;
+                      &:hover {
+                        text-decoration: underline;
+                        color: inherit;
+                        text-decoration-color: #0080c0;
+                      }
                     `}
                   >
-                    {node.frontmatter.title}
-                  </h2>
-                </Card.Title>
-              </Link>
-              <Card.Subtitle className="mb-2 text-muted text-center">
-                {node.frontmatter.writer}
-              </Card.Subtitle>
-              <Card.Text>{node.excerpt}</Card.Text>
-              <Card.Subtitle className="mb-2 text-muted text-center">
-                {node.frontmatter.date}
-              </Card.Subtitle>
-            </Card.Body>
-          </Card>
-        </div>
-      ))}
+                    {node.frontmatter.cover_image && (
+                      <GatsbyImage
+                        image={getImage(node.frontmatter.cover_image)}
+                        alt={node.frontmatter.title}
+                      />
+                    )}
+                    <Card.Title>
+                      <h2
+                        css={css`
+                          margin-top: ${rhythm(1 / 4)};
+                          margin-bottom: ${rhythm(1 / 4)};
+                          text-align: center;
+                          font-size: 1.2rem;
+                        `}
+                      >
+                        {node.frontmatter.title}
+                      </h2>
+                    </Card.Title>
+                  </Link>
+                  <Card.Subtitle className="mb-2 text-muted text-center">
+                    {node.frontmatter.writer}
+                  </Card.Subtitle>
+                  <Card.Text>{node.excerpt}</Card.Text>
+                </Card.Body>
+              </Card>
+            ))}
+          </div>
+        );
+      })}
     </Layout>
   );
 }
@@ -109,7 +198,7 @@ export default function ArchivesPage({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      sort: { frontmatter: { date: DESC } }
+      sort: { frontmatter: { date: ASC } }
       filter: { fileAbsolutePath: { regex: "/archives/" } }
       limit: 1000
     ) {
@@ -119,9 +208,11 @@ export const query = graphql`
           id
           excerpt(pruneLength: 150)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            rawDate: date
             title
             writer
+            issue
+            issue_date
             cover_image {
               childImageSharp {
                 gatsbyImageData(height: 560, layout: CONSTRAINED)
