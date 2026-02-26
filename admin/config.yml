@@ -8,53 +8,54 @@ media_folder: "/static/img"
 public_folder: "/img"
 
 collections:
-  - name: "fiction"
-    label: "Fiction"
-    folder: "src/pages/fiction"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    fields:
-      - {
-          name: "backroad",
-          label: "Backroad",
-          widget: "string",
-          pattern: ['\/\w+\/', "Must be between slashes /example/"],
-          required: true,
-        }
-      - { name: "date", label: "Date", widget: "date", required: true }
-      - {
-          name: "cover_image",
-          label: "Cover Image",
-          widget: "image",
-          required: true,
-        }
-      - { name: "title", label: "Title", widget: "string", required: true }
-      - { name: "writer", label: "Writer", widget: "string", required: true }
-      - { name: "body", label: "Body", widget: "markdown", required: true }
 
-  - name: "articles"
-    label: "Articles"
-    folder: "src/pages/articles"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    fields:
-      - {
-          name: "backroad",
-          label: "Backroad",
-          widget: "string",
-          pattern: ['\/\w+\/', "Must be between slashes /example/"],
-          required: true,
-        }
-      - { name: "date", label: "Date", widget: "date", required: true }
-      - {
-          name: "cover_image",
-          label: "Cover Image",
-          widget: "image",
-          required: true,
-        }
-      - { name: "title", label: "Title", widget: "string", required: true }
-      - { name: "writer", label: "Writer", widget: "string", required: true }
-      - { name: "body", label: "Body", widget: "markdown", required: true }
+  # - name: "fiction"
+  #   label: "Fiction"
+  #   folder: "src/pages/fiction"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+  #   fields:
+  #     - {
+  #         name: "backroad",
+  #         label: "Backroad",
+  #         widget: "string",
+  #         pattern: ['\/\w+\/', "Must be between slashes /example/"],
+  #         required: true,
+  #       }
+  #     - { name: "date", label: "Date", widget: "date", required: true }
+  #     - {
+  #         name: "cover_image",
+  #         label: "Cover Image",
+  #         widget: "image",
+  #         required: true,
+  #       }
+  #     - { name: "title", label: "Title", widget: "string", required: true }
+  #     - { name: "writer", label: "Writer", widget: "string", required: true }
+  #     - { name: "body", label: "Body", widget: "markdown", required: true }
+
+  # - name: "articles"
+  #   label: "Articles"
+  #   folder: "src/pages/articles"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+  #   fields:
+  #     - {
+  #         name: "backroad",
+  #         label: "Backroad",
+  #         widget: "string",
+  #         pattern: ['\/\w+\/', "Must be between slashes /example/"],
+  #         required: true,
+  #       }
+  #     - { name: "date", label: "Date", widget: "date", required: true }
+  #     - {
+  #         name: "cover_image",
+  #         label: "Cover Image",
+  #         widget: "image",
+  #         required: true,
+  #       }
+  #     - { name: "title", label: "Title", widget: "string", required: true }
+  #     - { name: "writer", label: "Writer", widget: "string", required: true }
+  #     - { name: "body", label: "Body", widget: "markdown", required: true }
 
   - name: "archives"
     label: "Archives"
@@ -62,13 +63,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
-      - {
-          name: "backroad",
-          label: "Backroad",
-          widget: "string",
-          pattern: ['\/\w+\/', "Must be between slashes /example/"],
-          required: true,
-        }
       - { name: "date", label: "Date", widget: "date", required: true }
       - {
           name: "cover_image",
