@@ -23,5 +23,5 @@ Of wonder and magnificence.
 
 There is four swinging suns in heaven,
 There is four rolling seas on earth,
-The stars was seventy and seven
+The stars is seventy and seven
 And theirs is all the mirth.

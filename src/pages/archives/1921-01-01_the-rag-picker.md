@@ -8,8 +8,4 @@ issue_date: "January 1921"
 
 Man and woman were created to dwell together — from time to time.
 
-A man sat upon a rock and pulled his life to pieces. The good of it he put in one pile and the bad in another, and the pile of the bad was the larger.
-
-"Thinkest thou the gods care?" said a pilgrim who passed.
-
-He wept. "Fool," said the pilgrim, "but prove thyself strong — thou hast but strony the white threads of thy garment be woven of scarlet, and keepeth the wind from thy heart?"
+A man sat upon a rock and pulled his life to pieces. The good of it he put in one pile and the bad in another, and the pile of the bad was the larger and he wept. "Fool," said a pilgrim who passed, "thinkest thou the gods care if thy garment be woven of white threads or of scarlet, if it prove but strong and keepeth the wind from thy heart?"
