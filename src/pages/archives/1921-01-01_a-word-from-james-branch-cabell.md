@@ -1,5 +1,4 @@
 ---
-backroad: /a-word-from-james-branch-cabell/
 date: 1921-01-01T00:00:00.000Z
 title: A WORD FROM JAMES BRANCH CABELL
 writer: James Branch Cabell

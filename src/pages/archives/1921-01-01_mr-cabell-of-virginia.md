@@ -1,5 +1,4 @@
 ---
-backroad: /mr-cabell-of-virginia/
 date: 1921-01-01T00:00:00.000Z
 title: MR. CABELL OF VIRGINIA
 writer: The Editors

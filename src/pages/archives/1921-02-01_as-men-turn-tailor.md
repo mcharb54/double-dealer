@@ -1,5 +1,4 @@
 ---
-backroad: /as-men-turn-tailor/
 date: 1921-02-01T00:00:00.000Z
 title: AS MEN TURN TAILOR
 writer: John McClure

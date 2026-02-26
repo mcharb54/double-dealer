@@ -1,5 +1,4 @@
 ---
-backroad: /bagatelle/
 date: 1921-02-01T00:00:00.000Z
 title: BAGATELLE
 writer: Louis Gilmore

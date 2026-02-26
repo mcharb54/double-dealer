@@ -1,5 +1,4 @@
 ---
-backroad: /the-rag-picker/
 date: 1921-01-01T00:00:00.000Z
 title: THE RAG PICKER
 writer: Olive Boullemet

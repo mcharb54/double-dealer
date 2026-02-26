@@ -1,5 +1,4 @@
 ---
-backroad: /electrocution/
 date: 1921-02-01T00:00:00.000Z
 title: ELECTROCUTION
 writer: Lola Ridge

@@ -1,5 +1,4 @@
 ---
-backroad: /how-i-interviewed-bacchus/
 date: 1921-01-01T00:00:00.000Z
 title: "TALES OF THE PSYCHOMETRIC REPORTER NO. 1 — HOW I INTERVIEWED BACCHUS"
 writer: Benjamin De Casseres

@@ -1,5 +1,4 @@
 ---
-backroad: /back-to-normalcy/
 date: 1921-02-01T00:00:00.000Z
 title: BACK TO NORMALCY
 writer: The Editors

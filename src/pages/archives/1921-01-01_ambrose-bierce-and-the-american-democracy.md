@@ -1,5 +1,4 @@
 ---
-backroad: /ambrose-bierce-and-the-american-democracy/
 date: 1921-01-01T00:00:00.000Z
 title: AMBROSE BIERCE AND THE AMERICAN DEMOCRACY
 writer: Silas Brent

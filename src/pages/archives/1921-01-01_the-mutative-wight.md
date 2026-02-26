@@ -1,5 +1,4 @@
 ---
-backroad: /the-mutative-wight/
 date: 1921-01-01T00:00:00.000Z
 title: THE MUTATIVE WIGHT
 writer: Buffington Tutt

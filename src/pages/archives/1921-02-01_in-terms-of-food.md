@@ -1,5 +1,4 @@
 ---
-backroad: /in-terms-of-food/
 date: 1921-02-01T00:00:00.000Z
 title: IN TERMS OF FOOD
 writer: Stephen Ta Van

@@ -1,5 +1,4 @@
 ---
-backroad: /valedictory/
 date: 1921-02-01T00:00:00.000Z
 title: VALEDICTORY
 writer: The Editors

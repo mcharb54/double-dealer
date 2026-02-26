@@ -1,5 +1,4 @@
 ---
-backroad: /fencingmaster/
 date: 1921-01-01T00:00:00.000Z
 cover_image: /img/sword-fight-painting-26.jpg
 title: THE LAST OF THE NEW ORLEANS FENCING MASTERS

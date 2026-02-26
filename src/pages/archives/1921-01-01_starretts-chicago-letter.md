@@ -1,5 +1,4 @@
 ---
-backroad: /starretts-chicago-letter/
 date: 1921-01-01T00:00:00.000Z
 title: "STARRETT'S CHICAGO LETTER"
 writer: Vincent Starrett

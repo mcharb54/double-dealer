@@ -1,5 +1,4 @@
 ---
-backroad: /a-thousand-head-of-cattle/
 date: 1921-02-01T00:00:00.000Z
 cover_image: /img/zahvat_grivickogo_reduta-1-.jpg
 title: A THOUSAND HEAD OF CATTLE

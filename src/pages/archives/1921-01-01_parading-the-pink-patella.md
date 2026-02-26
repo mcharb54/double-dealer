@@ -1,5 +1,4 @@
 ---
-backroad: /parading-the-pink-patella/
 date: 1921-01-01T00:00:00.000Z
 title: PARADING THE PINK PATELLA
 writer: Anthony Galt

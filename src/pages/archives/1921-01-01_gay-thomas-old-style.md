@@ -1,5 +1,4 @@
 ---
-backroad: /gay-thomas-old-style/
 date: 1921-01-01T00:00:00.000Z
 title: "GAY THOMAS: OLD STYLE"
 writer: John McClure
