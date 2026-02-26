@@ -6,7 +6,7 @@ issue: "Vol. I, No. 1"
 issue_date: "January 1921"
 ---
 
-*Letter dated November 1920*
+*Letter dated November 30, 1920*
 
 Editors of The Double Dealer.
 
@@ -14,9 +14,9 @@ Gentlemen:
 
 Your program, as announced, is ambitious and mellifluous and generally attractive, with perhaps the minor fault of being a trifle beyond the scope of human ability. But that, as touches literary endeavor anyhow, is errancy on the right side.
 
-I do not know how any personal benevolence toward an as yet unpublished magazine can well be voiced save with a formal wish for all imaginable success well merited; this much, however, one may desire for you most heartily. From actual criticism the unborn share with the dead — to be sure, more cheery and less immutable reasons — exemption; and in either case, the bystander's role can only be that of tacit hopefulness. The Double Dealer, after a prologue committed to sinking or swimming by virtue of its own inherent virtues — such was the luck you may deserve — can, I imagine, any more true and tonic avowal as herald for the second Double Dealer's outset.
+I do not know how any personal benevolence toward an as yet unpublished magazine can well be voiced save with a formal wish for all imaginable success well merited; this much, however, one may desire for you most heartily. From actual criticism the unborn share with the dead in exemption (although because of, to be sure, more cheery and less immutable reasons), so that, in either case, the bystander's rôle can only be that of tacit hopefulness. The Double Dealer, after all, is committed to sink or swim by virtue of its own inherent virtues. Such was metaphor of the prologue to your Congrevean namesake, you will remember, nor can I imagine any more true and tonic avowal as herald for the second Double Dealer's outset.
 
-Therefore I wish you the luck you may deserve, in friendly confidence that your merits may thus add up to some quite unexampled prosperity.
+Therefore I wish you all the luck you may deserve, in friendly confidence that your merits may thus add up to some quite unexampled prosperity.
 
 Yours faithfully,
 
