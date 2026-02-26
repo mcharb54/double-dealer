@@ -22,14 +22,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: { name: `articles`, path: `${__dirname}/src/pages/articles` }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { name: `fiction`, path: `${__dirname}/src/pages/fiction` }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
       options: { name: `archives`, path: `${__dirname}/src/pages/archives` }
     },
 
